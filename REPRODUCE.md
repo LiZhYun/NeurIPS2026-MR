@@ -180,21 +180,52 @@ These reproduce the §5.23 result that AnyTop's decoder is strongly non-degenera
 
 ## 7. Pre-trained checkpoints (optional)
 
-To skip retraining, the trained checkpoints for all 14 methods are available at the following anonymous mirror:
+To skip retraining, the trained checkpoints for all evaluated methods are bundled in `anytop-checkpoints.tar.gz`.
 
-> **TODO (paper authors)**: upload checkpoints to a single anonymous Drive / Zenodo / Hugging Face entry and paste the URL here.
+**Package**: `anytop-checkpoints.tar.gz`
+**Size**: 6.5 GB (compressed) / 7.2 GB (uncompressed)
+**SHA-256**: `fc15f536510014a7bb953aa62cd24358de6af11f0d92f0f8360e2ec44b8251e2`
+
+> **TODO (paper authors)**: upload `anytop-checkpoints.tar.gz` to an anonymous host (Zenodo / Drive / Hugging Face dataset) and paste the URL here before sharing the repo:
 >
-> Suggested package layout:
-> ```
-> anytop-checkpoints.tar.gz   (~3 GB)
->   ├── anytop_v5/
->   ├── ace_t_v5/  ace_i_v5/
->   ├── moreflow_t_v5/  moreflow_i_v5/
->   ├── anchor_label_flow/  anchor_label_flow_src/  anchor_label_flow_src_g/
->   └── dpg_sb_v3/
-> ```
->
-> Reviewers download, untar into `save/`, and skip §4 training.
+> **Download URL**: https://huggingface.co/datasets/AAAcon/anytop-checkpoints/resolve/main/anytop-checkpoints.tar.gz
+
+### Layout
+
+```
+anytop-checkpoints/
+├── README.md                           Per-method usage notes
+├── anytop_v5/                          AnyTop transductive (model000175000.pt, 34 MB)
+├── ace_primary_70/                     ACE-T transductive  (ckpt_final.pt, 83 MB)
+├── ace_inductive_60/                   ACE-I inductive     (ckpt_final.pt, 83 MB)
+├── moreflow_primary_70/                MoReFlow-T          (ckpt_final.pt, 79 MB)
+├── moreflow_inductive_60/              MoReFlow-I          (ckpt_final.pt, 79 MB)
+├── anchor_label_flow/                  AL-Flow             (ckpt_final.pt, 86 MB)
+├── anchor_label_flow_src/              AL-Flow-Src         (ckpt_final.pt, 88 MB)
+├── anchor_label_flow_src_g/            AL-Flow-Src-G       (ckpt_final.pt, 87 MB)
+├── dpg_sb_v3/                          DPG-SB-v3           (final.pt 62 MB + z_stats.pt)
+├── moreflow_vqvae/                     Per-skel VQ-VAE encoders for 71 skeletons (~91 MB each)
+│                                       Required for ACE / MoReFlow / DPG-SB-v3 inference
+└── moreflow_caches/                    Pre-extracted MoReFlow latents
+                                        Only needed if retraining DPG-SB-v3 from scratch
+```
+
+### Usage
+
+```bash
+# Download then verify integrity
+curl -L -o anytop-checkpoints.tar.gz <PASTE_URL_HERE>
+sha256sum -c <<< "fc15f536510014a7bb953aa62cd24358de6af11f0d92f0f8360e2ec44b8251e2  anytop-checkpoints.tar.gz"
+
+# Untar into save/
+tar -xzvf anytop-checkpoints.tar.gz
+mkdir -p save && mv anytop-checkpoints/* save/
+rmdir anytop-checkpoints
+
+# Optional: Motion2Motion checkpoints come from the upstream M2M repo (we do not redistribute).
+```
+
+After extraction, every per-method invocation in §4 above will work without any training step.
 
 ---
 
