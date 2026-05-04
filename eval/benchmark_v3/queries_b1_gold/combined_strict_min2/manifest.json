@@ -1,0 +1,1770 @@
+{
+  "version": "b1_gold_v1",
+  "source_folds": [
+    42,
+    43
+  ],
+  "target_n": 200,
+  "gold_filters": {
+    "exact_tier_eligible": true,
+    "well_defined_actions": [
+      "attack",
+      "attack2",
+      "attack3",
+      "bite",
+      "bite1",
+      "die",
+      "fastfly",
+      "fastforward",
+      "fastrun",
+      "fly",
+      "idle",
+      "idle1",
+      "idle2",
+      "idle3",
+      "jump",
+      "kick",
+      "land",
+      "run",
+      "slowfly",
+      "slowforward",
+      "swim",
+      "walk"
+    ],
+    "target_held_out_only": true,
+    "min_positives_exact": 2,
+    "source_canonical_iqr": 1.5
+  },
+  "cluster_distribution": {
+    "combat": 4,
+    "locomotion": 3,
+    "idle": 3
+  },
+  "action_distribution": {
+    "attack": 3,
+    "walk": 3,
+    "idle": 3,
+    "bite": 1
+  },
+  "n_skel_pairs": 9,
+  "queries": [
+    {
+      "query_id": 0,
+      "split": "mixed",
+      "skel_a": "Fox",
+      "skel_b": "Spider",
+      "cluster": "combat",
+      "src_fname": "Fox_-_Attack2_357.npy",
+      "src_T": 59,
+      "src_action": "attack",
+      "positives_cluster": [
+        {
+          "fname": "Spider___Attack1_916.npy",
+          "T": 30,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack2_907.npy",
+          "T": 44,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack4_903.npy",
+          "T": 44,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack5_894.npy",
+          "T": 48,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___AttackLeft_925.npy",
+          "T": 35,
+          "action": "attackleft",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attackright_921.npy",
+          "T": 35,
+          "action": "attackright",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Rearing_904.npy",
+          "T": 50,
+          "action": "rearing",
+          "cluster": "combat"
+        }
+      ],
+      "positives_exact": [
+        {
+          "fname": "Spider___Attack1_916.npy",
+          "T": 30,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack2_907.npy",
+          "T": 44,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack4_903.npy",
+          "T": 44,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack5_894.npy",
+          "T": 48,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "adversarials_hard": [
+        {
+          "fname": "Spider___Rearing_904.npy",
+          "T": 50,
+          "action": "rearing",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___AttackLeft_925.npy",
+          "T": 35,
+          "action": "attackleft",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attackright_921.npy",
+          "T": 35,
+          "action": "attackright",
+          "cluster": "combat"
+        }
+      ],
+      "adversarials_easy": [
+        {
+          "fname": "Spider___Jump_913.npy",
+          "T": 44,
+          "action": "jump",
+          "cluster": "jump"
+        }
+      ],
+      "distractors_same_target_skel": [
+        {
+          "fname": "Spider___walkloop_895.npy",
+          "T": 30,
+          "action": "walkloop",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Spider___SlowIdle_900.npy",
+          "T": 150,
+          "action": "slowidle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Spider___Rising_897.npy",
+          "T": 30,
+          "action": "rising",
+          "cluster": "jump"
+        },
+        {
+          "fname": "Spider___walkleft_908.npy",
+          "T": 30,
+          "action": "walkleft",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Spider___Jump_913.npy",
+          "T": 44,
+          "action": "jump",
+          "cluster": "jump"
+        }
+      ],
+      "n_pos_cluster": 7,
+      "n_pos_exact": 4,
+      "n_hard": 3,
+      "n_easy": 1,
+      "cluster_tier_eligible": true,
+      "exact_tier_eligible": true,
+      "support_reason": "exact_action",
+      "fold_seed": 42,
+      "original_query_id": 104,
+      "gold_n_pos_exact": 4,
+      "gold_n_adv_hard": 3,
+      "gold_n_pool": 7
+    },
+    {
+      "query_id": 1,
+      "split": "mixed",
+      "skel_a": "Lion",
+      "skel_b": "Alligator",
+      "cluster": "locomotion",
+      "src_fname": "Lion___Walk_525.npy",
+      "src_T": 108,
+      "src_action": "walk",
+      "positives_cluster": [
+        {
+          "fname": "Alligator___Dash2_13.npy",
+          "T": 200,
+          "action": "dash",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Dash_4.npy",
+          "T": 137,
+          "action": "dash",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk1_17.npy",
+          "T": 230,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk2_18.npy",
+          "T": 199,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk2_19.npy",
+          "T": 130,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk3_22.npy",
+          "T": 216,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ],
+      "positives_exact": [
+        {
+          "fname": "Alligator___Walk1_17.npy",
+          "T": 230,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk2_18.npy",
+          "T": 199,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk2_19.npy",
+          "T": 130,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk3_22.npy",
+          "T": 216,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ],
+      "adversarials_hard": [
+        {
+          "fname": "Alligator___Dash_4.npy",
+          "T": 137,
+          "action": "dash",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Dash2_13.npy",
+          "T": 200,
+          "action": "dash",
+          "cluster": "locomotion"
+        }
+      ],
+      "adversarials_easy": [
+        {
+          "fname": "Alligator___Shake_21.npy",
+          "T": 114,
+          "action": "shake",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Alligator___Bite1_3.npy",
+          "T": 135,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite3_10.npy",
+          "T": 96,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite4_6.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite5_16.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        }
+      ],
+      "distractors_same_target_skel": [
+        {
+          "fname": "Alligator___Bite3_10.npy",
+          "T": 96,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Throw_8.npy",
+          "T": 129,
+          "action": "throw",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Shake_21.npy",
+          "T": 114,
+          "action": "shake",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Alligator___Bite4_6.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite2_2.npy",
+          "T": 153,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___DieLoop_7.npy",
+          "T": 59,
+          "action": "dieloop",
+          "cluster": "death"
+        },
+        {
+          "fname": "Alligator___Bite5_16.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Throw2_5.npy",
+          "T": 69,
+          "action": "throw",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___DIe_15.npy",
+          "T": 237,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Alligator___Bite1_3.npy",
+          "T": 135,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite7_11.npy",
+          "T": 189,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite6_1.npy",
+          "T": 200,
+          "action": "bite",
+          "cluster": "combat"
+        }
+      ],
+      "n_pos_cluster": 6,
+      "n_pos_exact": 4,
+      "n_hard": 2,
+      "n_easy": 5,
+      "cluster_tier_eligible": true,
+      "exact_tier_eligible": true,
+      "support_reason": "exact_action",
+      "fold_seed": 42,
+      "original_query_id": 121,
+      "gold_n_pos_exact": 4,
+      "gold_n_adv_hard": 2,
+      "gold_n_pool": 6
+    },
+    {
+      "query_id": 2,
+      "split": "mixed",
+      "skel_a": "Monkey",
+      "skel_b": "Raptor",
+      "cluster": "idle",
+      "src_fname": "Monkey___Idle3_568.npy",
+      "src_T": 100,
+      "src_action": "idle",
+      "positives_cluster": [
+        {
+          "fname": "Raptor___Idle2_688.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Idle_681.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Idle_682.npy",
+          "T": 73,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Yawn_686.npy",
+          "T": 199,
+          "action": "yawn",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Yawn_687.npy",
+          "T": 100,
+          "action": "yawn",
+          "cluster": "idle"
+        }
+      ],
+      "positives_exact": [
+        {
+          "fname": "Raptor___Idle2_688.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Idle_681.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Idle_682.npy",
+          "T": 73,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "adversarials_hard": [
+        {
+          "fname": "Raptor___Yawn_687.npy",
+          "T": 100,
+          "action": "yawn",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Yawn_686.npy",
+          "T": 199,
+          "action": "yawn",
+          "cluster": "idle"
+        }
+      ],
+      "adversarials_easy": [
+        {
+          "fname": "Raptor___Attack_689.npy",
+          "T": 78,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Raptor___Die_680.npy",
+          "T": 99,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Raptor___SlowWalk_679.npy",
+          "T": 78,
+          "action": "slowwalk",
+          "cluster": "locomotion"
+        }
+      ],
+      "distractors_same_target_skel": [
+        {
+          "fname": "Raptor___Roar_691.npy",
+          "T": 138,
+          "action": "roar",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Raptor___SlowWalk_679.npy",
+          "T": 78,
+          "action": "slowwalk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Raptor___Attack_689.npy",
+          "T": 78,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Raptor___Die_680.npy",
+          "T": 99,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "n_pos_cluster": 5,
+      "n_pos_exact": 3,
+      "n_hard": 2,
+      "n_easy": 3,
+      "cluster_tier_eligible": true,
+      "exact_tier_eligible": true,
+      "support_reason": "exact_action",
+      "fold_seed": 43,
+      "original_query_id": 152,
+      "gold_n_pos_exact": 3,
+      "gold_n_adv_hard": 2,
+      "gold_n_pool": 5
+    },
+    {
+      "query_id": 3,
+      "split": "mixed",
+      "skel_a": "Coyote",
+      "skel_b": "Spider",
+      "cluster": "combat",
+      "src_fname": "Coyote___Attack1_231.npy",
+      "src_T": 71,
+      "src_action": "attack",
+      "positives_cluster": [
+        {
+          "fname": "Spider___Attack1_916.npy",
+          "T": 30,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack2_907.npy",
+          "T": 44,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack4_903.npy",
+          "T": 44,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack5_894.npy",
+          "T": 48,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___AttackLeft_925.npy",
+          "T": 35,
+          "action": "attackleft",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attackright_921.npy",
+          "T": 35,
+          "action": "attackright",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Rearing_904.npy",
+          "T": 50,
+          "action": "rearing",
+          "cluster": "combat"
+        }
+      ],
+      "positives_exact": [
+        {
+          "fname": "Spider___Attack1_916.npy",
+          "T": 30,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack2_907.npy",
+          "T": 44,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack4_903.npy",
+          "T": 44,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack5_894.npy",
+          "T": 48,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "adversarials_hard": [
+        {
+          "fname": "Spider___AttackLeft_925.npy",
+          "T": 35,
+          "action": "attackleft",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Rearing_904.npy",
+          "T": 50,
+          "action": "rearing",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attackright_921.npy",
+          "T": 35,
+          "action": "attackright",
+          "cluster": "combat"
+        }
+      ],
+      "adversarials_easy": [
+        {
+          "fname": "Spider___Jump_913.npy",
+          "T": 44,
+          "action": "jump",
+          "cluster": "jump"
+        },
+        {
+          "fname": "Spider___walkloop_895.npy",
+          "T": 30,
+          "action": "walkloop",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Spider___Rising_897.npy",
+          "T": 30,
+          "action": "rising",
+          "cluster": "jump"
+        },
+        {
+          "fname": "Spider___walkleft_908.npy",
+          "T": 30,
+          "action": "walkleft",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Spider___SlowIdle_900.npy",
+          "T": 150,
+          "action": "slowidle",
+          "cluster": "idle"
+        }
+      ],
+      "distractors_same_target_skel": [
+        {
+          "fname": "Spider___walkloop_895.npy",
+          "T": 30,
+          "action": "walkloop",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Spider___Jump_913.npy",
+          "T": 44,
+          "action": "jump",
+          "cluster": "jump"
+        },
+        {
+          "fname": "Spider___walkleft_908.npy",
+          "T": 30,
+          "action": "walkleft",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Spider___SlowIdle_900.npy",
+          "T": 150,
+          "action": "slowidle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Spider___Rising_897.npy",
+          "T": 30,
+          "action": "rising",
+          "cluster": "jump"
+        }
+      ],
+      "n_pos_cluster": 7,
+      "n_pos_exact": 4,
+      "n_hard": 3,
+      "n_easy": 5,
+      "cluster_tier_eligible": true,
+      "exact_tier_eligible": true,
+      "support_reason": "exact_action",
+      "fold_seed": 42,
+      "original_query_id": 189,
+      "gold_n_pos_exact": 4,
+      "gold_n_adv_hard": 3,
+      "gold_n_pool": 7
+    },
+    {
+      "query_id": 4,
+      "split": "test_test",
+      "skel_a": "Anaconda",
+      "skel_b": "Alligator",
+      "cluster": "combat",
+      "src_fname": "Anaconda___Bite2_25.npy",
+      "src_T": 83,
+      "src_action": "bite",
+      "positives_cluster": [
+        {
+          "fname": "Alligator___Bite1_3.npy",
+          "T": 135,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite2_2.npy",
+          "T": 153,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite3_10.npy",
+          "T": 96,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite4_6.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite5_16.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite6_1.npy",
+          "T": 200,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite7_11.npy",
+          "T": 189,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Throw2_5.npy",
+          "T": 69,
+          "action": "throw",
+          "cluster": "combat"
+        }
+      ],
+      "positives_exact": [
+        {
+          "fname": "Alligator___Bite1_3.npy",
+          "T": 135,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite2_2.npy",
+          "T": 153,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite3_10.npy",
+          "T": 96,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite4_6.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        }
+      ],
+      "adversarials_hard": [
+        {
+          "fname": "Alligator___Throw2_5.npy",
+          "T": 69,
+          "action": "throw",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Throw_8.npy",
+          "T": 129,
+          "action": "throw",
+          "cluster": "combat"
+        }
+      ],
+      "adversarials_easy": [
+        {
+          "fname": "Alligator___DieLoop_7.npy",
+          "T": 59,
+          "action": "dieloop",
+          "cluster": "death"
+        }
+      ],
+      "distractors_same_target_skel": [
+        {
+          "fname": "Alligator___Walk2_18.npy",
+          "T": 199,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Dash2_13.npy",
+          "T": 200,
+          "action": "dash",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Dash_4.npy",
+          "T": 137,
+          "action": "dash",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Throw_8.npy",
+          "T": 129,
+          "action": "throw",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Walk2_19.npy",
+          "T": 130,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___DieLoop_7.npy",
+          "T": 59,
+          "action": "dieloop",
+          "cluster": "death"
+        },
+        {
+          "fname": "Alligator___DIe_15.npy",
+          "T": 237,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Alligator___Shake_21.npy",
+          "T": 114,
+          "action": "shake",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Alligator___Walk3_22.npy",
+          "T": 216,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk1_17.npy",
+          "T": 230,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ],
+      "n_pos_cluster": 8,
+      "n_pos_exact": 4,
+      "n_hard": 2,
+      "n_easy": 1,
+      "cluster_tier_eligible": true,
+      "exact_tier_eligible": true,
+      "support_reason": "exact_action",
+      "fold_seed": 43,
+      "original_query_id": 204,
+      "gold_n_pos_exact": 4,
+      "gold_n_adv_hard": 2,
+      "gold_n_pool": 6
+    },
+    {
+      "query_id": 5,
+      "split": "test_test",
+      "skel_a": "Anaconda",
+      "skel_b": "Raptor",
+      "cluster": "idle",
+      "src_fname": "Anaconda___Idle_24.npy",
+      "src_T": 200,
+      "src_action": "idle",
+      "positives_cluster": [
+        {
+          "fname": "Raptor___Idle2_688.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Idle_681.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Idle_682.npy",
+          "T": 73,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Yawn_686.npy",
+          "T": 199,
+          "action": "yawn",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Yawn_687.npy",
+          "T": 100,
+          "action": "yawn",
+          "cluster": "idle"
+        }
+      ],
+      "positives_exact": [
+        {
+          "fname": "Raptor___Idle2_688.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Idle_681.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Idle_682.npy",
+          "T": 73,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "adversarials_hard": [
+        {
+          "fname": "Raptor___Yawn_686.npy",
+          "T": 199,
+          "action": "yawn",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Yawn_687.npy",
+          "T": 100,
+          "action": "yawn",
+          "cluster": "idle"
+        }
+      ],
+      "adversarials_easy": [
+        {
+          "fname": "Raptor___SlowWalk_679.npy",
+          "T": 78,
+          "action": "slowwalk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Raptor___Die_680.npy",
+          "T": 99,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Raptor___Roar_691.npy",
+          "T": 138,
+          "action": "roar",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Raptor___Attack_689.npy",
+          "T": 78,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "distractors_same_target_skel": [
+        {
+          "fname": "Raptor___Die_680.npy",
+          "T": 99,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Raptor___SlowWalk_679.npy",
+          "T": 78,
+          "action": "slowwalk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Raptor___Attack_689.npy",
+          "T": 78,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Raptor___Roar_691.npy",
+          "T": 138,
+          "action": "roar",
+          "cluster": "combat"
+        }
+      ],
+      "n_pos_cluster": 5,
+      "n_pos_exact": 3,
+      "n_hard": 2,
+      "n_easy": 4,
+      "cluster_tier_eligible": true,
+      "exact_tier_eligible": true,
+      "support_reason": "exact_action",
+      "fold_seed": 42,
+      "original_query_id": 209,
+      "gold_n_pos_exact": 3,
+      "gold_n_adv_hard": 2,
+      "gold_n_pool": 5
+    },
+    {
+      "query_id": 6,
+      "split": "test_test",
+      "skel_a": "Elephant",
+      "skel_b": "Alligator",
+      "cluster": "locomotion",
+      "src_fname": "Elephant___walk_327.npy",
+      "src_T": 119,
+      "src_action": "walk",
+      "positives_cluster": [
+        {
+          "fname": "Alligator___Dash2_13.npy",
+          "T": 200,
+          "action": "dash",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Dash_4.npy",
+          "T": 137,
+          "action": "dash",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk1_17.npy",
+          "T": 230,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk2_18.npy",
+          "T": 199,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk2_19.npy",
+          "T": 130,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk3_22.npy",
+          "T": 216,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ],
+      "positives_exact": [
+        {
+          "fname": "Alligator___Walk1_17.npy",
+          "T": 230,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk2_18.npy",
+          "T": 199,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk2_19.npy",
+          "T": 130,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk3_22.npy",
+          "T": 216,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ],
+      "adversarials_hard": [
+        {
+          "fname": "Alligator___Dash_4.npy",
+          "T": 137,
+          "action": "dash",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Dash2_13.npy",
+          "T": 200,
+          "action": "dash",
+          "cluster": "locomotion"
+        }
+      ],
+      "adversarials_easy": [
+        {
+          "fname": "Alligator___Shake_21.npy",
+          "T": 114,
+          "action": "shake",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Alligator___Bite5_16.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite1_3.npy",
+          "T": 135,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Throw_8.npy",
+          "T": 129,
+          "action": "throw",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite3_10.npy",
+          "T": 96,
+          "action": "bite",
+          "cluster": "combat"
+        }
+      ],
+      "distractors_same_target_skel": [
+        {
+          "fname": "Alligator___Bite1_3.npy",
+          "T": 135,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Throw_8.npy",
+          "T": 129,
+          "action": "throw",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite3_10.npy",
+          "T": 96,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___DieLoop_7.npy",
+          "T": 59,
+          "action": "dieloop",
+          "cluster": "death"
+        },
+        {
+          "fname": "Alligator___Bite2_2.npy",
+          "T": 153,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Shake_21.npy",
+          "T": 114,
+          "action": "shake",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Alligator___Bite7_11.npy",
+          "T": 189,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite5_16.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite4_6.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___DIe_15.npy",
+          "T": 237,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Alligator___Throw2_5.npy",
+          "T": 69,
+          "action": "throw",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite6_1.npy",
+          "T": 200,
+          "action": "bite",
+          "cluster": "combat"
+        }
+      ],
+      "n_pos_cluster": 6,
+      "n_pos_exact": 4,
+      "n_hard": 2,
+      "n_easy": 5,
+      "cluster_tier_eligible": true,
+      "exact_tier_eligible": true,
+      "support_reason": "exact_action",
+      "fold_seed": 42,
+      "original_query_id": 236,
+      "gold_n_pos_exact": 4,
+      "gold_n_adv_hard": 2,
+      "gold_n_pool": 6
+    },
+    {
+      "query_id": 7,
+      "split": "test_test",
+      "skel_a": "Anaconda",
+      "skel_b": "Raptor",
+      "cluster": "idle",
+      "src_fname": "Anaconda___Idle_24.npy",
+      "src_T": 200,
+      "src_action": "idle",
+      "positives_cluster": [
+        {
+          "fname": "Raptor___Idle2_688.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Idle_681.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Idle_682.npy",
+          "T": 73,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Yawn_686.npy",
+          "T": 199,
+          "action": "yawn",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Yawn_687.npy",
+          "T": 100,
+          "action": "yawn",
+          "cluster": "idle"
+        }
+      ],
+      "positives_exact": [
+        {
+          "fname": "Raptor___Idle2_688.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Idle_681.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Idle_682.npy",
+          "T": 73,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "adversarials_hard": [
+        {
+          "fname": "Raptor___Yawn_687.npy",
+          "T": 100,
+          "action": "yawn",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Yawn_686.npy",
+          "T": 199,
+          "action": "yawn",
+          "cluster": "idle"
+        }
+      ],
+      "adversarials_easy": [
+        {
+          "fname": "Raptor___Attack_689.npy",
+          "T": 78,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Raptor___SlowWalk_679.npy",
+          "T": 78,
+          "action": "slowwalk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Raptor___Roar_691.npy",
+          "T": 138,
+          "action": "roar",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Raptor___Die_680.npy",
+          "T": 99,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "distractors_same_target_skel": [
+        {
+          "fname": "Raptor___Attack_689.npy",
+          "T": 78,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Raptor___SlowWalk_679.npy",
+          "T": 78,
+          "action": "slowwalk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Raptor___Die_680.npy",
+          "T": 99,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Raptor___Roar_691.npy",
+          "T": 138,
+          "action": "roar",
+          "cluster": "combat"
+        }
+      ],
+      "n_pos_cluster": 5,
+      "n_pos_exact": 3,
+      "n_hard": 2,
+      "n_easy": 4,
+      "cluster_tier_eligible": true,
+      "exact_tier_eligible": true,
+      "support_reason": "exact_action",
+      "fold_seed": 43,
+      "original_query_id": 262,
+      "gold_n_pos_exact": 3,
+      "gold_n_adv_hard": 2,
+      "gold_n_pool": 5
+    },
+    {
+      "query_id": 8,
+      "split": "test_test",
+      "skel_a": "Elephant",
+      "skel_b": "Spider",
+      "cluster": "combat",
+      "src_fname": "Elephant___Attack1_323.npy",
+      "src_T": 74,
+      "src_action": "attack",
+      "positives_cluster": [
+        {
+          "fname": "Spider___Attack1_916.npy",
+          "T": 30,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack2_907.npy",
+          "T": 44,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack4_903.npy",
+          "T": 44,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack5_894.npy",
+          "T": 48,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___AttackLeft_925.npy",
+          "T": 35,
+          "action": "attackleft",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attackright_921.npy",
+          "T": 35,
+          "action": "attackright",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Rearing_904.npy",
+          "T": 50,
+          "action": "rearing",
+          "cluster": "combat"
+        }
+      ],
+      "positives_exact": [
+        {
+          "fname": "Spider___Attack1_916.npy",
+          "T": 30,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack2_907.npy",
+          "T": 44,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack4_903.npy",
+          "T": 44,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack5_894.npy",
+          "T": 48,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "adversarials_hard": [
+        {
+          "fname": "Spider___AttackLeft_925.npy",
+          "T": 35,
+          "action": "attackleft",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attackright_921.npy",
+          "T": 35,
+          "action": "attackright",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Rearing_904.npy",
+          "T": 50,
+          "action": "rearing",
+          "cluster": "combat"
+        }
+      ],
+      "adversarials_easy": [
+        {
+          "fname": "Spider___SlowIdle_900.npy",
+          "T": 150,
+          "action": "slowidle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Spider___walkloop_895.npy",
+          "T": 30,
+          "action": "walkloop",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Spider___Jump_913.npy",
+          "T": 44,
+          "action": "jump",
+          "cluster": "jump"
+        },
+        {
+          "fname": "Spider___Rising_897.npy",
+          "T": 30,
+          "action": "rising",
+          "cluster": "jump"
+        },
+        {
+          "fname": "Spider___walkleft_908.npy",
+          "T": 30,
+          "action": "walkleft",
+          "cluster": "locomotion"
+        }
+      ],
+      "distractors_same_target_skel": [
+        {
+          "fname": "Spider___Jump_913.npy",
+          "T": 44,
+          "action": "jump",
+          "cluster": "jump"
+        },
+        {
+          "fname": "Spider___Rising_897.npy",
+          "T": 30,
+          "action": "rising",
+          "cluster": "jump"
+        },
+        {
+          "fname": "Spider___SlowIdle_900.npy",
+          "T": 150,
+          "action": "slowidle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Spider___walkloop_895.npy",
+          "T": 30,
+          "action": "walkloop",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Spider___walkleft_908.npy",
+          "T": 30,
+          "action": "walkleft",
+          "cluster": "locomotion"
+        }
+      ],
+      "n_pos_cluster": 7,
+      "n_pos_exact": 4,
+      "n_hard": 3,
+      "n_easy": 5,
+      "cluster_tier_eligible": true,
+      "exact_tier_eligible": true,
+      "support_reason": "exact_action",
+      "fold_seed": 43,
+      "original_query_id": 274,
+      "gold_n_pos_exact": 4,
+      "gold_n_adv_hard": 3,
+      "gold_n_pool": 7
+    },
+    {
+      "query_id": 9,
+      "split": "test_test",
+      "skel_a": "Cat",
+      "skel_b": "Alligator",
+      "cluster": "locomotion",
+      "src_fname": "Cat_CAT_Walk_197.npy",
+      "src_T": 89,
+      "src_action": "walk",
+      "positives_cluster": [
+        {
+          "fname": "Alligator___Dash2_13.npy",
+          "T": 200,
+          "action": "dash",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Dash_4.npy",
+          "T": 137,
+          "action": "dash",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk1_17.npy",
+          "T": 230,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk2_18.npy",
+          "T": 199,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk2_19.npy",
+          "T": 130,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk3_22.npy",
+          "T": 216,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ],
+      "positives_exact": [
+        {
+          "fname": "Alligator___Walk1_17.npy",
+          "T": 230,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk2_18.npy",
+          "T": 199,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk2_19.npy",
+          "T": 130,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk3_22.npy",
+          "T": 216,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ],
+      "adversarials_hard": [
+        {
+          "fname": "Alligator___Dash_4.npy",
+          "T": 137,
+          "action": "dash",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Dash2_13.npy",
+          "T": 200,
+          "action": "dash",
+          "cluster": "locomotion"
+        }
+      ],
+      "adversarials_easy": [
+        {
+          "fname": "Alligator___Bite4_6.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Shake_21.npy",
+          "T": 114,
+          "action": "shake",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Alligator___Bite5_16.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Throw2_5.npy",
+          "T": 69,
+          "action": "throw",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite3_10.npy",
+          "T": 96,
+          "action": "bite",
+          "cluster": "combat"
+        }
+      ],
+      "distractors_same_target_skel": [
+        {
+          "fname": "Alligator___Throw_8.npy",
+          "T": 129,
+          "action": "throw",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite1_3.npy",
+          "T": 135,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite5_16.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite3_10.npy",
+          "T": 96,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Shake_21.npy",
+          "T": 114,
+          "action": "shake",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Alligator___Bite2_2.npy",
+          "T": 153,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite7_11.npy",
+          "T": 189,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___DIe_15.npy",
+          "T": 237,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Alligator___DieLoop_7.npy",
+          "T": 59,
+          "action": "dieloop",
+          "cluster": "death"
+        },
+        {
+          "fname": "Alligator___Throw2_5.npy",
+          "T": 69,
+          "action": "throw",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite4_6.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite6_1.npy",
+          "T": 200,
+          "action": "bite",
+          "cluster": "combat"
+        }
+      ],
+      "n_pos_cluster": 6,
+      "n_pos_exact": 4,
+      "n_hard": 2,
+      "n_easy": 5,
+      "cluster_tier_eligible": true,
+      "exact_tier_eligible": true,
+      "support_reason": "exact_action",
+      "fold_seed": 43,
+      "original_query_id": 278,
+      "gold_n_pos_exact": 4,
+      "gold_n_adv_hard": 2,
+      "gold_n_pool": 6
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Conda / virtual envs
+env/
+venv/
+.env
+.venv/
+
+# Experiment outputs (anything generated locally — never commit)
+save/
+checkpoints/
+wandb/
+runs/
+logs/
+*.log
+
+# Data (must not ship dataset binaries)
+dataset/
+datasets/
+**/*.bvh
+**/*.fbx
+**/*.npy
+**/*.npz
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.h5
+**/*.hdf5
+
+# Allow the slim shipped result JSONs explicitly
+!results/
+!results/**/*.json
+
+# Large media (rendered demos, paper assets) — only the source scripts ship
+**/*.mp4
+**/*.mov
+**/*.avi
+**/*.gif
+
+# Compiled LaTeX (paper lives in a separate repo)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+
+# Local override files
+local_*
+*.local

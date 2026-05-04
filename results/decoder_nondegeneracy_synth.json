@@ -1,0 +1,21 @@
+{
+  "experiment": "decoder-nondegeneracy synthetic VAE",
+  "config": {
+    "latent_dim": 16,
+    "dim_a": 4,
+    "dim_b": 6,
+    "n_train": 4096,
+    "n_test": 256,
+    "n_steps": 2000,
+    "kl_weight": 1.0,
+    "n_rotations": 50
+  },
+  "motion_baseline_norm": 1.9433002471923828,
+  "mean_gauge_divergence": 0.007719827210530638,
+  "std_gauge_divergence": 0.0027976545780290184,
+  "mean_noise_divergence": 0.006931909574195743,
+  "std_noise_divergence": 0.00019509028261536357,
+  "relative_gauge_divergence": 0.00397253446639756,
+  "gauge_to_noise_ratio": 1.1136653079359178,
+  "verdict": "approximately gauge-invariant"
+}

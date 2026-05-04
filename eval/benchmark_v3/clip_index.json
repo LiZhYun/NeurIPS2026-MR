@@ -1,0 +1,5085 @@
+{
+  "index": {
+    "Alligator": {
+      "combat": [
+        {
+          "fname": "Alligator___Bite1_3.npy",
+          "T": 135,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite2_2.npy",
+          "T": 153,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite3_10.npy",
+          "T": 96,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite4_6.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite5_16.npy",
+          "T": 114,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite6_1.npy",
+          "T": 200,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Bite7_11.npy",
+          "T": 189,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Throw2_5.npy",
+          "T": 69,
+          "action": "throw",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Alligator___Throw_8.npy",
+          "T": 129,
+          "action": "throw",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Alligator___DIe_15.npy",
+          "T": 237,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Alligator___DieLoop_7.npy",
+          "T": 59,
+          "action": "dieloop",
+          "cluster": "death"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Alligator___Dash2_13.npy",
+          "T": 200,
+          "action": "dash",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Dash_4.npy",
+          "T": 137,
+          "action": "dash",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk1_17.npy",
+          "T": 230,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk2_18.npy",
+          "T": 199,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk2_19.npy",
+          "T": 130,
+          "action": "walk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Alligator___Walk3_22.npy",
+          "T": 216,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Alligator___Shake_21.npy",
+          "T": 114,
+          "action": "shake",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "Anaconda": {
+      "combat": [
+        {
+          "fname": "Anaconda___Attack_35.npy",
+          "T": 120,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Anaconda___Bite2_25.npy",
+          "T": 83,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Anaconda___Bite_38.npy",
+          "T": 79,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Anaconda___Strike2_27.npy",
+          "T": 89,
+          "action": "strike",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Anaconda___Strike_29.npy",
+          "T": 139,
+          "action": "strike",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Anaconda___Die_23.npy",
+          "T": 150,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Anaconda___Idle2_33.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Anaconda___Idle2_34.npy",
+          "T": 100,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Anaconda___Idle_24.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "Anaconda___Rise2_42.npy",
+          "T": 90,
+          "action": "rise",
+          "cluster": "jump"
+        },
+        {
+          "fname": "Anaconda___Rise_31.npy",
+          "T": 134,
+          "action": "rise",
+          "cluster": "jump"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Anaconda___Run_36.npy",
+          "T": 68,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Anaconda___Sneaky_39.npy",
+          "T": 199,
+          "action": "sneaky",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Anaconda___Sneaky_40.npy",
+          "T": 99,
+          "action": "sneaky",
+          "cluster": "locomotion"
+        }
+      ],
+      "agitated": [
+        {
+          "fname": "Anaconda___Spin_37.npy",
+          "T": 159,
+          "action": "spin",
+          "cluster": "agitated"
+        }
+      ]
+    },
+    "Ant": {
+      "combat": [
+        {
+          "fname": "Ant___Attack_56.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Ant___Sting2_48.npy",
+          "T": 78,
+          "action": "sting",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Ant___Sting_52.npy",
+          "T": 89,
+          "action": "sting",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Ant___Throw_50.npy",
+          "T": 120,
+          "action": "throw",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Ant___Die2_57.npy",
+          "T": 30,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Ant___DieLoop_47.npy",
+          "T": 59,
+          "action": "dieloop",
+          "cluster": "death"
+        },
+        {
+          "fname": "Ant___Die_44.npy",
+          "T": 201,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Ant___KnockedBack_53.npy",
+          "T": 68,
+          "action": "knockedback",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Ant___Idle2_54.npy",
+          "T": 78,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Ant___Idle3_43.npy",
+          "T": 119,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Ant___Idle_45.npy",
+          "T": 149,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Ant___Shake_59.npy",
+          "T": 90,
+          "action": "shake",
+          "cluster": "idle"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "Ant___JumpForward_58.npy",
+          "T": 89,
+          "action": "jumpforward",
+          "cluster": "jump"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Ant___March_49.npy",
+          "T": 30,
+          "action": "march",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Ant___Walk_46.npy",
+          "T": 69,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Bat": {
+      "fly": [
+        {
+          "fname": "Bat___FlyLoop_68.npy",
+          "T": 59,
+          "action": "flyloop",
+          "cluster": "fly"
+        },
+        {
+          "fname": "Bat___Fly_61.npy",
+          "T": 53,
+          "action": "fly",
+          "cluster": "fly"
+        },
+        {
+          "fname": "Bat___SlowFly_67.npy",
+          "T": 129,
+          "action": "slowfly",
+          "cluster": "fly"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Bat___KnockedBack_64.npy",
+          "T": 93,
+          "action": "knockedback",
+          "cluster": "death"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Bat___Walk_62.npy",
+          "T": 39,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Bear": {
+      "locomotion": [
+        {
+          "fname": "Bear___BackUp_93.npy",
+          "T": 57,
+          "action": "backup",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Bear___SlowWalk_72.npy",
+          "T": 49,
+          "action": "slowwalk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Bear___Turn180_90.npy",
+          "T": 60,
+          "action": "turn",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Bear___TurnLeft_92.npy",
+          "T": 63,
+          "action": "turnleft",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Bear___WalkForward_75.npy",
+          "T": 49,
+          "action": "walkforward",
+          "cluster": "locomotion"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "Bear___GetUp_79.npy",
+          "T": 94,
+          "action": "getup",
+          "cluster": "jump"
+        }
+      ],
+      "combat": [
+        {
+          "fname": "Bear___Growl_83.npy",
+          "T": 60,
+          "action": "growl",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Bear___JumpBite_85.npy",
+          "T": 35,
+          "action": "jumpbite",
+          "cluster": "combat"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Bear___Idle_74.npy",
+          "T": 89,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Bear___LayDown_81.npy",
+          "T": 69,
+          "action": "laydown",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Bear___Stand_76.npy",
+          "T": 89,
+          "action": "stand",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "Bird": {
+      "combat": [
+        {
+          "fname": "Bird___Attack2_110.npy",
+          "T": 60,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Bird___Attack3_99.npy",
+          "T": 86,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Bird___Attack4_107.npy",
+          "T": 90,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Bird___Attack_112.npy",
+          "T": 60,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "takeoff": [
+        {
+          "fname": "Bird___CircleLand_103.npy",
+          "T": 199,
+          "action": "circleland",
+          "cluster": "takeoff"
+        },
+        {
+          "fname": "Bird___CircleLand_104.npy",
+          "T": 40,
+          "action": "circleland",
+          "cluster": "takeoff"
+        },
+        {
+          "fname": "Bird___Lander_105.npy",
+          "T": 92,
+          "action": "lander",
+          "cluster": "takeoff"
+        },
+        {
+          "fname": "Bird___TakeOff_101.npy",
+          "T": 60,
+          "action": "takeoff",
+          "cluster": "takeoff"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Bird___Falling_108.npy",
+          "T": 105,
+          "action": "falling",
+          "cluster": "death"
+        }
+      ],
+      "fly": [
+        {
+          "fname": "Bird___FlyLoop_117.npy",
+          "T": 48,
+          "action": "flyloop",
+          "cluster": "fly"
+        },
+        {
+          "fname": "Bird___Flying_116.npy",
+          "T": 44,
+          "action": "flying",
+          "cluster": "fly"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Bird___IdleLoop_100.npy",
+          "T": 129,
+          "action": "idleloop",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "BrownBear": {
+      "combat": [
+        {
+          "fname": "BrownBear___Attack2_135.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "BrownBear___Attack3_118.npy",
+          "T": 80,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "BrownBear___Attack_136.npy",
+          "T": 102,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "BrownBear___Ready_137.npy",
+          "T": 78,
+          "action": "ready",
+          "cluster": "combat"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "BrownBear___Charge_127.npy",
+          "T": 99,
+          "action": "charge",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "BrownBear___RunLoop_121.npy",
+          "T": 45,
+          "action": "runloop",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "BrownBear___SlowWalk_119.npy",
+          "T": 108,
+          "action": "slowwalk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "BrownBear___WalkLoop_126.npy",
+          "T": 99,
+          "action": "walkloop",
+          "cluster": "locomotion"
+        }
+      ],
+      "death": [
+        {
+          "fname": "BrownBear___DeathLoop_132.npy",
+          "T": 59,
+          "action": "deathloop",
+          "cluster": "death"
+        },
+        {
+          "fname": "BrownBear___Falling_133.npy",
+          "T": 150,
+          "action": "falling",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "BrownBear___EatFish_123.npy",
+          "T": 199,
+          "action": "eatfish",
+          "cluster": "idle"
+        },
+        {
+          "fname": "BrownBear___EatFish_124.npy",
+          "T": 40,
+          "action": "eatfish",
+          "cluster": "idle"
+        },
+        {
+          "fname": "BrownBear___Idle_120.npy",
+          "T": 138,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "BrownBear___Rise_131.npy",
+          "T": 60,
+          "action": "rise",
+          "cluster": "jump"
+        }
+      ]
+    },
+    "Buffalo": {
+      "combat": [
+        {
+          "fname": "Buffalo___Attack1_156.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Buffalo___Attack_152.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Buffalo___HoofScrape_154.npy",
+          "T": 120,
+          "action": "hoofscrape",
+          "cluster": "combat"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Buffalo___Cud_157.npy",
+          "T": 199,
+          "action": "cud",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Buffalo___Cud_158.npy",
+          "T": 100,
+          "action": "cud",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Buffalo___Idle_141.npy",
+          "T": 129,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Buffalo___SleepUp_145.npy",
+          "T": 199,
+          "action": "sleepup",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Buffalo___SleepUp_146.npy",
+          "T": 100,
+          "action": "sleepup",
+          "cluster": "idle"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Buffalo___Die_140.npy",
+          "T": 170,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Buffalo___Fall_149.npy",
+          "T": 120,
+          "action": "fall",
+          "cluster": "death"
+        },
+        {
+          "fname": "Buffalo___Shot_147.npy",
+          "T": 60,
+          "action": "shot",
+          "cluster": "death"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "Buffalo___GetUp_144.npy",
+          "T": 51,
+          "action": "getup",
+          "cluster": "jump"
+        },
+        {
+          "fname": "Buffalo___Jump_155.npy",
+          "T": 119,
+          "action": "jump",
+          "cluster": "jump"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Buffalo___RunLoop_142.npy",
+          "T": 39,
+          "action": "runloop",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Buffalo___WalkLoop_143.npy",
+          "T": 99,
+          "action": "walkloop",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Buzzard": {
+      "combat": [
+        {
+          "fname": "Buzzard___Attack1_167.npy",
+          "T": 69,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Buzzard___Attack2_164.npy",
+          "T": 78,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Buzzard___Attack3_160.npy",
+          "T": 69,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Buzzard___Die1_163.npy",
+          "T": 99,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Buzzard___Dying_166.npy",
+          "T": 99,
+          "action": "dying",
+          "cluster": "death"
+        }
+      ],
+      "fly": [
+        {
+          "fname": "Buzzard___FlyLoop_169.npy",
+          "T": 138,
+          "action": "flyloop",
+          "cluster": "fly"
+        },
+        {
+          "fname": "Buzzard___SlowFly_168.npy",
+          "T": 59,
+          "action": "slowfly",
+          "cluster": "fly"
+        }
+      ]
+    },
+    "Camel": {
+      "combat": [
+        {
+          "fname": "Camel___Bite_183.npy",
+          "T": 99,
+          "action": "bite",
+          "cluster": "combat"
+        }
+      ],
+      "takeoff": [
+        {
+          "fname": "Camel___DownLoop_185.npy",
+          "T": 57,
+          "action": "downloop",
+          "cluster": "takeoff"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Camel___Fall_178.npy",
+          "T": 57,
+          "action": "fall",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Camel___IdleLoop_173.npy",
+          "T": 200,
+          "action": "idleloop",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Camel___LayDown_175.npy",
+          "T": 144,
+          "action": "laydown",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Camel___Restless_176.npy",
+          "T": 144,
+          "action": "restless",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Camel___Run_181.npy",
+          "T": 60,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Camel___SlowWalk_171.npy",
+          "T": 120,
+          "action": "slowwalk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Camel___Trot_187.npy",
+          "T": 60,
+          "action": "trot",
+          "cluster": "locomotion"
+        }
+      ],
+      "reaction": [
+        {
+          "fname": "Camel___Yell_182.npy",
+          "T": 90,
+          "action": "yell",
+          "cluster": "reaction"
+        }
+      ]
+    },
+    "Cat": {
+      "idle": [
+        {
+          "fname": "Cat_CAT_IdlePurr_194.npy",
+          "T": 199,
+          "action": "idlepurr",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Cat_CAT_IdlePurr_195.npy",
+          "T": 199,
+          "action": "idlepurr",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Cat_CAT_IdlePurr_196.npy",
+          "T": 100,
+          "action": "idlepurr",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Cat_CAT_LickCleanIdle_188.npy",
+          "T": 199,
+          "action": "lickcleanidle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Cat_CAT_LickCleanIdle_189.npy",
+          "T": 199,
+          "action": "lickcleanidle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Cat_CAT_LickCleanIdle_190.npy",
+          "T": 100,
+          "action": "lickcleanidle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Cat_CAT_StretchYawnIdle_191.npy",
+          "T": 199,
+          "action": "stretchyawnidle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Cat_CAT_StretchYawnIdle_192.npy",
+          "T": 199,
+          "action": "stretchyawnidle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Cat_CAT_StretchYawnIdle_193.npy",
+          "T": 100,
+          "action": "stretchyawnidle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Cat_CAT_Walk_197.npy",
+          "T": 89,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Centipede": {
+      "combat": [
+        {
+          "fname": "Centipede___Attack1_207.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Centipede___Attack2_203.npy",
+          "T": 120,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Centipede___Attack_205.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Centipede___Rearing_202.npy",
+          "T": 200,
+          "action": "rearing",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Centipede___Die_199.npy",
+          "T": 140,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Centipede___Idle2_204.npy",
+          "T": 90,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Centipede___Idle3_198.npy",
+          "T": 114,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Centipede___Idle_200.npy",
+          "T": 114,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Centipede___Run_206.npy",
+          "T": 45,
+          "action": "run",
+          "cluster": "locomotion"
+        }
+      ],
+      "reaction": [
+        {
+          "fname": "Centipede___Take_001_201.npy",
+          "T": 90,
+          "action": "take",
+          "cluster": "reaction"
+        }
+      ]
+    },
+    "Chicken": {
+      "locomotion": [
+        {
+          "fname": "Chicken_Chicken_Walk_210.npy",
+          "T": 89,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Comodoa": {
+      "combat": [
+        {
+          "fname": "Comodoa___Attack1_221.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Comodoa___Attack2_218.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Comodoa___Attack3_211.npy",
+          "T": 164,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Comodoa___Die_212.npy",
+          "T": 105,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Comodoa___Idle2_219.npy",
+          "T": 114,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Comodoa___Idle_213.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Comodoa___Idle_214.npy",
+          "T": 40,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Comodoa___Yawn_216.npy",
+          "T": 199,
+          "action": "yawn",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Comodoa___Yawn_217.npy",
+          "T": 150,
+          "action": "yawn",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Comodoa___Run_220.npy",
+          "T": 36,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Comodoa___Walk_215.npy",
+          "T": 198,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Coyote": {
+      "combat": [
+        {
+          "fname": "Coyote___Attack1_231.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Coyote___Attack2_229.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Coyote___Attack3_222.npy",
+          "T": 90,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Coyote___Die_224.npy",
+          "T": 95,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Coyote___Idle_225.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Coyote___Restless_228.npy",
+          "T": 180,
+          "action": "restless",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Coyote___Running_223.npy",
+          "T": 36,
+          "action": "running",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Crab": {
+      "combat": [
+        {
+          "fname": "Crab___Attack1_241.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Crab___Attack2_239.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Crab___Attack3_232.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Crab___Attack4_237.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Crab___Die_234.npy",
+          "T": 99,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Crab___Eat_238.npy",
+          "T": 120,
+          "action": "eat",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "Cricket": {
+      "combat": [
+        {
+          "fname": "Cricket___Attack1_254.npy",
+          "T": 159,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Cricket___Attack2_251.npy",
+          "T": 99,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Cricket___Attack3_242.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Cricket___Attack4_249.npy",
+          "T": 150,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Cricket___Die_244.npy",
+          "T": 120,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Cricket___Idle_245.npy",
+          "T": 99,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "Crocodile": {
+      "combat": [
+        {
+          "fname": "Crocodile___Attack_262.npy",
+          "T": 74,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Crocodile___Bite_264.npy",
+          "T": 74,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Crocodile___TailWhip_263.npy",
+          "T": 104,
+          "action": "tailwhip",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Crocodile___Die_257.npy",
+          "T": 138,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "Crocodile___GetUp_260.npy",
+          "T": 60,
+          "action": "getup",
+          "cluster": "jump"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Crocodile___Idle_258.npy",
+          "T": 219,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Crocodile___Running_255.npy",
+          "T": 33,
+          "action": "running",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Deer": {
+      "reaction": [
+        {
+          "fname": "Deer___Bleat_277.npy",
+          "T": 77,
+          "action": "bleat",
+          "cluster": "reaction"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Deer___Charge_271.npy",
+          "T": 33,
+          "action": "charge",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Deer___WalkCall_267.npy",
+          "T": 37,
+          "action": "walkcall",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Deer___WalkForward_270.npy",
+          "T": 30,
+          "action": "walkforward",
+          "cluster": "locomotion"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "Deer___GetUpAgain_278.npy",
+          "T": 78,
+          "action": "getupagain",
+          "cluster": "jump"
+        },
+        {
+          "fname": "Deer___GetUp_274.npy",
+          "T": 78,
+          "action": "getup",
+          "cluster": "jump"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Deer___Grazing_282.npy",
+          "T": 199,
+          "action": "grazing",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Deer___Grazing_283.npy",
+          "T": 100,
+          "action": "grazing",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Deer___Idle_268.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "takeoff": [
+        {
+          "fname": "Deer___TakeOff_269.npy",
+          "T": 36,
+          "action": "takeoff",
+          "cluster": "takeoff"
+        }
+      ]
+    },
+    "Dragon": {
+      "combat": [
+        {
+          "fname": "Dragon___Attack2_297.npy",
+          "T": 120,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Dragon___Attack3_289.npy",
+          "T": 181,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Dragon___Attack_299.npy",
+          "T": 120,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Dragon___Die_292.npy",
+          "T": 180,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "fly": [
+        {
+          "fname": "Dragon___Fly_295.npy",
+          "T": 199,
+          "action": "fly",
+          "cluster": "fly"
+        },
+        {
+          "fname": "Dragon___Fly_296.npy",
+          "T": 130,
+          "action": "fly",
+          "cluster": "fly"
+        },
+        {
+          "fname": "Dragon___SlowFly_300.npy",
+          "T": 199,
+          "action": "slowfly",
+          "cluster": "fly"
+        },
+        {
+          "fname": "Dragon___SlowFly_301.npy",
+          "T": 100,
+          "action": "slowfly",
+          "cluster": "fly"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Dragon___Idle2_298.npy",
+          "T": 140,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Dragon___Idle3_290.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Dragon___Idle3_291.npy",
+          "T": 130,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Dragon___Idle_293.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Dragon___Idle_294.npy",
+          "T": 100,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "Eagle": {
+      "fly": [
+        {
+          "fname": "Eagle___FlyLoop_313.npy",
+          "T": 35,
+          "action": "flyloop",
+          "cluster": "fly"
+        }
+      ],
+      "takeoff": [
+        {
+          "fname": "Eagle___Landing_311.npy",
+          "T": 90,
+          "action": "landing",
+          "cluster": "takeoff"
+        },
+        {
+          "fname": "Eagle___TakeOff_304.npy",
+          "T": 65,
+          "action": "takeoff",
+          "cluster": "takeoff"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Eagle___Shot_309.npy",
+          "T": 90,
+          "action": "shot",
+          "cluster": "death"
+        }
+      ],
+      "combat": [
+        {
+          "fname": "Eagle___Strike1_307.npy",
+          "T": 71,
+          "action": "strike",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Eagle___Strike2_308.npy",
+          "T": 71,
+          "action": "strike",
+          "cluster": "combat"
+        }
+      ]
+    },
+    "Elephant": {
+      "combat": [
+        {
+          "fname": "Elephant___Attack1_323.npy",
+          "T": 74,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Elephant___Attack2_321.npy",
+          "T": 74,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Elephant___Die_316.npy",
+          "T": 177,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "takeoff": [
+        {
+          "fname": "Elephant___DownLoop_324.npy",
+          "T": 59,
+          "action": "downloop",
+          "cluster": "takeoff"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Elephant___Idle1_317.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Elephant___Idle3_315.npy",
+          "T": 99,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Elephant___idle2_314.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Elephant___Run_322.npy",
+          "T": 59,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Elephant___walk_327.npy",
+          "T": 119,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ],
+      "reaction": [
+        {
+          "fname": "Elephant___Take_001_318.npy",
+          "T": 150,
+          "action": "take",
+          "cluster": "reaction"
+        }
+      ]
+    },
+    "FireAnt": {
+      "locomotion": [
+        {
+          "fname": "FireAnt___BackUp_343.npy",
+          "T": 38,
+          "action": "backup",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "FireAnt___TurnLeft_341.npy",
+          "T": 58,
+          "action": "turnleft",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "FireAnt___TurnRight_348.npy",
+          "T": 60,
+          "action": "turnright",
+          "cluster": "locomotion"
+        }
+      ],
+      "combat": [
+        {
+          "fname": "FireAnt___Bite_347.npy",
+          "T": 30,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "FireAnt___Hit_350.npy",
+          "T": 75,
+          "action": "hit",
+          "cluster": "combat"
+        },
+        {
+          "fname": "FireAnt___Roar_351.npy",
+          "T": 160,
+          "action": "roar",
+          "cluster": "combat"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "FireAnt___Idle_330.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "FireAnt___Jump_346.npy",
+          "T": 32,
+          "action": "jump",
+          "cluster": "jump"
+        }
+      ]
+    },
+    "Flamingo": {
+      "idle": [
+        {
+          "fname": "Flamingo_Flamingo_Sleep_352.npy",
+          "T": 200,
+          "action": "sleep",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Flamingo_Flamingo_Walk_354.npy",
+          "T": 78,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Fox": {
+      "combat": [
+        {
+          "fname": "Fox_-_Attack1_360.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Fox_-_Attack2_357.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Fox_-_Attack3_359.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Fox_-_Attack4_364.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Fox_-_Die2_369.npy",
+          "T": 84,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Fox_-_Die_372.npy",
+          "T": 80,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Fox_-_Idle1_367.npy",
+          "T": 69,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Fox_-_Idle2_361.npy",
+          "T": 119,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Fox_-_Idle3_370.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Fox_-_Idle3_371.npy",
+          "T": 99,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Fox_-_Idle4_362.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Fox_-_Idle4_363.npy",
+          "T": 49,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Fox_-_Idle5_365.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Fox_-_Idle5_366.npy",
+          "T": 150,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Fox_-_Idle_1_356.npy",
+          "T": 90,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Fox_-_Run_358.npy",
+          "T": 33,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Fox_-_Walk_368.npy",
+          "T": 69,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Gazelle": {
+      "combat": [
+        {
+          "fname": "Gazelle___Attack1_382.npy",
+          "T": 119,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Gazelle___Attack_377.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Gazelle___Fall_376.npy",
+          "T": 90,
+          "action": "fall",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Gazelle___Idle_374.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Gazelle___Walk_375.npy",
+          "T": 78,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Giantbee": {
+      "combat": [
+        {
+          "fname": "Giantbee___Attack2_388.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Giantbee___Attack3_383.npy",
+          "T": 104,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Giantbee___Attack4_387.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Giantbee___Attack_390.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Giantbee___Die2_391.npy",
+          "T": 110,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Giantbee___Die_384.npy",
+          "T": 110,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "fly": [
+        {
+          "fname": "Giantbee___Fly_386.npy",
+          "T": 78,
+          "action": "fly",
+          "cluster": "fly"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Giantbee___Idle2_389.npy",
+          "T": 39,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Giantbee___Idle_385.npy",
+          "T": 102,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "Goat": {
+      "combat": [
+        {
+          "fname": "Goat___Attack_397.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Goat___HeadButt2_400.npy",
+          "T": 78,
+          "action": "headbutt",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Goat___HeadButt_395.npy",
+          "T": 78,
+          "action": "headbutt",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Goat___HoofScrape_398.npy",
+          "T": 150,
+          "action": "hoofscrape",
+          "cluster": "combat"
+        }
+      ],
+      "reaction": [
+        {
+          "fname": "Goat___Bleat_396.npy",
+          "T": 68,
+          "action": "bleat",
+          "cluster": "reaction"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Goat___Die_392.npy",
+          "T": 80,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Goat___Idle_393.npy",
+          "T": 119,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Goat___Run_399.npy",
+          "T": 35,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Goat___Walk_394.npy",
+          "T": 71,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Hamster": {
+      "idle": [
+        {
+          "fname": "Hamster___Idle_402.npy",
+          "T": 129,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Hamster___Sniff_406.npy",
+          "T": 199,
+          "action": "sniff",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Hamster___Sniff_407.npy",
+          "T": 100,
+          "action": "sniff",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Hamster___Walk_403.npy",
+          "T": 48,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "HermitCrab": {
+      "death": [
+        {
+          "fname": "HermitCrab___Die_410.npy",
+          "T": 84,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "HermitCrab___KnockedBack_417.npy",
+          "T": 84,
+          "action": "knockedback",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "HermitCrab___Eat_418.npy",
+          "T": 200,
+          "action": "eat",
+          "cluster": "idle"
+        },
+        {
+          "fname": "HermitCrab___Sleep_419.npy",
+          "T": 219,
+          "action": "sleep",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "HermitCrab___Slowwalk_408.npy",
+          "T": 99,
+          "action": "slowwalk",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "HermitCrab___Walk_412.npy",
+          "T": 30,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ],
+      "reaction": [
+        {
+          "fname": "HermitCrab___Take_001_411.npy",
+          "T": 150,
+          "action": "take",
+          "cluster": "reaction"
+        }
+      ]
+    },
+    "Hippopotamus": {
+      "combat": [
+        {
+          "fname": "Hippopotamus___Attack2_427.npy",
+          "T": 99,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Hippopotamus___Attack3_421.npy",
+          "T": 150,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Hippopotamus___Attack4_425.npy",
+          "T": 120,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Hippopotamus___Attack_429.npy",
+          "T": 99,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Hippopotamus___Die_422.npy",
+          "T": 150,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Hippopotamus___Idle2_428.npy",
+          "T": 89,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Hippopotamus___Idle_423.npy",
+          "T": 120,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Hippopotamus___Yawn_426.npy",
+          "T": 180,
+          "action": "yawn",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Hippopotamus___Run_430.npy",
+          "T": 39,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Hippopotamus___Walk_424.npy",
+          "T": 80,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Horse": {
+      "combat": [
+        {
+          "fname": "Horse___Attack_453.npy",
+          "T": 144,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Horse___HoofScrape2_442.npy",
+          "T": 120,
+          "action": "hoofscrape",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Horse___HoofScrape_454.npy",
+          "T": 199,
+          "action": "hoofscrape",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Horse___HoofScrape_455.npy",
+          "T": 44,
+          "action": "hoofscrape",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Horse___Rearing2_437.npy",
+          "T": 120,
+          "action": "rearing",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Horse___Rearing_445.npy",
+          "T": 93,
+          "action": "rearing",
+          "cluster": "combat"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Horse___BackUp_452.npy",
+          "T": 39,
+          "action": "backup",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Horse___RunLoop_436.npy",
+          "T": 30,
+          "action": "runloop",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Horse___SlowWalk_432.npy",
+          "T": 84,
+          "action": "slowwalk",
+          "cluster": "locomotion"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Horse___Dying_456.npy",
+          "T": 167,
+          "action": "dying",
+          "cluster": "death"
+        },
+        {
+          "fname": "Horse___KnockedBack_450.npy",
+          "T": 30,
+          "action": "knockedback",
+          "cluster": "death"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "Horse___GetUp_440.npy",
+          "T": 54,
+          "action": "getup",
+          "cluster": "jump"
+        },
+        {
+          "fname": "Horse___Jumping_446.npy",
+          "T": 99,
+          "action": "jumping",
+          "cluster": "jump"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Horse___Idle3_433.npy",
+          "T": 120,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Horse___Idle_434.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Horse___Idle_435.npy",
+          "T": 60,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Horse___Restless2_439.npy",
+          "T": 209,
+          "action": "restless",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Horse___Restless3_441.npy",
+          "T": 200,
+          "action": "restless",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Horse___Restless_447.npy",
+          "T": 104,
+          "action": "restless",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Horse___SlowIdle_443.npy",
+          "T": 99,
+          "action": "slowidle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "Hound": {
+      "combat": [
+        {
+          "fname": "Hound___Attack_471.npy",
+          "T": 74,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Hound___Hit_474.npy",
+          "T": 30,
+          "action": "hit",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Hound___Ready2_469.npy",
+          "T": 69,
+          "action": "ready",
+          "cluster": "combat"
+        }
+      ],
+      "reaction": [
+        {
+          "fname": "Hound___Bark1_472.npy",
+          "T": 74,
+          "action": "bark",
+          "cluster": "reaction"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Hound___DieLoop_467.npy",
+          "T": 59,
+          "action": "dieloop",
+          "cluster": "death"
+        },
+        {
+          "fname": "Hound___Die_462.npy",
+          "T": 140,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "Hound___GetUp_466.npy",
+          "T": 60,
+          "action": "getup",
+          "cluster": "jump"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Hound___Idle_463.npy",
+          "T": 119,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Hound___Restless_468.npy",
+          "T": 200,
+          "action": "restless",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Hound___Sniff_473.npy",
+          "T": 120,
+          "action": "sniff",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Hound___RunLoop_464.npy",
+          "T": 30,
+          "action": "runloop",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Hound___WalkLoop_465.npy",
+          "T": 78,
+          "action": "walkloop",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Isopetra": {
+      "combat": [
+        {
+          "fname": "Isopetra___Attack2_480.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Isopetra___Attack3_475.npy",
+          "T": 107,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Isopetra___Attack_482.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Isopetra___Die_477.npy",
+          "T": 120,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Isopetra___Idle2_481.npy",
+          "T": 99,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Isopetra___Idle3_476.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Isopetra___Idle_478.npy",
+          "T": 48,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Isopetra___Run_483.npy",
+          "T": 30,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Isopetra___Walk_479.npy",
+          "T": 50,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Jaguar": {
+      "combat": [
+        {
+          "fname": "Jaguar___Attack1_496.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Jaguar___Attack2_491.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Jaguar___Attack_492.npy",
+          "T": 116,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Jaguar___Die1_490.npy",
+          "T": 105,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Jaguar___Die2_495.npy",
+          "T": 30,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "Jaguar___GetUp_486.npy",
+          "T": 60,
+          "action": "getup",
+          "cluster": "jump"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Jaguar___Idle_484.npy",
+          "T": 119,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Jaguar___Sit_487.npy",
+          "T": 199,
+          "action": "sit",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Jaguar___Sit_488.npy",
+          "T": 100,
+          "action": "sit",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Jaguar___Run_493.npy",
+          "T": 33,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Jaguar___Walk_485.npy",
+          "T": 60,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "KingCobra": {
+      "combat": [
+        {
+          "fname": "KingCobra___Attack2_503.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "KingCobra___Attack_504.npy",
+          "T": 144,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "KingCobra___Bite_506.npy",
+          "T": 71,
+          "action": "bite",
+          "cluster": "combat"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "KingCobra___GetUp_501.npy",
+          "T": 99,
+          "action": "getup",
+          "cluster": "jump"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "KingCobra___IdleLoop_498.npy",
+          "T": 199,
+          "action": "idleloop",
+          "cluster": "idle"
+        },
+        {
+          "fname": "KingCobra___IdleLoop_499.npy",
+          "T": 80,
+          "action": "idleloop",
+          "cluster": "idle"
+        },
+        {
+          "fname": "KingCobra___Idle_500.npy",
+          "T": 99,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "Leapord": {
+      "combat": [
+        {
+          "fname": "Leapord___Attack_517.npy",
+          "T": 81,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Leapord___Bite_521.npy",
+          "T": 81,
+          "action": "bite",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Leapord___Growl_516.npy",
+          "T": 89,
+          "action": "growl",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Leapord___Death_519.npy",
+          "T": 30,
+          "action": "death",
+          "cluster": "death"
+        },
+        {
+          "fname": "Leapord___DieLoop_515.npy",
+          "T": 59,
+          "action": "dieloop",
+          "cluster": "death"
+        },
+        {
+          "fname": "Leapord___Die_508.npy",
+          "T": 110,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Leapord___Idle_509.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Leapord___Run_518.npy",
+          "T": 35,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Leapord___Walk_510.npy",
+          "T": 99,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Lion": {
+      "combat": [
+        {
+          "fname": "Lion___Attack1_536.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Lion___Attack_533.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Lion___Growl_528.npy",
+          "T": 78,
+          "action": "growl",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Lion___JumpBite_529.npy",
+          "T": 71,
+          "action": "jumpbite",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Lion___Die2_535.npy",
+          "T": 30,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Lion___Die_524.npy",
+          "T": 110,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "Lion___GetUp_526.npy",
+          "T": 59,
+          "action": "getup",
+          "cluster": "jump"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Lion___Run_534.npy",
+          "T": 39,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Lion___Walk_525.npy",
+          "T": 108,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Lion___SlowIdle_527.npy",
+          "T": 179,
+          "action": "slowidle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Lion___Sniff_538.npy",
+          "T": 138,
+          "action": "sniff",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Lion___Yawn_530.npy",
+          "T": 199,
+          "action": "yawn",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Lion___Yawn_531.npy",
+          "T": 79,
+          "action": "yawn",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "Lynx": {
+      "combat": [
+        {
+          "fname": "Lynx___Attack2_546.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Lynx___Attack3_539.npy",
+          "T": 78,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Lynx___Attack_548.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Lynx___Die2_551.npy",
+          "T": 30,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Lynx___DieLoop_545.npy",
+          "T": 59,
+          "action": "dieloop",
+          "cluster": "death"
+        },
+        {
+          "fname": "Lynx___Die_541.npy",
+          "T": 91,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Lynx___Idle2_547.npy",
+          "T": 120,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Lynx___Idle3_540.npy",
+          "T": 74,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Lynx___Idle4_552.npy",
+          "T": 108,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Lynx___Idle_542.npy",
+          "T": 159,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Lynx___Stand_544.npy",
+          "T": 60,
+          "action": "stand",
+          "cluster": "idle"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "Lynx___Jump_550.npy",
+          "T": 89,
+          "action": "jump",
+          "cluster": "jump"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Lynx___Run_549.npy",
+          "T": 32,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Lynx___Walk_543.npy",
+          "T": 89,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Mammoth": {
+      "death": [
+        {
+          "fname": "Mammoth___DeathLoop_559.npy",
+          "T": 59,
+          "action": "deathloop",
+          "cluster": "death"
+        },
+        {
+          "fname": "Mammoth___Die2_563.npy",
+          "T": 69,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Mammoth___Die_553.npy",
+          "T": 180,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "Mammoth___GetUp_555.npy",
+          "T": 99,
+          "action": "getup",
+          "cluster": "jump"
+        },
+        {
+          "fname": "Mammoth___Rise_558.npy",
+          "T": 120,
+          "action": "rise",
+          "cluster": "jump"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Mammoth___IDLE_560.npy",
+          "T": 159,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Mammoth___Idle2_561.npy",
+          "T": 149,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Mammoth___Run_562.npy",
+          "T": 89,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Mammoth___Walk_554.npy",
+          "T": 149,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Monkey": {
+      "combat": [
+        {
+          "fname": "Monkey___Attack1_579.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Monkey___Attack2_576.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Monkey___Attack3_566.npy",
+          "T": 120,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Monkey___Attack4_575.npy",
+          "T": 116,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Monkey___Die_569.npy",
+          "T": 110,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Monkey___Idle1_572.npy",
+          "T": 89,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Monkey___Idle2_577.npy",
+          "T": 120,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Monkey___Idle3_567.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Monkey___Idle3_568.npy",
+          "T": 100,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Monkey___Run_578.npy",
+          "T": 39,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Monkey___Walk_573.npy",
+          "T": 60,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Ostrich": {
+      "combat": [
+        {
+          "fname": "Ostrich___Attack2_588.npy",
+          "T": 69,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Ostrich___Attack3_581.npy",
+          "T": 99,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Ostrich___Attack4_587.npy",
+          "T": 93,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Ostrich___Attack_590.npy",
+          "T": 69,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Ostrich___Die_584.npy",
+          "T": 90,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Ostrich___Idle2_589.npy",
+          "T": 120,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Ostrich___Idle3_582.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Ostrich___Idle3_583.npy",
+          "T": 130,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Ostrich___Idle_585.npy",
+          "T": 89,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Ostrich___Run_591.npy",
+          "T": 39,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Ostrich___Walk_586.npy",
+          "T": 60,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Parrot2": {
+      "idle": [
+        {
+          "fname": "Parrot2_Parrot_Idle_609.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "takeoff": [
+        {
+          "fname": "Parrot2_Parrot_Land_606.npy",
+          "T": 199,
+          "action": "land",
+          "cluster": "takeoff"
+        },
+        {
+          "fname": "Parrot2_Parrot_Land_607.npy",
+          "T": 100,
+          "action": "land",
+          "cluster": "takeoff"
+        }
+      ]
+    },
+    "Parrot": {
+      "combat": [
+        {
+          "fname": "Parrot___Attack_602.npy",
+          "T": 180,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Parrot___Die2_603.npy",
+          "T": 77,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Parrot___Die3_598.npy",
+          "T": 84,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Parrot___Die_593.npy",
+          "T": 105,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Parrot___Idle2_600.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Parrot___Idle2_601.npy",
+          "T": 100,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Parrot___Idle_595.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "takeoff": [
+        {
+          "fname": "Parrot___Land_605.npy",
+          "T": 90,
+          "action": "land",
+          "cluster": "takeoff"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "Parrot___Rise_599.npy",
+          "T": 60,
+          "action": "rise",
+          "cluster": "jump"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Parrot___Walk_597.npy",
+          "T": 45,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Pigeon": {
+      "idle": [
+        {
+          "fname": "Pigeon___IdleLoop_611.npy",
+          "T": 199,
+          "action": "idleloop",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Pigeon___IdleLoop_612.npy",
+          "T": 100,
+          "action": "idleloop",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Pigeon___Idle_613.npy",
+          "T": 80,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "takeoff": [
+        {
+          "fname": "Pigeon___Land_621.npy",
+          "T": 65,
+          "action": "land",
+          "cluster": "takeoff"
+        }
+      ]
+    },
+    "Pirrana": {
+      "jump": [
+        {
+          "fname": "Pirrana___Jump2_625.npy",
+          "T": 99,
+          "action": "jump",
+          "cluster": "jump"
+        }
+      ],
+      "swim": [
+        {
+          "fname": "Pirrana___Swim_628.npy",
+          "T": 96,
+          "action": "swim",
+          "cluster": "swim"
+        }
+      ]
+    },
+    "PolarBearB": {
+      "death": [
+        {
+          "fname": "PolarBearB___Fall_647.npy",
+          "T": 83,
+          "action": "fall",
+          "cluster": "death"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "PolarBearB___GetUp_645.npy",
+          "T": 180,
+          "action": "getup",
+          "cluster": "jump"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "PolarBearB___Idle2_648.npy",
+          "T": 120,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "PolarBearB___Idle_643.npy",
+          "T": 89,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "PolarBearB___Run_649.npy",
+          "T": 41,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "PolarBearB___Walk_644.npy",
+          "T": 60,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "PolarBear": {
+      "combat": [
+        {
+          "fname": "PolarBear___Attack2_639.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "PolarBear___Attack3_633.npy",
+          "T": 149,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "PolarBear___Attack_641.npy",
+          "T": 99,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "PolarBear___Die_636.npy",
+          "T": 110,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "PolarBear___Idle2_640.npy",
+          "T": 180,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "PolarBear___Idle3_634.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "PolarBear___Idle3_635.npy",
+          "T": 100,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "PolarBear___Idle_637.npy",
+          "T": 78,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "PolarBear___Run_642.npy",
+          "T": 36,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "PolarBear___Walk_638.npy",
+          "T": 69,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Pteranodon": {
+      "death": [
+        {
+          "fname": "Pteranodon___Death2_658.npy",
+          "T": 90,
+          "action": "death",
+          "cluster": "death"
+        },
+        {
+          "fname": "Pteranodon___Death_656.npy",
+          "T": 90,
+          "action": "death",
+          "cluster": "death"
+        }
+      ],
+      "fly": [
+        {
+          "fname": "Pteranodon___FlyLoop_657.npy",
+          "T": 90,
+          "action": "flyloop",
+          "cluster": "fly"
+        }
+      ],
+      "combat": [
+        {
+          "fname": "Pteranodon___Hit2_655.npy",
+          "T": 90,
+          "action": "hit",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Pteranodon___Hit_661.npy",
+          "T": 90,
+          "action": "hit",
+          "cluster": "combat"
+        }
+      ],
+      "takeoff": [
+        {
+          "fname": "Pteranodon___Lander_651.npy",
+          "T": 90,
+          "action": "lander",
+          "cluster": "takeoff"
+        }
+      ]
+    },
+    "Puppy": {
+      "idle": [
+        {
+          "fname": "Puppy_Puppy_IdleEnergetic_666.npy",
+          "T": 199,
+          "action": "idleenergetic",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Puppy_Puppy_IdleEnergetic_667.npy",
+          "T": 199,
+          "action": "idleenergetic",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Puppy_Puppy_IdleEnergetic_668.npy",
+          "T": 100,
+          "action": "idleenergetic",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Puppy_Puppy_IdleLayDown_662.npy",
+          "T": 199,
+          "action": "idlelaydown",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Puppy_Puppy_IdleLayDown_663.npy",
+          "T": 199,
+          "action": "idlelaydown",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Puppy_Puppy_IdleLayDown_664.npy",
+          "T": 100,
+          "action": "idlelaydown",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Puppy_Puppy_Run_665.npy",
+          "T": 30,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Puppy_Puppy_Walk_669.npy",
+          "T": 69,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Raindeer": {
+      "combat": [
+        {
+          "fname": "Raindeer___Attack2_674.npy",
+          "T": 90,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Raindeer___Attack3_670.npy",
+          "T": 119,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Raindeer___Attack_676.npy",
+          "T": 90,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Raindeer___Die_671.npy",
+          "T": 90,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Raindeer___Idle_672.npy",
+          "T": 114,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Raindeer___Run_677.npy",
+          "T": 39,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Raindeer___Walk_673.npy",
+          "T": 60,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ],
+      "reaction": [
+        {
+          "fname": "Raindeer___Yell_678.npy",
+          "T": 210,
+          "action": "yell",
+          "cluster": "reaction"
+        }
+      ]
+    },
+    "Raptor2": {
+      "death": [
+        {
+          "fname": "Raptor2___Die_701.npy",
+          "T": 87,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "Raptor2___Fall_714.npy",
+          "T": 141,
+          "action": "fall",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Raptor2___Eat_717.npy",
+          "T": 66,
+          "action": "eat",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor2___Idle_702.npy",
+          "T": 225,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Raptor2___Run_719.npy",
+          "T": 60,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Raptor2___Walk_706.npy",
+          "T": 144,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Raptor3": {
+      "combat": [
+        {
+          "fname": "Raptor3___AttackRight_736.npy",
+          "T": 111,
+          "action": "attackright",
+          "cluster": "combat"
+        }
+      ],
+      "reaction": [
+        {
+          "fname": "Raptor3___Yell_742.npy",
+          "T": 111,
+          "action": "yell",
+          "cluster": "reaction"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Raptor3___run_743.npy",
+          "T": 111,
+          "action": "run",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Raptor": {
+      "combat": [
+        {
+          "fname": "Raptor___Attack_689.npy",
+          "T": 78,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Raptor___Roar_691.npy",
+          "T": 138,
+          "action": "roar",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Raptor___Die_680.npy",
+          "T": 99,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Raptor___Idle2_688.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Idle_681.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Idle_682.npy",
+          "T": 73,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Yawn_686.npy",
+          "T": 199,
+          "action": "yawn",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Raptor___Yawn_687.npy",
+          "T": 100,
+          "action": "yawn",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Raptor___SlowWalk_679.npy",
+          "T": 78,
+          "action": "slowwalk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Rat": {
+      "idle": [
+        {
+          "fname": "Rat___Eat_749.npy",
+          "T": 132,
+          "action": "eat",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "Rhino": {
+      "combat": [
+        {
+          "fname": "Rhino___Attack2_756.npy",
+          "T": 78,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Rhino___Attack3_751.npy",
+          "T": 129,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Rhino___Attack_758.npy",
+          "T": 78,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Rhino___Die_754.npy",
+          "T": 159,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Rhino___Idle2_757.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Rhino___Idle3_752.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Rhino___Idle3_753.npy",
+          "T": 100,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Rhino___idle_759.npy",
+          "T": 138,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Rhino___Run_760.npy",
+          "T": 48,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Rhino___Walk_755.npy",
+          "T": 80,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Roach": {
+      "idle": [
+        {
+          "fname": "Roach___Shake_770.npy",
+          "T": 30,
+          "action": "shake",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "SabreToothTiger": {
+      "agitated": [
+        {
+          "fname": "SabreToothTiger___Agitated_773.npy",
+          "T": 45,
+          "action": "agitated",
+          "cluster": "agitated"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "SabreToothTiger___BackUp_798.npy",
+          "T": 49,
+          "action": "backup",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "SabreToothTiger___Trot_814.npy",
+          "T": 34,
+          "action": "trot",
+          "cluster": "locomotion"
+        }
+      ],
+      "combat": [
+        {
+          "fname": "SabreToothTiger___Bite_807.npy",
+          "T": 110,
+          "action": "bite",
+          "cluster": "combat"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "SabreToothTiger___GetUp2_805.npy",
+          "T": 30,
+          "action": "getup",
+          "cluster": "jump"
+        },
+        {
+          "fname": "SabreToothTiger___GetUp_784.npy",
+          "T": 34,
+          "action": "getup",
+          "cluster": "jump"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "SabreToothTiger___Sit_786.npy",
+          "T": 30,
+          "action": "sit",
+          "cluster": "idle"
+        }
+      ],
+      "swim": [
+        {
+          "fname": "SabreToothTiger___Swim_795.npy",
+          "T": 41,
+          "action": "swim",
+          "cluster": "swim"
+        }
+      ]
+    },
+    "SandMouse": {
+      "combat": [
+        {
+          "fname": "SandMouse___Attack2_824.npy",
+          "T": 90,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "SandMouse___Attack_826.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "SandMouse___Die2_828.npy",
+          "T": 77,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "SandMouse___Die3_823.npy",
+          "T": 99,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "SandMouse___Die_818.npy",
+          "T": 92,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "SandMouse___Idle2_825.npy",
+          "T": 219,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "SandMouse___Idle3_817.npy",
+          "T": 189,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "SandMouse___Idle4_829.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "SandMouse___Idle4_830.npy",
+          "T": 100,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "SandMouse___Idle_819.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "SandMouse___Idle_820.npy",
+          "T": 121,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "SandMouse___Walk_821.npy",
+          "T": 48,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Scorpion-2": {
+      "locomotion": [
+        {
+          "fname": "Scorpion-2___Back_Up_876.npy",
+          "T": 54,
+          "action": "backup",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Scorpion-2___Walk_Forward_853.npy",
+          "T": 54,
+          "action": "walkforward",
+          "cluster": "locomotion"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Scorpion-2___Death_2_885.npy",
+          "T": 183,
+          "action": "death",
+          "cluster": "death"
+        },
+        {
+          "fname": "Scorpion-2___Death_871.npy",
+          "T": 199,
+          "action": "death",
+          "cluster": "death"
+        },
+        {
+          "fname": "Scorpion-2___Death_872.npy",
+          "T": 145,
+          "action": "death",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Scorpion-2___Idle_850.npy",
+          "T": 90,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Scorpion-2___Slow_Idle_877.npy",
+          "T": 96,
+          "action": "slowidle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "Scorpion": {
+      "combat": [
+        {
+          "fname": "Scorpion___Attack1_841.npy",
+          "T": 45,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Scorpion___BackUp_839.npy",
+          "T": 39,
+          "action": "backup",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Scorpion___TurnLeft_838.npy",
+          "T": 30,
+          "action": "turnleft",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Scorpion___TurnRight_842.npy",
+          "T": 30,
+          "action": "turnright",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Scorpion___WalkForward_836.npy",
+          "T": 37,
+          "action": "walkforward",
+          "cluster": "locomotion"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Scorpion___IdleLoop_834.npy",
+          "T": 100,
+          "action": "idleloop",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "Skunk": {
+      "death": [
+        {
+          "fname": "Skunk___Die_887.npy",
+          "T": 84,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Skunk___Idle2_891.npy",
+          "T": 119,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Skunk___Idle3_886.npy",
+          "T": 180,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Skunk___Idle_888.npy",
+          "T": 78,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Skunk___Walk_889.npy",
+          "T": 60,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "SpiderG": {
+      "combat": [
+        {
+          "fname": "SpiderG___Attack2_939.npy",
+          "T": 119,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "SpiderG___Attack3_926.npy",
+          "T": 179,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "SpiderG___Attack4_937.npy",
+          "T": 159,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "SpiderG___Attack5_933.npy",
+          "T": 194,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "SpiderG___Attack6_934.npy",
+          "T": 174,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "SpiderG___Attack7_941.npy",
+          "T": 139,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "SpiderG___Attack_942.npy",
+          "T": 119,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "SpiderG___Die_930.npy",
+          "T": 199,
+          "action": "die",
+          "cluster": "death"
+        },
+        {
+          "fname": "SpiderG___Die_931.npy",
+          "T": 73,
+          "action": "die",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "SpiderG___Idle2_940.npy",
+          "T": 198,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "SpiderG___Idle3_928.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "SpiderG___Idle3_929.npy",
+          "T": 40,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "SpiderG___Idle_932.npy",
+          "T": 78,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "SpiderG___Run_943.npy",
+          "T": 39,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "SpiderG___Walk_935.npy",
+          "T": 90,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Spider": {
+      "combat": [
+        {
+          "fname": "Spider___Attack1_916.npy",
+          "T": 30,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack2_907.npy",
+          "T": 44,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack4_903.npy",
+          "T": 44,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attack5_894.npy",
+          "T": 48,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___AttackLeft_925.npy",
+          "T": 35,
+          "action": "attackleft",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Attackright_921.npy",
+          "T": 35,
+          "action": "attackright",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Spider___Rearing_904.npy",
+          "T": 50,
+          "action": "rearing",
+          "cluster": "combat"
+        }
+      ],
+      "jump": [
+        {
+          "fname": "Spider___Jump_913.npy",
+          "T": 44,
+          "action": "jump",
+          "cluster": "jump"
+        },
+        {
+          "fname": "Spider___Rising_897.npy",
+          "T": 30,
+          "action": "rising",
+          "cluster": "jump"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Spider___SlowIdle_900.npy",
+          "T": 150,
+          "action": "slowidle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Spider___walkleft_908.npy",
+          "T": 30,
+          "action": "walkleft",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Spider___walkloop_895.npy",
+          "T": 30,
+          "action": "walkloop",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Stego": {
+      "combat": [
+        {
+          "fname": "Stego___Attack2_951.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Stego___Attack3_947.npy",
+          "T": 110,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Stego___Attack_953.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Stego___TailWhip_955.npy",
+          "T": 140,
+          "action": "tailwhip",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Stego___Fall_950.npy",
+          "T": 150,
+          "action": "fall",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Stego___Idle2_952.npy",
+          "T": 150,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Stego___Idle_949.npy",
+          "T": 89,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Stego___Shake_956.npy",
+          "T": 200,
+          "action": "shake",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Stego___Run_954.npy",
+          "T": 59,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Stego___Slowwalk_948.npy",
+          "T": 120,
+          "action": "slowwalk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Trex": {
+      "combat": [
+        {
+          "fname": "Trex___ROAR_1028.npy",
+          "T": 129,
+          "action": "roar",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Trex___hit_head_1_992.npy",
+          "T": 150,
+          "action": "hithead",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Trex___hit_head_2_1003.npy",
+          "T": 63,
+          "action": "hithead",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Trex___hit_head_3_1009.npy",
+          "T": 63,
+          "action": "hithead",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Trex___death_961.npy",
+          "T": 39,
+          "action": "death",
+          "cluster": "death"
+        },
+        {
+          "fname": "Trex___long_death_1000.npy",
+          "T": 155,
+          "action": "longdeath",
+          "cluster": "death"
+        },
+        {
+          "fname": "Trex___long_death_998.npy",
+          "T": 199,
+          "action": "longdeath",
+          "cluster": "death"
+        },
+        {
+          "fname": "Trex___long_death_999.npy",
+          "T": 199,
+          "action": "longdeath",
+          "cluster": "death"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Trex___walk_loop_1005.npy",
+          "T": 96,
+          "action": "walkloop",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Tricera": {
+      "combat": [
+        {
+          "fname": "Tricera___Attack2_1039.npy",
+          "T": 99,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Tricera___Attack3_1033.npy",
+          "T": 129,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Tricera___Attack4_1036.npy",
+          "T": 120,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Tricera___Attack_1040.npy",
+          "T": 84,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Tricera___Fall_1038.npy",
+          "T": 150,
+          "action": "fall",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Tricera___Idle_1034.npy",
+          "T": 108,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Tricera___Run_1041.npy",
+          "T": 60,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Tricera___Walk_1035.npy",
+          "T": 129,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Tukan": {
+      "fly": [
+        {
+          "fname": "Tukan___Fly_1043.npy",
+          "T": 45,
+          "action": "fly",
+          "cluster": "fly"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Tukan___Shake_1049.npy",
+          "T": 48,
+          "action": "shake",
+          "cluster": "idle"
+        }
+      ]
+    },
+    "Turtle": {
+      "combat": [
+        {
+          "fname": "Turtle___Attack2_1056.npy",
+          "T": 159,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Turtle___Attack3_1050.npy",
+          "T": 180,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Turtle___Attack_1059.npy",
+          "T": 90,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Turtle___Idle2_1058.npy",
+          "T": 159,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Turtle___Idle_1052.npy",
+          "T": 99,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Turtle___Yawn_1054.npy",
+          "T": 199,
+          "action": "yawn",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Turtle___Yawn_1055.npy",
+          "T": 99,
+          "action": "yawn",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Turtle___Run_1060.npy",
+          "T": 48,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Turtle___Walk_1053.npy",
+          "T": 119,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    },
+    "Tyranno": {
+      "combat": [
+        {
+          "fname": "Tyranno___Attack2_1065.npy",
+          "T": 75,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Tyranno___Attack_1067.npy",
+          "T": 80,
+          "action": "attack",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Tyranno___HeadButt_1063.npy",
+          "T": 90,
+          "action": "headbutt",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Tyranno___Roar_1070.npy",
+          "T": 150,
+          "action": "roar",
+          "cluster": "combat"
+        },
+        {
+          "fname": "Tyranno___TailWhip_1069.npy",
+          "T": 90,
+          "action": "tailwhip",
+          "cluster": "combat"
+        }
+      ],
+      "death": [
+        {
+          "fname": "Tyranno___Fall_1064.npy",
+          "T": 75,
+          "action": "fall",
+          "cluster": "death"
+        }
+      ],
+      "idle": [
+        {
+          "fname": "Tyranno___Idle2_1066.npy",
+          "T": 90,
+          "action": "idle",
+          "cluster": "idle"
+        },
+        {
+          "fname": "Tyranno___Idle_1061.npy",
+          "T": 90,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ],
+      "locomotion": [
+        {
+          "fname": "Tyranno___Run_1068.npy",
+          "T": 75,
+          "action": "run",
+          "cluster": "locomotion"
+        },
+        {
+          "fname": "Tyranno___Walk_1062.npy",
+          "T": 144,
+          "action": "walk",
+          "cluster": "locomotion"
+        }
+      ]
+    }
+  },
+  "skel_stats": {
+    "Alligator": {
+      "n_clips": 18,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "locomotion",
+        "idle"
+      ]
+    },
+    "Anaconda": {
+      "n_clips": 15,
+      "n_clusters": 6,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "jump",
+        "locomotion",
+        "agitated"
+      ]
+    },
+    "Ant": {
+      "n_clips": 15,
+      "n_clusters": 5,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "jump",
+        "locomotion"
+      ]
+    },
+    "Bat": {
+      "n_clips": 5,
+      "n_clusters": 3,
+      "clusters": [
+        "fly",
+        "death",
+        "locomotion"
+      ]
+    },
+    "Bear": {
+      "n_clips": 11,
+      "n_clusters": 4,
+      "clusters": [
+        "locomotion",
+        "jump",
+        "combat",
+        "idle"
+      ]
+    },
+    "Bird": {
+      "n_clips": 12,
+      "n_clusters": 5,
+      "clusters": [
+        "combat",
+        "takeoff",
+        "death",
+        "fly",
+        "idle"
+      ]
+    },
+    "BrownBear": {
+      "n_clips": 14,
+      "n_clusters": 5,
+      "clusters": [
+        "combat",
+        "locomotion",
+        "death",
+        "idle",
+        "jump"
+      ]
+    },
+    "Buffalo": {
+      "n_clips": 15,
+      "n_clusters": 5,
+      "clusters": [
+        "combat",
+        "idle",
+        "death",
+        "jump",
+        "locomotion"
+      ]
+    },
+    "Buzzard": {
+      "n_clips": 7,
+      "n_clusters": 3,
+      "clusters": [
+        "combat",
+        "death",
+        "fly"
+      ]
+    },
+    "Camel": {
+      "n_clips": 10,
+      "n_clusters": 6,
+      "clusters": [
+        "combat",
+        "takeoff",
+        "death",
+        "idle",
+        "locomotion",
+        "reaction"
+      ]
+    },
+    "Cat": {
+      "n_clips": 10,
+      "n_clusters": 2,
+      "clusters": [
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Centipede": {
+      "n_clips": 10,
+      "n_clusters": 5,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion",
+        "reaction"
+      ]
+    },
+    "Chicken": {
+      "n_clips": 1,
+      "n_clusters": 1,
+      "clusters": [
+        "locomotion"
+      ]
+    },
+    "Comodoa": {
+      "n_clips": 11,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Coyote": {
+      "n_clips": 7,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Crab": {
+      "n_clips": 6,
+      "n_clusters": 3,
+      "clusters": [
+        "combat",
+        "death",
+        "idle"
+      ]
+    },
+    "Cricket": {
+      "n_clips": 6,
+      "n_clusters": 3,
+      "clusters": [
+        "combat",
+        "death",
+        "idle"
+      ]
+    },
+    "Crocodile": {
+      "n_clips": 7,
+      "n_clusters": 5,
+      "clusters": [
+        "combat",
+        "death",
+        "jump",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Deer": {
+      "n_clips": 10,
+      "n_clusters": 5,
+      "clusters": [
+        "reaction",
+        "locomotion",
+        "jump",
+        "idle",
+        "takeoff"
+      ]
+    },
+    "Dragon": {
+      "n_clips": 13,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "fly",
+        "idle"
+      ]
+    },
+    "Eagle": {
+      "n_clips": 6,
+      "n_clusters": 4,
+      "clusters": [
+        "fly",
+        "takeoff",
+        "death",
+        "combat"
+      ]
+    },
+    "Elephant": {
+      "n_clips": 10,
+      "n_clusters": 6,
+      "clusters": [
+        "combat",
+        "death",
+        "takeoff",
+        "idle",
+        "locomotion",
+        "reaction"
+      ]
+    },
+    "FireAnt": {
+      "n_clips": 8,
+      "n_clusters": 4,
+      "clusters": [
+        "locomotion",
+        "combat",
+        "idle",
+        "jump"
+      ]
+    },
+    "Flamingo": {
+      "n_clips": 2,
+      "n_clusters": 2,
+      "clusters": [
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Fox": {
+      "n_clips": 17,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Gazelle": {
+      "n_clips": 5,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Giantbee": {
+      "n_clips": 9,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "fly",
+        "idle"
+      ]
+    },
+    "Goat": {
+      "n_clips": 9,
+      "n_clusters": 5,
+      "clusters": [
+        "combat",
+        "reaction",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Hamster": {
+      "n_clips": 4,
+      "n_clusters": 2,
+      "clusters": [
+        "idle",
+        "locomotion"
+      ]
+    },
+    "HermitCrab": {
+      "n_clips": 7,
+      "n_clusters": 4,
+      "clusters": [
+        "death",
+        "idle",
+        "locomotion",
+        "reaction"
+      ]
+    },
+    "Hippopotamus": {
+      "n_clips": 10,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Horse": {
+      "n_clips": 20,
+      "n_clusters": 5,
+      "clusters": [
+        "combat",
+        "locomotion",
+        "death",
+        "jump",
+        "idle"
+      ]
+    },
+    "Hound": {
+      "n_clips": 12,
+      "n_clusters": 6,
+      "clusters": [
+        "combat",
+        "reaction",
+        "death",
+        "jump",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Isopetra": {
+      "n_clips": 9,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Jaguar": {
+      "n_clips": 11,
+      "n_clusters": 5,
+      "clusters": [
+        "combat",
+        "death",
+        "jump",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "KingCobra": {
+      "n_clips": 7,
+      "n_clusters": 3,
+      "clusters": [
+        "combat",
+        "jump",
+        "idle"
+      ]
+    },
+    "Leapord": {
+      "n_clips": 9,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Lion": {
+      "n_clips": 13,
+      "n_clusters": 5,
+      "clusters": [
+        "combat",
+        "death",
+        "jump",
+        "locomotion",
+        "idle"
+      ]
+    },
+    "Lynx": {
+      "n_clips": 14,
+      "n_clusters": 5,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "jump",
+        "locomotion"
+      ]
+    },
+    "Mammoth": {
+      "n_clips": 9,
+      "n_clusters": 4,
+      "clusters": [
+        "death",
+        "jump",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Monkey": {
+      "n_clips": 11,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Ostrich": {
+      "n_clips": 11,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Parrot": {
+      "n_clips": 10,
+      "n_clusters": 6,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "takeoff",
+        "jump",
+        "locomotion"
+      ]
+    },
+    "Parrot2": {
+      "n_clips": 3,
+      "n_clusters": 2,
+      "clusters": [
+        "idle",
+        "takeoff"
+      ]
+    },
+    "Pigeon": {
+      "n_clips": 4,
+      "n_clusters": 2,
+      "clusters": [
+        "idle",
+        "takeoff"
+      ]
+    },
+    "Pirrana": {
+      "n_clips": 2,
+      "n_clusters": 2,
+      "clusters": [
+        "jump",
+        "swim"
+      ]
+    },
+    "PolarBear": {
+      "n_clips": 10,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "PolarBearB": {
+      "n_clips": 6,
+      "n_clusters": 4,
+      "clusters": [
+        "death",
+        "jump",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Pteranodon": {
+      "n_clips": 6,
+      "n_clusters": 4,
+      "clusters": [
+        "death",
+        "fly",
+        "combat",
+        "takeoff"
+      ]
+    },
+    "Puppy": {
+      "n_clips": 8,
+      "n_clusters": 2,
+      "clusters": [
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Raindeer": {
+      "n_clips": 8,
+      "n_clusters": 5,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion",
+        "reaction"
+      ]
+    },
+    "Raptor": {
+      "n_clips": 9,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Raptor2": {
+      "n_clips": 6,
+      "n_clusters": 3,
+      "clusters": [
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Raptor3": {
+      "n_clips": 3,
+      "n_clusters": 3,
+      "clusters": [
+        "combat",
+        "reaction",
+        "locomotion"
+      ]
+    },
+    "Rat": {
+      "n_clips": 1,
+      "n_clusters": 1,
+      "clusters": [
+        "idle"
+      ]
+    },
+    "Rhino": {
+      "n_clips": 10,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Roach": {
+      "n_clips": 1,
+      "n_clusters": 1,
+      "clusters": [
+        "idle"
+      ]
+    },
+    "SabreToothTiger": {
+      "n_clips": 8,
+      "n_clusters": 6,
+      "clusters": [
+        "agitated",
+        "locomotion",
+        "combat",
+        "jump",
+        "idle",
+        "swim"
+      ]
+    },
+    "SandMouse": {
+      "n_clips": 12,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Scorpion": {
+      "n_clips": 6,
+      "n_clusters": 3,
+      "clusters": [
+        "combat",
+        "locomotion",
+        "idle"
+      ]
+    },
+    "Scorpion-2": {
+      "n_clips": 7,
+      "n_clusters": 3,
+      "clusters": [
+        "locomotion",
+        "death",
+        "idle"
+      ]
+    },
+    "Skunk": {
+      "n_clips": 5,
+      "n_clusters": 3,
+      "clusters": [
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Spider": {
+      "n_clips": 12,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "jump",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "SpiderG": {
+      "n_clips": 15,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Stego": {
+      "n_clips": 10,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Trex": {
+      "n_clips": 9,
+      "n_clusters": 3,
+      "clusters": [
+        "combat",
+        "death",
+        "locomotion"
+      ]
+    },
+    "Tricera": {
+      "n_clips": 8,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Tukan": {
+      "n_clips": 2,
+      "n_clusters": 2,
+      "clusters": [
+        "fly",
+        "idle"
+      ]
+    },
+    "Turtle": {
+      "n_clips": 9,
+      "n_clusters": 3,
+      "clusters": [
+        "combat",
+        "idle",
+        "locomotion"
+      ]
+    },
+    "Tyranno": {
+      "n_clips": 10,
+      "n_clusters": 4,
+      "clusters": [
+        "combat",
+        "death",
+        "idle",
+        "locomotion"
+      ]
+    }
+  },
+  "cluster_coverage": {
+    "combat": 51,
+    "death": 50,
+    "locomotion": 55,
+    "idle": 62,
+    "jump": 20,
+    "agitated": 2,
+    "fly": 8,
+    "takeoff": 9,
+    "reaction": 9,
+    "swim": 2
+  },
+  "meta": {
+    "min_frames": 30,
+    "n_kept": 616,
+    "n_dropped_other": 402,
+    "n_dropped_short": 52,
+    "n_dropped_no_skel": 0
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "r32_extension": "per-method maximal-support + LOMO + paired significance + pair-count distribution",
+  "date": "2026-04-27",
+  "max_support": {
+    "AL-Flow": {
+      "n": 45,
+      "rho": -0.0658124624667943,
+      "R": 0.15738396259764187
+    },
+    "AL-Flow-Src": {
+      "n": 38,
+      "rho": 0.06993430955159219,
+      "R": 0.21885607162908646
+    },
+    "AL-Flow-Src-G": {
+      "n": 49,
+      "rho": -0.028281411536505197,
+      "R": 0.181266369942572
+    },
+    "AnyTop": {
+      "n": 49,
+      "rho": -0.03348998188221367,
+      "R": 3.009703793858774
+    },
+    "MoReFlow-T": {
+      "n": 49,
+      "rho": 0.20276264095779492,
+      "R": 0.5646874751549541
+    },
+    "MoReFlow-I": {
+      "n": 49,
+      "rho": 0.13733008840645647,
+      "R": 0.5642711693222299
+    },
+    "ACE-T": {
+      "n": 49,
+      "rho": 0.3849953774216738,
+      "R": 14.938439550734847
+    },
+    "ACE-I": {
+      "n": 49,
+      "rho": 0.4839277572508905,
+      "R": 0.11007789782447946
+    },
+    "M2M-Direct": {
+      "n": 49,
+      "rho": 0.05285892779131256,
+      "R": 2.4150761072187024
+    },
+    "M2M-BVH": {
+      "n": 49,
+      "rho": -0.08469529323229479,
+      "R": 1.312791268199563
+    },
+    "DPG-SB-v3": {
+      "n": 49,
+      "rho": -0.05775914273537949,
+      "R": 0.5769589065551357
+    },
+    "ANCHOR": {
+      "n": 49,
+      "rho": 0.013792973871546035,
+      "R": 0.17317874071911232
+    },
+    "rsc": {
+      "n": 48,
+      "rho": 0.07262804979614289,
+      "R": 0.8292279378368832
+    },
+    "rsa": {
+      "n": 48,
+      "rho": 0.09613168613820888,
+      "R": 0.36376076376920796
+    }
+  },
+  "lomo_sensitivity": [
+    {
+      "drop": "AL-Flow",
+      "intersection_size": 37,
+      "gain": 0
+    },
+    {
+      "drop": "AL-Flow-Src",
+      "intersection_size": 43,
+      "gain": 6
+    },
+    {
+      "drop": "AL-Flow-Src-G",
+      "intersection_size": 37,
+      "gain": 0
+    },
+    {
+      "drop": "AnyTop",
+      "intersection_size": 37,
+      "gain": 0
+    },
+    {
+      "drop": "MoReFlow-T",
+      "intersection_size": 37,
+      "gain": 0
+    },
+    {
+      "drop": "MoReFlow-I",
+      "intersection_size": 37,
+      "gain": 0
+    },
+    {
+      "drop": "ACE-T",
+      "intersection_size": 37,
+      "gain": 0
+    },
+    {
+      "drop": "ACE-I",
+      "intersection_size": 37,
+      "gain": 0
+    },
+    {
+      "drop": "M2M-Direct",
+      "intersection_size": 37,
+      "gain": 0
+    },
+    {
+      "drop": "M2M-BVH",
+      "intersection_size": 37,
+      "gain": 0
+    },
+    {
+      "drop": "DPG-SB-v3",
+      "intersection_size": 37,
+      "gain": 0
+    },
+    {
+      "drop": "ANCHOR",
+      "intersection_size": 37,
+      "gain": 0
+    },
+    {
+      "drop": "rsc",
+      "intersection_size": 37,
+      "gain": 0
+    },
+    {
+      "drop": "rsa",
+      "intersection_size": 38,
+      "gain": 1
+    }
+  ],
+  "baseline_intersection_size": 37,
+  "paired_significance_ace_i_vs_rsa": {
+    "n_common_triples": 37,
+    "ace_i_mean_rho": 0.5256433364132754,
+    "rsa_mean_rho": 0.18545230716864944,
+    "mean_paired_diff": 0.34019102924462596,
+    "wilcoxon_pvalue": 0.004345666777226143,
+    "bootstrap_ci_diff": [
+      0.12728136741069862,
+      0.5412729749658609
+    ],
+    "ci_excludes_zero": true
+  },
+  "paired_significance_ace_t_vs_rsa": {
+    "n_common_triples": 37,
+    "mean_paired_diff": 0.267783988867091,
+    "wilcoxon_pvalue": 0.00794298057735432,
+    "bootstrap_ci_diff": [
+      0.04299256376747538,
+      0.4750530355536375
+    ]
+  },
+  "pair_count_distribution": {
+    "AL-Flow": {
+      "min": 3,
+      "median": 3,
+      "max": 5,
+      "sum": 158,
+      "n_triples": 45
+    },
+    "AL-Flow-Src": {
+      "min": 3,
+      "median": 3,
+      "max": 5,
+      "sum": 133,
+      "n_triples": 38
+    },
+    "AL-Flow-Src-G": {
+      "min": 3,
+      "median": 3,
+      "max": 5,
+      "sum": 171,
+      "n_triples": 49
+    },
+    "AnyTop": {
+      "min": 3,
+      "median": 3,
+      "max": 5,
+      "sum": 171,
+      "n_triples": 49
+    },
+    "MoReFlow-T": {
+      "min": 3,
+      "median": 3,
+      "max": 5,
+      "sum": 171,
+      "n_triples": 49
+    },
+    "MoReFlow-I": {
+      "min": 3,
+      "median": 3,
+      "max": 5,
+      "sum": 171,
+      "n_triples": 49
+    },
+    "ACE-T": {
+      "min": 3,
+      "median": 3,
+      "max": 5,
+      "sum": 171,
+      "n_triples": 49
+    },
+    "ACE-I": {
+      "min": 3,
+      "median": 3,
+      "max": 5,
+      "sum": 171,
+      "n_triples": 49
+    },
+    "M2M-Direct": {
+      "min": 3,
+      "median": 3,
+      "max": 5,
+      "sum": 171,
+      "n_triples": 49
+    },
+    "M2M-BVH": {
+      "min": 3,
+      "median": 3,
+      "max": 5,
+      "sum": 171,
+      "n_triples": 49
+    },
+    "DPG-SB-v3": {
+      "min": 3,
+      "median": 3,
+      "max": 5,
+      "sum": 171,
+      "n_triples": 49
+    },
+    "ANCHOR": {
+      "min": 3,
+      "median": 3,
+      "max": 5,
+      "sum": 171,
+      "n_triples": 49
+    },
+    "rsc": {
+      "min": 3,
+      "median": 3,
+      "max": 5,
+      "sum": 167,
+      "n_triples": 48
+    },
+    "rsa": {
+      "min": 3,
+      "median": 3,
+      "max": 5,
+      "sum": 168,
+      "n_triples": 48
+    }
+  },
+  "max_support_with_bootstrap_ci": {
+    "AL-Flow": {
+      "n": 45,
+      "rho_mean": -0.0658124624667943,
+      "rho_ci": [
+        -0.23220908272038515,
+        0.10287343951019409
+      ],
+      "R_mean": null,
+      "R_ci": [
+        null,
+        null
+      ]
+    },
+    "AL-Flow-Src": {
+      "n": 38,
+      "rho_mean": 0.06993430955159219,
+      "rho_ci": [
+        -0.11225177383182694,
+        0.2547586398477867
+      ],
+      "R_mean": null,
+      "R_ci": [
+        null,
+        null
+      ]
+    },
+    "AL-Flow-Src-G": {
+      "n": 49,
+      "rho_mean": -0.028281411536505197,
+      "rho_ci": [
+        -0.1919955497998514,
+        0.14118235818840896
+      ],
+      "R_mean": null,
+      "R_ci": [
+        null,
+        null
+      ]
+    },
+    "AnyTop": {
+      "n": 49,
+      "rho_mean": -0.03348998188221367,
+      "rho_ci": [
+        -0.20541752568538865,
+        0.13446514130081508
+      ],
+      "R_mean": null,
+      "R_ci": [
+        null,
+        null
+      ]
+    },
+    "MoReFlow-T": {
+      "n": 49,
+      "rho_mean": 0.20276264095779492,
+      "rho_ci": [
+        0.018684097801538846,
+        0.37946367331029746
+      ],
+      "R_mean": null,
+      "R_ci": [
+        null,
+        null
+      ]
+    },
+    "MoReFlow-I": {
+      "n": 49,
+      "rho_mean": 0.13733008840645647,
+      "rho_ci": [
+        -0.04643905659969128,
+        0.3125136634439969
+      ],
+      "R_mean": null,
+      "R_ci": [
+        null,
+        null
+      ]
+    },
+    "ACE-T": {
+      "n": 49,
+      "rho_mean": 0.3849953774216738,
+      "rho_ci": [
+        0.22541415967607595,
+        0.5277329659544093
+      ],
+      "R_mean": null,
+      "R_ci": [
+        null,
+        null
+      ]
+    },
+    "ACE-I": {
+      "n": 49,
+      "rho_mean": 0.4839277572508905,
+      "rho_ci": [
+        0.33001389317432966,
+        0.6265783717030888
+      ],
+      "R_mean": null,
+      "R_ci": [
+        null,
+        null
+      ]
+    },
+    "M2M-Direct": {
+      "n": 49,
+      "rho_mean": 0.05285892779131256,
+      "rho_ci": [
+        -0.1171620798429618,
+        0.22285493998912512
+      ],
+      "R_mean": null,
+      "R_ci": [
+        null,
+        null
+      ]
+    },
+    "M2M-BVH": {
+      "n": 49,
+      "rho_mean": -0.08469529323229479,
+      "rho_ci": [
+        -0.24059976716087325,
+        0.07498073127602567
+      ],
+      "R_mean": null,
+      "R_ci": [
+        null,
+        null
+      ]
+    },
+    "DPG-SB-v3": {
+      "n": 49,
+      "rho_mean": -0.05775914273537949,
+      "rho_ci": [
+        -0.22369335301772938,
+        0.11316971555494422
+      ],
+      "R_mean": null,
+      "R_ci": [
+        null,
+        null
+      ]
+    },
+    "ANCHOR": {
+      "n": 49,
+      "rho_mean": 0.013792973871546035,
+      "rho_ci": [
+        -0.07127182078565839,
+        0.10487754995744518
+      ],
+      "R_mean": null,
+      "R_ci": [
+        null,
+        null
+      ]
+    },
+    "rsc": {
+      "n": 48,
+      "rho_mean": 0.07262804979614289,
+      "rho_ci": [
+        -0.08872766708530462,
+        0.23539111078685607
+      ],
+      "R_mean": null,
+      "R_ci": [
+        null,
+        null
+      ]
+    },
+    "rsa": {
+      "n": 48,
+      "rho_mean": 0.09613168613820888,
+      "rho_ci": [
+        -0.029612835607616815,
+        0.22002239127884793
+      ],
+      "R_mean": null,
+      "R_ci": [
+        null,
+        null
+      ]
+    }
+  },
+  "paired_significance_extended": [
+    {
+      "name_a": "ACE-I",
+      "name_b": "MoReFlow-T",
+      "n": 37,
+      "mean_diff": 0.33405770308307625,
+      "wilcoxon_p": 0.007205815854831599,
+      "ci": [
+        0.08916045499264877,
+        0.5818785136721871
+      ],
+      "excludes_0": true
+    },
+    {
+      "name_a": "ACE-T",
+      "name_b": "MoReFlow-T",
+      "n": 37,
+      "mean_diff": 0.2616506627055412,
+      "wilcoxon_p": 0.05274487395945471,
+      "ci": [
+        -0.004303018350785989,
+        0.5330846132626725
+      ],
+      "excludes_0": false
+    },
+    {
+      "name_a": "ACE-I",
+      "name_b": "rsa",
+      "n": 37,
+      "mean_diff": 0.34019102924462596,
+      "wilcoxon_p": 0.004345666777226143,
+      "ci": [
+        0.12728136741069862,
+        0.5412729749658609
+      ],
+      "excludes_0": true
+    },
+    {
+      "name_a": "ACE-T",
+      "name_b": "rsa",
+      "n": 37,
+      "mean_diff": 0.267783988867091,
+      "wilcoxon_p": 0.00794298057735432,
+      "ci": [
+        0.04747823135361128,
+        0.4766174535966368
+      ],
+      "excludes_0": true
+    }
+  ]
+}

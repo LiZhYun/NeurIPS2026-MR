@@ -1,0 +1,27 @@
+{
+  "experiment": "decoder-nondegeneracy AnyTop (real-model extension)",
+  "config": {
+    "checkpoint": "${PROJECT_ROOT}/save/all_model_dataset_truebones_bs_16_latentdim_128/model000459999.pt",
+    "latent_dim": 128,
+    "num_layers": 4,
+    "hook_layer_index": 2,
+    "n_frames": 120,
+    "object_types": [
+      "Spider",
+      "Cat",
+      "Elephant"
+    ],
+    "diffusion_t": 50,
+    "n_rotations": 30,
+    "n_noise_samples": 30
+  },
+  "baseline_norm_per_element": 1.7859883308410645,
+  "mean_gauge_divergence": 7.284026296933492,
+  "std_gauge_divergence": 2.3991908906236032,
+  "mean_noise_divergence": 1.7638006965319315,
+  "std_noise_divergence": 0.014038784118280068,
+  "mean_hidden_perturbation_per_element": 1.9479339894828411,
+  "relative_gauge_divergence": 4.07842882909726,
+  "gauge_to_noise_ratio": 4.1297332012940515,
+  "verdict": "non-degenerate (gauge rotation produces large output divergence; theorem assumption HOLDS for AnyTop)"
+}

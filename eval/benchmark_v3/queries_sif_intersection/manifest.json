@@ -1,0 +1,2910 @@
+{
+  "version": "sif_v1",
+  "description": "Source-Instance Fidelity benchmark: multi-source triples",
+  "seed": 42,
+  "min_src_clips": 3,
+  "max_src_clips": 5,
+  "n_triples": 37,
+  "n_queries": 130,
+  "triples": [
+    {
+      "skel_a": "SpiderG",
+      "skel_b": "Tricera",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "SpiderG___Attack5_933.npy",
+        "SpiderG___Attack2_939.npy",
+        "SpiderG___Attack_942.npy",
+        "SpiderG___Attack3_926.npy",
+        "SpiderG___Attack4_937.npy"
+      ]
+    },
+    {
+      "skel_a": "SandMouse",
+      "skel_b": "Ostrich",
+      "action": "idle",
+      "cluster": "idle",
+      "sources": [
+        "SandMouse___Idle3_817.npy",
+        "SandMouse___Idle_820.npy",
+        "SandMouse___Idle4_830.npy",
+        "SandMouse___Idle4_829.npy",
+        "SandMouse___Idle_819.npy"
+      ]
+    },
+    {
+      "skel_a": "Dragon",
+      "skel_b": "Giantbee",
+      "action": "idle",
+      "cluster": "idle",
+      "sources": [
+        "Dragon___Idle_294.npy",
+        "Dragon___Idle3_290.npy",
+        "Dragon___Idle_293.npy",
+        "Dragon___Idle3_291.npy",
+        "Dragon___Idle2_298.npy"
+      ]
+    },
+    {
+      "skel_a": "PolarBear",
+      "skel_b": "Turtle",
+      "action": "idle",
+      "cluster": "idle",
+      "sources": [
+        "PolarBear___Idle3_634.npy",
+        "PolarBear___Idle_637.npy",
+        "PolarBear___Idle2_640.npy",
+        "PolarBear___Idle3_635.npy"
+      ]
+    },
+    {
+      "skel_a": "Rhino",
+      "skel_b": "Coyote",
+      "action": "idle",
+      "cluster": "idle",
+      "sources": [
+        "Rhino___Idle3_752.npy",
+        "Rhino___idle_759.npy",
+        "Rhino___Idle2_757.npy",
+        "Rhino___Idle3_753.npy"
+      ]
+    },
+    {
+      "skel_a": "SpiderG",
+      "skel_b": "Hound",
+      "action": "idle",
+      "cluster": "idle",
+      "sources": [
+        "SpiderG___Idle3_928.npy",
+        "SpiderG___Idle3_929.npy",
+        "SpiderG___Idle2_940.npy",
+        "SpiderG___Idle_932.npy"
+      ]
+    },
+    {
+      "skel_a": "Monkey",
+      "skel_b": "Skunk",
+      "action": "idle",
+      "cluster": "idle",
+      "sources": [
+        "Monkey___Idle3_568.npy",
+        "Monkey___Idle2_577.npy",
+        "Monkey___Idle1_572.npy",
+        "Monkey___Idle3_567.npy"
+      ]
+    },
+    {
+      "skel_a": "Ostrich",
+      "skel_b": "Hippopotamus",
+      "action": "idle",
+      "cluster": "idle",
+      "sources": [
+        "Ostrich___Idle_585.npy",
+        "Ostrich___Idle3_583.npy",
+        "Ostrich___Idle2_589.npy",
+        "Ostrich___Idle3_582.npy"
+      ]
+    },
+    {
+      "skel_a": "Lynx",
+      "skel_b": "Jaguar",
+      "action": "idle",
+      "cluster": "idle",
+      "sources": [
+        "Lynx___Idle2_547.npy",
+        "Lynx___Idle_542.npy",
+        "Lynx___Idle4_552.npy",
+        "Lynx___Idle3_540.npy"
+      ]
+    },
+    {
+      "skel_a": "Giantbee",
+      "skel_b": "Cricket",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Giantbee___Attack2_388.npy",
+        "Giantbee___Attack3_383.npy",
+        "Giantbee___Attack4_387.npy",
+        "Giantbee___Attack_390.npy"
+      ]
+    },
+    {
+      "skel_a": "Monkey",
+      "skel_b": "Cricket",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Monkey___Attack1_579.npy",
+        "Monkey___Attack4_575.npy",
+        "Monkey___Attack3_566.npy",
+        "Monkey___Attack2_576.npy"
+      ]
+    },
+    {
+      "skel_a": "Ostrich",
+      "skel_b": "Leapord",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Ostrich___Attack3_581.npy",
+        "Ostrich___Attack2_588.npy",
+        "Ostrich___Attack4_587.npy",
+        "Ostrich___Attack_590.npy"
+      ]
+    },
+    {
+      "skel_a": "Tricera",
+      "skel_b": "Turtle",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Tricera___Attack_1040.npy",
+        "Tricera___Attack2_1039.npy",
+        "Tricera___Attack3_1033.npy",
+        "Tricera___Attack4_1036.npy"
+      ]
+    },
+    {
+      "skel_a": "Hippopotamus",
+      "skel_b": "Lion",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Hippopotamus___Attack_429.npy",
+        "Hippopotamus___Attack4_425.npy",
+        "Hippopotamus___Attack3_421.npy",
+        "Hippopotamus___Attack2_427.npy"
+      ]
+    },
+    {
+      "skel_a": "Bird",
+      "skel_b": "KingCobra",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Bird___Attack2_110.npy",
+        "Bird___Attack4_107.npy",
+        "Bird___Attack_112.npy",
+        "Bird___Attack3_99.npy"
+      ]
+    },
+    {
+      "skel_a": "Cricket",
+      "skel_b": "Ant",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Cricket___Attack1_254.npy",
+        "Cricket___Attack2_251.npy",
+        "Cricket___Attack3_242.npy",
+        "Cricket___Attack4_249.npy"
+      ]
+    },
+    {
+      "skel_a": "Isopetra",
+      "skel_b": "Lion",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Isopetra___Attack3_475.npy",
+        "Isopetra___Attack2_480.npy",
+        "Isopetra___Attack_482.npy"
+      ]
+    },
+    {
+      "skel_a": "Ant",
+      "skel_b": "Tyranno",
+      "action": "idle",
+      "cluster": "idle",
+      "sources": [
+        "Ant___Idle2_54.npy",
+        "Ant___Idle3_43.npy",
+        "Ant___Idle_45.npy"
+      ]
+    },
+    {
+      "skel_a": "Horse",
+      "skel_b": "Coyote",
+      "action": "restless",
+      "cluster": "idle",
+      "sources": [
+        "Horse___Restless2_439.npy",
+        "Horse___Restless_447.npy",
+        "Horse___Restless3_441.npy"
+      ]
+    },
+    {
+      "skel_a": "Comodoa",
+      "skel_b": "Scorpion-2",
+      "action": "idle",
+      "cluster": "idle",
+      "sources": [
+        "Comodoa___Idle2_219.npy",
+        "Comodoa___Idle_214.npy",
+        "Comodoa___Idle_213.npy"
+      ]
+    },
+    {
+      "skel_a": "Horse",
+      "skel_b": "Ant",
+      "action": "idle",
+      "cluster": "idle",
+      "sources": [
+        "Horse___Idle_434.npy",
+        "Horse___Idle_435.npy",
+        "Horse___Idle3_433.npy"
+      ]
+    },
+    {
+      "skel_a": "Jaguar",
+      "skel_b": "Isopetra",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Jaguar___Attack2_491.npy",
+        "Jaguar___Attack1_496.npy",
+        "Jaguar___Attack_492.npy"
+      ]
+    },
+    {
+      "skel_a": "BrownBear",
+      "skel_b": "KingCobra",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "BrownBear___Attack3_118.npy",
+        "BrownBear___Attack2_135.npy",
+        "BrownBear___Attack_136.npy"
+      ]
+    },
+    {
+      "skel_a": "Raindeer",
+      "skel_b": "Lion",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Raindeer___Attack_676.npy",
+        "Raindeer___Attack2_674.npy",
+        "Raindeer___Attack3_670.npy"
+      ]
+    },
+    {
+      "skel_a": "Scorpion-2",
+      "skel_b": "Leapord",
+      "action": "death",
+      "cluster": "death",
+      "sources": [
+        "Scorpion-2___Death_871.npy",
+        "Scorpion-2___Death_2_885.npy",
+        "Scorpion-2___Death_872.npy"
+      ]
+    },
+    {
+      "skel_a": "Coyote",
+      "skel_b": "Ostrich",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Coyote___Attack1_231.npy",
+        "Coyote___Attack3_222.npy",
+        "Coyote___Attack2_229.npy"
+      ]
+    },
+    {
+      "skel_a": "Parrot",
+      "skel_b": "Raindeer",
+      "action": "die",
+      "cluster": "death",
+      "sources": [
+        "Parrot___Die_593.npy",
+        "Parrot___Die3_598.npy",
+        "Parrot___Die2_603.npy"
+      ]
+    },
+    {
+      "skel_a": "Horse",
+      "skel_b": "Goat",
+      "action": "hoofscrape",
+      "cluster": "combat",
+      "sources": [
+        "Horse___HoofScrape2_442.npy",
+        "Horse___HoofScrape_454.npy",
+        "Horse___HoofScrape_455.npy"
+      ]
+    },
+    {
+      "skel_a": "Centipede",
+      "skel_b": "Giantbee",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Centipede___Attack1_207.npy",
+        "Centipede___Attack_205.npy",
+        "Centipede___Attack2_203.npy"
+      ]
+    },
+    {
+      "skel_a": "Parrot",
+      "skel_b": "Tyranno",
+      "action": "idle",
+      "cluster": "idle",
+      "sources": [
+        "Parrot___Idle2_600.npy",
+        "Parrot___Idle_595.npy",
+        "Parrot___Idle2_601.npy"
+      ]
+    },
+    {
+      "skel_a": "Rhino",
+      "skel_b": "SpiderG",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Rhino___Attack_758.npy",
+        "Rhino___Attack3_751.npy",
+        "Rhino___Attack2_756.npy"
+      ]
+    },
+    {
+      "skel_a": "Turtle",
+      "skel_b": "Centipede",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Turtle___Attack2_1056.npy",
+        "Turtle___Attack_1059.npy",
+        "Turtle___Attack3_1050.npy"
+      ]
+    },
+    {
+      "skel_a": "Dragon",
+      "skel_b": "Jaguar",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Dragon___Attack3_289.npy",
+        "Dragon___Attack2_297.npy",
+        "Dragon___Attack_299.npy"
+      ]
+    },
+    {
+      "skel_a": "Isopetra",
+      "skel_b": "Cricket",
+      "action": "idle",
+      "cluster": "idle",
+      "sources": [
+        "Isopetra___Idle3_476.npy",
+        "Isopetra___Idle2_481.npy",
+        "Isopetra___Idle_478.npy"
+      ]
+    },
+    {
+      "skel_a": "Comodoa",
+      "skel_b": "Tricera",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Comodoa___Attack1_221.npy",
+        "Comodoa___Attack2_218.npy",
+        "Comodoa___Attack3_211.npy"
+      ]
+    },
+    {
+      "skel_a": "Stego",
+      "skel_b": "Hippopotamus",
+      "action": "attack",
+      "cluster": "combat",
+      "sources": [
+        "Stego___Attack3_947.npy",
+        "Stego___Attack_953.npy",
+        "Stego___Attack2_951.npy"
+      ]
+    },
+    {
+      "skel_a": "Skunk",
+      "skel_b": "Leapord",
+      "action": "idle",
+      "cluster": "idle",
+      "sources": [
+        "Skunk___Idle_888.npy",
+        "Skunk___Idle3_886.npy",
+        "Skunk___Idle2_891.npy"
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "query_id": 0,
+      "triple_id": 0,
+      "skel_a": "SpiderG",
+      "skel_b": "Tricera",
+      "cluster": "combat",
+      "src_fname": "SpiderG___Attack5_933.npy",
+      "src_action": "attack",
+      "src_T": 194,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "SpiderG___Attack5_933.npy",
+          "T": 194,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 1,
+      "triple_id": 0,
+      "skel_a": "SpiderG",
+      "skel_b": "Tricera",
+      "cluster": "combat",
+      "src_fname": "SpiderG___Attack2_939.npy",
+      "src_action": "attack",
+      "src_T": 119,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "SpiderG___Attack2_939.npy",
+          "T": 119,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 2,
+      "triple_id": 0,
+      "skel_a": "SpiderG",
+      "skel_b": "Tricera",
+      "cluster": "combat",
+      "src_fname": "SpiderG___Attack_942.npy",
+      "src_action": "attack",
+      "src_T": 119,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "SpiderG___Attack_942.npy",
+          "T": 119,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 3,
+      "triple_id": 0,
+      "skel_a": "SpiderG",
+      "skel_b": "Tricera",
+      "cluster": "combat",
+      "src_fname": "SpiderG___Attack3_926.npy",
+      "src_action": "attack",
+      "src_T": 179,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "SpiderG___Attack3_926.npy",
+          "T": 179,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 4,
+      "triple_id": 0,
+      "skel_a": "SpiderG",
+      "skel_b": "Tricera",
+      "cluster": "combat",
+      "src_fname": "SpiderG___Attack4_937.npy",
+      "src_action": "attack",
+      "src_T": 159,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "SpiderG___Attack4_937.npy",
+          "T": 159,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 10,
+      "triple_id": 2,
+      "skel_a": "SandMouse",
+      "skel_b": "Ostrich",
+      "cluster": "idle",
+      "src_fname": "SandMouse___Idle3_817.npy",
+      "src_action": "idle",
+      "src_T": 189,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "SandMouse___Idle3_817.npy",
+          "T": 189,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 11,
+      "triple_id": 2,
+      "skel_a": "SandMouse",
+      "skel_b": "Ostrich",
+      "cluster": "idle",
+      "src_fname": "SandMouse___Idle_820.npy",
+      "src_action": "idle",
+      "src_T": 121,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "SandMouse___Idle_820.npy",
+          "T": 121,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 12,
+      "triple_id": 2,
+      "skel_a": "SandMouse",
+      "skel_b": "Ostrich",
+      "cluster": "idle",
+      "src_fname": "SandMouse___Idle4_830.npy",
+      "src_action": "idle",
+      "src_T": 100,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "SandMouse___Idle4_830.npy",
+          "T": 100,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 13,
+      "triple_id": 2,
+      "skel_a": "SandMouse",
+      "skel_b": "Ostrich",
+      "cluster": "idle",
+      "src_fname": "SandMouse___Idle4_829.npy",
+      "src_action": "idle",
+      "src_T": 199,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "SandMouse___Idle4_829.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 14,
+      "triple_id": 2,
+      "skel_a": "SandMouse",
+      "skel_b": "Ostrich",
+      "cluster": "idle",
+      "src_fname": "SandMouse___Idle_819.npy",
+      "src_action": "idle",
+      "src_T": 199,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "SandMouse___Idle_819.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 15,
+      "triple_id": 3,
+      "skel_a": "Dragon",
+      "skel_b": "Giantbee",
+      "cluster": "idle",
+      "src_fname": "Dragon___Idle_294.npy",
+      "src_action": "idle",
+      "src_T": 100,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Dragon___Idle_294.npy",
+          "T": 100,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 16,
+      "triple_id": 3,
+      "skel_a": "Dragon",
+      "skel_b": "Giantbee",
+      "cluster": "idle",
+      "src_fname": "Dragon___Idle3_290.npy",
+      "src_action": "idle",
+      "src_T": 199,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Dragon___Idle3_290.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 17,
+      "triple_id": 3,
+      "skel_a": "Dragon",
+      "skel_b": "Giantbee",
+      "cluster": "idle",
+      "src_fname": "Dragon___Idle_293.npy",
+      "src_action": "idle",
+      "src_T": 199,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Dragon___Idle_293.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 18,
+      "triple_id": 3,
+      "skel_a": "Dragon",
+      "skel_b": "Giantbee",
+      "cluster": "idle",
+      "src_fname": "Dragon___Idle3_291.npy",
+      "src_action": "idle",
+      "src_T": 130,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Dragon___Idle3_291.npy",
+          "T": 130,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 19,
+      "triple_id": 3,
+      "skel_a": "Dragon",
+      "skel_b": "Giantbee",
+      "cluster": "idle",
+      "src_fname": "Dragon___Idle2_298.npy",
+      "src_action": "idle",
+      "src_T": 140,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Dragon___Idle2_298.npy",
+          "T": 140,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 20,
+      "triple_id": 4,
+      "skel_a": "PolarBear",
+      "skel_b": "Turtle",
+      "cluster": "idle",
+      "src_fname": "PolarBear___Idle3_634.npy",
+      "src_action": "idle",
+      "src_T": 199,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "PolarBear___Idle3_634.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 21,
+      "triple_id": 4,
+      "skel_a": "PolarBear",
+      "skel_b": "Turtle",
+      "cluster": "idle",
+      "src_fname": "PolarBear___Idle_637.npy",
+      "src_action": "idle",
+      "src_T": 78,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "PolarBear___Idle_637.npy",
+          "T": 78,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 22,
+      "triple_id": 4,
+      "skel_a": "PolarBear",
+      "skel_b": "Turtle",
+      "cluster": "idle",
+      "src_fname": "PolarBear___Idle2_640.npy",
+      "src_action": "idle",
+      "src_T": 180,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "PolarBear___Idle2_640.npy",
+          "T": 180,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 23,
+      "triple_id": 4,
+      "skel_a": "PolarBear",
+      "skel_b": "Turtle",
+      "cluster": "idle",
+      "src_fname": "PolarBear___Idle3_635.npy",
+      "src_action": "idle",
+      "src_T": 100,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "PolarBear___Idle3_635.npy",
+          "T": 100,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 24,
+      "triple_id": 5,
+      "skel_a": "Rhino",
+      "skel_b": "Coyote",
+      "cluster": "idle",
+      "src_fname": "Rhino___Idle3_752.npy",
+      "src_action": "idle",
+      "src_T": 199,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Rhino___Idle3_752.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 25,
+      "triple_id": 5,
+      "skel_a": "Rhino",
+      "skel_b": "Coyote",
+      "cluster": "idle",
+      "src_fname": "Rhino___idle_759.npy",
+      "src_action": "idle",
+      "src_T": 138,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Rhino___idle_759.npy",
+          "T": 138,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 26,
+      "triple_id": 5,
+      "skel_a": "Rhino",
+      "skel_b": "Coyote",
+      "cluster": "idle",
+      "src_fname": "Rhino___Idle2_757.npy",
+      "src_action": "idle",
+      "src_T": 200,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Rhino___Idle2_757.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 27,
+      "triple_id": 5,
+      "skel_a": "Rhino",
+      "skel_b": "Coyote",
+      "cluster": "idle",
+      "src_fname": "Rhino___Idle3_753.npy",
+      "src_action": "idle",
+      "src_T": 100,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Rhino___Idle3_753.npy",
+          "T": 100,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 28,
+      "triple_id": 6,
+      "skel_a": "SpiderG",
+      "skel_b": "Hound",
+      "cluster": "idle",
+      "src_fname": "SpiderG___Idle3_928.npy",
+      "src_action": "idle",
+      "src_T": 199,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "SpiderG___Idle3_928.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 29,
+      "triple_id": 6,
+      "skel_a": "SpiderG",
+      "skel_b": "Hound",
+      "cluster": "idle",
+      "src_fname": "SpiderG___Idle3_929.npy",
+      "src_action": "idle",
+      "src_T": 40,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "SpiderG___Idle3_929.npy",
+          "T": 40,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 30,
+      "triple_id": 6,
+      "skel_a": "SpiderG",
+      "skel_b": "Hound",
+      "cluster": "idle",
+      "src_fname": "SpiderG___Idle2_940.npy",
+      "src_action": "idle",
+      "src_T": 198,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "SpiderG___Idle2_940.npy",
+          "T": 198,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 31,
+      "triple_id": 6,
+      "skel_a": "SpiderG",
+      "skel_b": "Hound",
+      "cluster": "idle",
+      "src_fname": "SpiderG___Idle_932.npy",
+      "src_action": "idle",
+      "src_T": 78,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "SpiderG___Idle_932.npy",
+          "T": 78,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 32,
+      "triple_id": 7,
+      "skel_a": "Monkey",
+      "skel_b": "Skunk",
+      "cluster": "idle",
+      "src_fname": "Monkey___Idle3_568.npy",
+      "src_action": "idle",
+      "src_T": 100,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Monkey___Idle3_568.npy",
+          "T": 100,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 33,
+      "triple_id": 7,
+      "skel_a": "Monkey",
+      "skel_b": "Skunk",
+      "cluster": "idle",
+      "src_fname": "Monkey___Idle2_577.npy",
+      "src_action": "idle",
+      "src_T": 120,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Monkey___Idle2_577.npy",
+          "T": 120,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 34,
+      "triple_id": 7,
+      "skel_a": "Monkey",
+      "skel_b": "Skunk",
+      "cluster": "idle",
+      "src_fname": "Monkey___Idle1_572.npy",
+      "src_action": "idle",
+      "src_T": 89,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Monkey___Idle1_572.npy",
+          "T": 89,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 35,
+      "triple_id": 7,
+      "skel_a": "Monkey",
+      "skel_b": "Skunk",
+      "cluster": "idle",
+      "src_fname": "Monkey___Idle3_567.npy",
+      "src_action": "idle",
+      "src_T": 199,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Monkey___Idle3_567.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 40,
+      "triple_id": 9,
+      "skel_a": "Ostrich",
+      "skel_b": "Hippopotamus",
+      "cluster": "idle",
+      "src_fname": "Ostrich___Idle_585.npy",
+      "src_action": "idle",
+      "src_T": 89,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Ostrich___Idle_585.npy",
+          "T": 89,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 41,
+      "triple_id": 9,
+      "skel_a": "Ostrich",
+      "skel_b": "Hippopotamus",
+      "cluster": "idle",
+      "src_fname": "Ostrich___Idle3_583.npy",
+      "src_action": "idle",
+      "src_T": 130,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Ostrich___Idle3_583.npy",
+          "T": 130,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 42,
+      "triple_id": 9,
+      "skel_a": "Ostrich",
+      "skel_b": "Hippopotamus",
+      "cluster": "idle",
+      "src_fname": "Ostrich___Idle2_589.npy",
+      "src_action": "idle",
+      "src_T": 120,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Ostrich___Idle2_589.npy",
+          "T": 120,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 43,
+      "triple_id": 9,
+      "skel_a": "Ostrich",
+      "skel_b": "Hippopotamus",
+      "cluster": "idle",
+      "src_fname": "Ostrich___Idle3_582.npy",
+      "src_action": "idle",
+      "src_T": 199,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Ostrich___Idle3_582.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 44,
+      "triple_id": 10,
+      "skel_a": "Lynx",
+      "skel_b": "Jaguar",
+      "cluster": "idle",
+      "src_fname": "Lynx___Idle2_547.npy",
+      "src_action": "idle",
+      "src_T": 120,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Lynx___Idle2_547.npy",
+          "T": 120,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 45,
+      "triple_id": 10,
+      "skel_a": "Lynx",
+      "skel_b": "Jaguar",
+      "cluster": "idle",
+      "src_fname": "Lynx___Idle_542.npy",
+      "src_action": "idle",
+      "src_T": 159,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Lynx___Idle_542.npy",
+          "T": 159,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 46,
+      "triple_id": 10,
+      "skel_a": "Lynx",
+      "skel_b": "Jaguar",
+      "cluster": "idle",
+      "src_fname": "Lynx___Idle4_552.npy",
+      "src_action": "idle",
+      "src_T": 108,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Lynx___Idle4_552.npy",
+          "T": 108,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 47,
+      "triple_id": 10,
+      "skel_a": "Lynx",
+      "skel_b": "Jaguar",
+      "cluster": "idle",
+      "src_fname": "Lynx___Idle3_540.npy",
+      "src_action": "idle",
+      "src_T": 74,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Lynx___Idle3_540.npy",
+          "T": 74,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 48,
+      "triple_id": 11,
+      "skel_a": "Giantbee",
+      "skel_b": "Cricket",
+      "cluster": "combat",
+      "src_fname": "Giantbee___Attack2_388.npy",
+      "src_action": "attack",
+      "src_T": 71,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Giantbee___Attack2_388.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 49,
+      "triple_id": 11,
+      "skel_a": "Giantbee",
+      "skel_b": "Cricket",
+      "cluster": "combat",
+      "src_fname": "Giantbee___Attack3_383.npy",
+      "src_action": "attack",
+      "src_T": 104,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Giantbee___Attack3_383.npy",
+          "T": 104,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 50,
+      "triple_id": 11,
+      "skel_a": "Giantbee",
+      "skel_b": "Cricket",
+      "cluster": "combat",
+      "src_fname": "Giantbee___Attack4_387.npy",
+      "src_action": "attack",
+      "src_T": 89,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Giantbee___Attack4_387.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 51,
+      "triple_id": 11,
+      "skel_a": "Giantbee",
+      "skel_b": "Cricket",
+      "cluster": "combat",
+      "src_fname": "Giantbee___Attack_390.npy",
+      "src_action": "attack",
+      "src_T": 71,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Giantbee___Attack_390.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 52,
+      "triple_id": 12,
+      "skel_a": "Monkey",
+      "skel_b": "Cricket",
+      "cluster": "combat",
+      "src_fname": "Monkey___Attack1_579.npy",
+      "src_action": "attack",
+      "src_T": 59,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Monkey___Attack1_579.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 53,
+      "triple_id": 12,
+      "skel_a": "Monkey",
+      "skel_b": "Cricket",
+      "cluster": "combat",
+      "src_fname": "Monkey___Attack4_575.npy",
+      "src_action": "attack",
+      "src_T": 116,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Monkey___Attack4_575.npy",
+          "T": 116,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 54,
+      "triple_id": 12,
+      "skel_a": "Monkey",
+      "skel_b": "Cricket",
+      "cluster": "combat",
+      "src_fname": "Monkey___Attack3_566.npy",
+      "src_action": "attack",
+      "src_T": 120,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Monkey___Attack3_566.npy",
+          "T": 120,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 55,
+      "triple_id": 12,
+      "skel_a": "Monkey",
+      "skel_b": "Cricket",
+      "cluster": "combat",
+      "src_fname": "Monkey___Attack2_576.npy",
+      "src_action": "attack",
+      "src_T": 59,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Monkey___Attack2_576.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 56,
+      "triple_id": 13,
+      "skel_a": "Ostrich",
+      "skel_b": "Leapord",
+      "cluster": "combat",
+      "src_fname": "Ostrich___Attack3_581.npy",
+      "src_action": "attack",
+      "src_T": 99,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Ostrich___Attack3_581.npy",
+          "T": 99,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 57,
+      "triple_id": 13,
+      "skel_a": "Ostrich",
+      "skel_b": "Leapord",
+      "cluster": "combat",
+      "src_fname": "Ostrich___Attack2_588.npy",
+      "src_action": "attack",
+      "src_T": 69,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Ostrich___Attack2_588.npy",
+          "T": 69,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 58,
+      "triple_id": 13,
+      "skel_a": "Ostrich",
+      "skel_b": "Leapord",
+      "cluster": "combat",
+      "src_fname": "Ostrich___Attack4_587.npy",
+      "src_action": "attack",
+      "src_T": 93,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Ostrich___Attack4_587.npy",
+          "T": 93,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 59,
+      "triple_id": 13,
+      "skel_a": "Ostrich",
+      "skel_b": "Leapord",
+      "cluster": "combat",
+      "src_fname": "Ostrich___Attack_590.npy",
+      "src_action": "attack",
+      "src_T": 69,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Ostrich___Attack_590.npy",
+          "T": 69,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 64,
+      "triple_id": 15,
+      "skel_a": "Tricera",
+      "skel_b": "Turtle",
+      "cluster": "combat",
+      "src_fname": "Tricera___Attack_1040.npy",
+      "src_action": "attack",
+      "src_T": 84,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Tricera___Attack_1040.npy",
+          "T": 84,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 65,
+      "triple_id": 15,
+      "skel_a": "Tricera",
+      "skel_b": "Turtle",
+      "cluster": "combat",
+      "src_fname": "Tricera___Attack2_1039.npy",
+      "src_action": "attack",
+      "src_T": 99,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Tricera___Attack2_1039.npy",
+          "T": 99,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 66,
+      "triple_id": 15,
+      "skel_a": "Tricera",
+      "skel_b": "Turtle",
+      "cluster": "combat",
+      "src_fname": "Tricera___Attack3_1033.npy",
+      "src_action": "attack",
+      "src_T": 129,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Tricera___Attack3_1033.npy",
+          "T": 129,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 67,
+      "triple_id": 15,
+      "skel_a": "Tricera",
+      "skel_b": "Turtle",
+      "cluster": "combat",
+      "src_fname": "Tricera___Attack4_1036.npy",
+      "src_action": "attack",
+      "src_T": 120,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Tricera___Attack4_1036.npy",
+          "T": 120,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 68,
+      "triple_id": 16,
+      "skel_a": "Hippopotamus",
+      "skel_b": "Lion",
+      "cluster": "combat",
+      "src_fname": "Hippopotamus___Attack_429.npy",
+      "src_action": "attack",
+      "src_T": 99,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Hippopotamus___Attack_429.npy",
+          "T": 99,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 69,
+      "triple_id": 16,
+      "skel_a": "Hippopotamus",
+      "skel_b": "Lion",
+      "cluster": "combat",
+      "src_fname": "Hippopotamus___Attack4_425.npy",
+      "src_action": "attack",
+      "src_T": 120,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Hippopotamus___Attack4_425.npy",
+          "T": 120,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 70,
+      "triple_id": 16,
+      "skel_a": "Hippopotamus",
+      "skel_b": "Lion",
+      "cluster": "combat",
+      "src_fname": "Hippopotamus___Attack3_421.npy",
+      "src_action": "attack",
+      "src_T": 150,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Hippopotamus___Attack3_421.npy",
+          "T": 150,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 71,
+      "triple_id": 16,
+      "skel_a": "Hippopotamus",
+      "skel_b": "Lion",
+      "cluster": "combat",
+      "src_fname": "Hippopotamus___Attack2_427.npy",
+      "src_action": "attack",
+      "src_T": 99,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Hippopotamus___Attack2_427.npy",
+          "T": 99,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 76,
+      "triple_id": 18,
+      "skel_a": "Bird",
+      "skel_b": "KingCobra",
+      "cluster": "combat",
+      "src_fname": "Bird___Attack2_110.npy",
+      "src_action": "attack",
+      "src_T": 60,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Bird___Attack2_110.npy",
+          "T": 60,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 77,
+      "triple_id": 18,
+      "skel_a": "Bird",
+      "skel_b": "KingCobra",
+      "cluster": "combat",
+      "src_fname": "Bird___Attack4_107.npy",
+      "src_action": "attack",
+      "src_T": 90,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Bird___Attack4_107.npy",
+          "T": 90,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 78,
+      "triple_id": 18,
+      "skel_a": "Bird",
+      "skel_b": "KingCobra",
+      "cluster": "combat",
+      "src_fname": "Bird___Attack_112.npy",
+      "src_action": "attack",
+      "src_T": 60,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Bird___Attack_112.npy",
+          "T": 60,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 79,
+      "triple_id": 18,
+      "skel_a": "Bird",
+      "skel_b": "KingCobra",
+      "cluster": "combat",
+      "src_fname": "Bird___Attack3_99.npy",
+      "src_action": "attack",
+      "src_T": 86,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Bird___Attack3_99.npy",
+          "T": 86,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 80,
+      "triple_id": 19,
+      "skel_a": "Cricket",
+      "skel_b": "Ant",
+      "cluster": "combat",
+      "src_fname": "Cricket___Attack1_254.npy",
+      "src_action": "attack",
+      "src_T": 159,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Cricket___Attack1_254.npy",
+          "T": 159,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 81,
+      "triple_id": 19,
+      "skel_a": "Cricket",
+      "skel_b": "Ant",
+      "cluster": "combat",
+      "src_fname": "Cricket___Attack2_251.npy",
+      "src_action": "attack",
+      "src_T": 99,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Cricket___Attack2_251.npy",
+          "T": 99,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 82,
+      "triple_id": 19,
+      "skel_a": "Cricket",
+      "skel_b": "Ant",
+      "cluster": "combat",
+      "src_fname": "Cricket___Attack3_242.npy",
+      "src_action": "attack",
+      "src_T": 89,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Cricket___Attack3_242.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 83,
+      "triple_id": 19,
+      "skel_a": "Cricket",
+      "skel_b": "Ant",
+      "cluster": "combat",
+      "src_fname": "Cricket___Attack4_249.npy",
+      "src_action": "attack",
+      "src_T": 150,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Cricket___Attack4_249.npy",
+          "T": 150,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 84,
+      "triple_id": 20,
+      "skel_a": "Isopetra",
+      "skel_b": "Lion",
+      "cluster": "combat",
+      "src_fname": "Isopetra___Attack3_475.npy",
+      "src_action": "attack",
+      "src_T": 107,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Isopetra___Attack3_475.npy",
+          "T": 107,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 85,
+      "triple_id": 20,
+      "skel_a": "Isopetra",
+      "skel_b": "Lion",
+      "cluster": "combat",
+      "src_fname": "Isopetra___Attack2_480.npy",
+      "src_action": "attack",
+      "src_T": 59,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Isopetra___Attack2_480.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 86,
+      "triple_id": 20,
+      "skel_a": "Isopetra",
+      "skel_b": "Lion",
+      "cluster": "combat",
+      "src_fname": "Isopetra___Attack_482.npy",
+      "src_action": "attack",
+      "src_T": 59,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Isopetra___Attack_482.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 87,
+      "triple_id": 21,
+      "skel_a": "Ant",
+      "skel_b": "Tyranno",
+      "cluster": "idle",
+      "src_fname": "Ant___Idle2_54.npy",
+      "src_action": "idle",
+      "src_T": 78,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Ant___Idle2_54.npy",
+          "T": 78,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 88,
+      "triple_id": 21,
+      "skel_a": "Ant",
+      "skel_b": "Tyranno",
+      "cluster": "idle",
+      "src_fname": "Ant___Idle3_43.npy",
+      "src_action": "idle",
+      "src_T": 119,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Ant___Idle3_43.npy",
+          "T": 119,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 89,
+      "triple_id": 21,
+      "skel_a": "Ant",
+      "skel_b": "Tyranno",
+      "cluster": "idle",
+      "src_fname": "Ant___Idle_45.npy",
+      "src_action": "idle",
+      "src_T": 149,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Ant___Idle_45.npy",
+          "T": 149,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 90,
+      "triple_id": 22,
+      "skel_a": "Horse",
+      "skel_b": "Coyote",
+      "cluster": "idle",
+      "src_fname": "Horse___Restless2_439.npy",
+      "src_action": "restless",
+      "src_T": 209,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Horse___Restless2_439.npy",
+          "T": 209,
+          "action": "restless",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 91,
+      "triple_id": 22,
+      "skel_a": "Horse",
+      "skel_b": "Coyote",
+      "cluster": "idle",
+      "src_fname": "Horse___Restless_447.npy",
+      "src_action": "restless",
+      "src_T": 104,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Horse___Restless_447.npy",
+          "T": 104,
+          "action": "restless",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 92,
+      "triple_id": 22,
+      "skel_a": "Horse",
+      "skel_b": "Coyote",
+      "cluster": "idle",
+      "src_fname": "Horse___Restless3_441.npy",
+      "src_action": "restless",
+      "src_T": 200,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Horse___Restless3_441.npy",
+          "T": 200,
+          "action": "restless",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 93,
+      "triple_id": 23,
+      "skel_a": "Comodoa",
+      "skel_b": "Scorpion-2",
+      "cluster": "idle",
+      "src_fname": "Comodoa___Idle2_219.npy",
+      "src_action": "idle",
+      "src_T": 114,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Comodoa___Idle2_219.npy",
+          "T": 114,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 94,
+      "triple_id": 23,
+      "skel_a": "Comodoa",
+      "skel_b": "Scorpion-2",
+      "cluster": "idle",
+      "src_fname": "Comodoa___Idle_214.npy",
+      "src_action": "idle",
+      "src_T": 40,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Comodoa___Idle_214.npy",
+          "T": 40,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 95,
+      "triple_id": 23,
+      "skel_a": "Comodoa",
+      "skel_b": "Scorpion-2",
+      "cluster": "idle",
+      "src_fname": "Comodoa___Idle_213.npy",
+      "src_action": "idle",
+      "src_T": 199,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Comodoa___Idle_213.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 96,
+      "triple_id": 24,
+      "skel_a": "Horse",
+      "skel_b": "Ant",
+      "cluster": "idle",
+      "src_fname": "Horse___Idle_434.npy",
+      "src_action": "idle",
+      "src_T": 199,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Horse___Idle_434.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 97,
+      "triple_id": 24,
+      "skel_a": "Horse",
+      "skel_b": "Ant",
+      "cluster": "idle",
+      "src_fname": "Horse___Idle_435.npy",
+      "src_action": "idle",
+      "src_T": 60,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Horse___Idle_435.npy",
+          "T": 60,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 98,
+      "triple_id": 24,
+      "skel_a": "Horse",
+      "skel_b": "Ant",
+      "cluster": "idle",
+      "src_fname": "Horse___Idle3_433.npy",
+      "src_action": "idle",
+      "src_T": 120,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Horse___Idle3_433.npy",
+          "T": 120,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 99,
+      "triple_id": 25,
+      "skel_a": "Jaguar",
+      "skel_b": "Isopetra",
+      "cluster": "combat",
+      "src_fname": "Jaguar___Attack2_491.npy",
+      "src_action": "attack",
+      "src_T": 71,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Jaguar___Attack2_491.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 100,
+      "triple_id": 25,
+      "skel_a": "Jaguar",
+      "skel_b": "Isopetra",
+      "cluster": "combat",
+      "src_fname": "Jaguar___Attack1_496.npy",
+      "src_action": "attack",
+      "src_T": 71,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Jaguar___Attack1_496.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 101,
+      "triple_id": 25,
+      "skel_a": "Jaguar",
+      "skel_b": "Isopetra",
+      "cluster": "combat",
+      "src_fname": "Jaguar___Attack_492.npy",
+      "src_action": "attack",
+      "src_T": 116,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Jaguar___Attack_492.npy",
+          "T": 116,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 108,
+      "triple_id": 28,
+      "skel_a": "BrownBear",
+      "skel_b": "KingCobra",
+      "cluster": "combat",
+      "src_fname": "BrownBear___Attack3_118.npy",
+      "src_action": "attack",
+      "src_T": 80,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "BrownBear___Attack3_118.npy",
+          "T": 80,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 109,
+      "triple_id": 28,
+      "skel_a": "BrownBear",
+      "skel_b": "KingCobra",
+      "cluster": "combat",
+      "src_fname": "BrownBear___Attack2_135.npy",
+      "src_action": "attack",
+      "src_T": 89,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "BrownBear___Attack2_135.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 110,
+      "triple_id": 28,
+      "skel_a": "BrownBear",
+      "skel_b": "KingCobra",
+      "cluster": "combat",
+      "src_fname": "BrownBear___Attack_136.npy",
+      "src_action": "attack",
+      "src_T": 102,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "BrownBear___Attack_136.npy",
+          "T": 102,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 111,
+      "triple_id": 29,
+      "skel_a": "Raindeer",
+      "skel_b": "Lion",
+      "cluster": "combat",
+      "src_fname": "Raindeer___Attack_676.npy",
+      "src_action": "attack",
+      "src_T": 90,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Raindeer___Attack_676.npy",
+          "T": 90,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 112,
+      "triple_id": 29,
+      "skel_a": "Raindeer",
+      "skel_b": "Lion",
+      "cluster": "combat",
+      "src_fname": "Raindeer___Attack2_674.npy",
+      "src_action": "attack",
+      "src_T": 90,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Raindeer___Attack2_674.npy",
+          "T": 90,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 113,
+      "triple_id": 29,
+      "skel_a": "Raindeer",
+      "skel_b": "Lion",
+      "cluster": "combat",
+      "src_fname": "Raindeer___Attack3_670.npy",
+      "src_action": "attack",
+      "src_T": 119,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Raindeer___Attack3_670.npy",
+          "T": 119,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 114,
+      "triple_id": 30,
+      "skel_a": "Scorpion-2",
+      "skel_b": "Leapord",
+      "cluster": "death",
+      "src_fname": "Scorpion-2___Death_871.npy",
+      "src_action": "death",
+      "src_T": 199,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Scorpion-2___Death_871.npy",
+          "T": 199,
+          "action": "death",
+          "cluster": "death"
+        }
+      ]
+    },
+    {
+      "query_id": 115,
+      "triple_id": 30,
+      "skel_a": "Scorpion-2",
+      "skel_b": "Leapord",
+      "cluster": "death",
+      "src_fname": "Scorpion-2___Death_2_885.npy",
+      "src_action": "death",
+      "src_T": 183,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Scorpion-2___Death_2_885.npy",
+          "T": 183,
+          "action": "death",
+          "cluster": "death"
+        }
+      ]
+    },
+    {
+      "query_id": 116,
+      "triple_id": 30,
+      "skel_a": "Scorpion-2",
+      "skel_b": "Leapord",
+      "cluster": "death",
+      "src_fname": "Scorpion-2___Death_872.npy",
+      "src_action": "death",
+      "src_T": 145,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Scorpion-2___Death_872.npy",
+          "T": 145,
+          "action": "death",
+          "cluster": "death"
+        }
+      ]
+    },
+    {
+      "query_id": 117,
+      "triple_id": 31,
+      "skel_a": "Coyote",
+      "skel_b": "Ostrich",
+      "cluster": "combat",
+      "src_fname": "Coyote___Attack1_231.npy",
+      "src_action": "attack",
+      "src_T": 71,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Coyote___Attack1_231.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 118,
+      "triple_id": 31,
+      "skel_a": "Coyote",
+      "skel_b": "Ostrich",
+      "cluster": "combat",
+      "src_fname": "Coyote___Attack3_222.npy",
+      "src_action": "attack",
+      "src_T": 90,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Coyote___Attack3_222.npy",
+          "T": 90,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 119,
+      "triple_id": 31,
+      "skel_a": "Coyote",
+      "skel_b": "Ostrich",
+      "cluster": "combat",
+      "src_fname": "Coyote___Attack2_229.npy",
+      "src_action": "attack",
+      "src_T": 71,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Coyote___Attack2_229.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 123,
+      "triple_id": 33,
+      "skel_a": "Parrot",
+      "skel_b": "Raindeer",
+      "cluster": "death",
+      "src_fname": "Parrot___Die_593.npy",
+      "src_action": "die",
+      "src_T": 105,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Parrot___Die_593.npy",
+          "T": 105,
+          "action": "die",
+          "cluster": "death"
+        }
+      ]
+    },
+    {
+      "query_id": 124,
+      "triple_id": 33,
+      "skel_a": "Parrot",
+      "skel_b": "Raindeer",
+      "cluster": "death",
+      "src_fname": "Parrot___Die3_598.npy",
+      "src_action": "die",
+      "src_T": 84,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Parrot___Die3_598.npy",
+          "T": 84,
+          "action": "die",
+          "cluster": "death"
+        }
+      ]
+    },
+    {
+      "query_id": 125,
+      "triple_id": 33,
+      "skel_a": "Parrot",
+      "skel_b": "Raindeer",
+      "cluster": "death",
+      "src_fname": "Parrot___Die2_603.npy",
+      "src_action": "die",
+      "src_T": 77,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Parrot___Die2_603.npy",
+          "T": 77,
+          "action": "die",
+          "cluster": "death"
+        }
+      ]
+    },
+    {
+      "query_id": 126,
+      "triple_id": 34,
+      "skel_a": "Horse",
+      "skel_b": "Goat",
+      "cluster": "combat",
+      "src_fname": "Horse___HoofScrape2_442.npy",
+      "src_action": "hoofscrape",
+      "src_T": 120,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Horse___HoofScrape2_442.npy",
+          "T": 120,
+          "action": "hoofscrape",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 127,
+      "triple_id": 34,
+      "skel_a": "Horse",
+      "skel_b": "Goat",
+      "cluster": "combat",
+      "src_fname": "Horse___HoofScrape_454.npy",
+      "src_action": "hoofscrape",
+      "src_T": 199,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Horse___HoofScrape_454.npy",
+          "T": 199,
+          "action": "hoofscrape",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 128,
+      "triple_id": 34,
+      "skel_a": "Horse",
+      "skel_b": "Goat",
+      "cluster": "combat",
+      "src_fname": "Horse___HoofScrape_455.npy",
+      "src_action": "hoofscrape",
+      "src_T": 44,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Horse___HoofScrape_455.npy",
+          "T": 44,
+          "action": "hoofscrape",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 132,
+      "triple_id": 36,
+      "skel_a": "Centipede",
+      "skel_b": "Giantbee",
+      "cluster": "combat",
+      "src_fname": "Centipede___Attack1_207.npy",
+      "src_action": "attack",
+      "src_T": 89,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Centipede___Attack1_207.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 133,
+      "triple_id": 36,
+      "skel_a": "Centipede",
+      "skel_b": "Giantbee",
+      "cluster": "combat",
+      "src_fname": "Centipede___Attack_205.npy",
+      "src_action": "attack",
+      "src_T": 89,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Centipede___Attack_205.npy",
+          "T": 89,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 134,
+      "triple_id": 36,
+      "skel_a": "Centipede",
+      "skel_b": "Giantbee",
+      "cluster": "combat",
+      "src_fname": "Centipede___Attack2_203.npy",
+      "src_action": "attack",
+      "src_T": 120,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Centipede___Attack2_203.npy",
+          "T": 120,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 135,
+      "triple_id": 37,
+      "skel_a": "Parrot",
+      "skel_b": "Tyranno",
+      "cluster": "idle",
+      "src_fname": "Parrot___Idle2_600.npy",
+      "src_action": "idle",
+      "src_T": 199,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Parrot___Idle2_600.npy",
+          "T": 199,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 136,
+      "triple_id": 37,
+      "skel_a": "Parrot",
+      "skel_b": "Tyranno",
+      "cluster": "idle",
+      "src_fname": "Parrot___Idle_595.npy",
+      "src_action": "idle",
+      "src_T": 200,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Parrot___Idle_595.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 137,
+      "triple_id": 37,
+      "skel_a": "Parrot",
+      "skel_b": "Tyranno",
+      "cluster": "idle",
+      "src_fname": "Parrot___Idle2_601.npy",
+      "src_action": "idle",
+      "src_T": 100,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Parrot___Idle2_601.npy",
+          "T": 100,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 141,
+      "triple_id": 39,
+      "skel_a": "Rhino",
+      "skel_b": "SpiderG",
+      "cluster": "combat",
+      "src_fname": "Rhino___Attack_758.npy",
+      "src_action": "attack",
+      "src_T": 78,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Rhino___Attack_758.npy",
+          "T": 78,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 142,
+      "triple_id": 39,
+      "skel_a": "Rhino",
+      "skel_b": "SpiderG",
+      "cluster": "combat",
+      "src_fname": "Rhino___Attack3_751.npy",
+      "src_action": "attack",
+      "src_T": 129,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Rhino___Attack3_751.npy",
+          "T": 129,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 143,
+      "triple_id": 39,
+      "skel_a": "Rhino",
+      "skel_b": "SpiderG",
+      "cluster": "combat",
+      "src_fname": "Rhino___Attack2_756.npy",
+      "src_action": "attack",
+      "src_T": 78,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Rhino___Attack2_756.npy",
+          "T": 78,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 144,
+      "triple_id": 40,
+      "skel_a": "Turtle",
+      "skel_b": "Centipede",
+      "cluster": "combat",
+      "src_fname": "Turtle___Attack2_1056.npy",
+      "src_action": "attack",
+      "src_T": 159,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Turtle___Attack2_1056.npy",
+          "T": 159,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 145,
+      "triple_id": 40,
+      "skel_a": "Turtle",
+      "skel_b": "Centipede",
+      "cluster": "combat",
+      "src_fname": "Turtle___Attack_1059.npy",
+      "src_action": "attack",
+      "src_T": 90,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Turtle___Attack_1059.npy",
+          "T": 90,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 146,
+      "triple_id": 40,
+      "skel_a": "Turtle",
+      "skel_b": "Centipede",
+      "cluster": "combat",
+      "src_fname": "Turtle___Attack3_1050.npy",
+      "src_action": "attack",
+      "src_T": 180,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Turtle___Attack3_1050.npy",
+          "T": 180,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 147,
+      "triple_id": 41,
+      "skel_a": "Dragon",
+      "skel_b": "Jaguar",
+      "cluster": "combat",
+      "src_fname": "Dragon___Attack3_289.npy",
+      "src_action": "attack",
+      "src_T": 181,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Dragon___Attack3_289.npy",
+          "T": 181,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 148,
+      "triple_id": 41,
+      "skel_a": "Dragon",
+      "skel_b": "Jaguar",
+      "cluster": "combat",
+      "src_fname": "Dragon___Attack2_297.npy",
+      "src_action": "attack",
+      "src_T": 120,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Dragon___Attack2_297.npy",
+          "T": 120,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 149,
+      "triple_id": 41,
+      "skel_a": "Dragon",
+      "skel_b": "Jaguar",
+      "cluster": "combat",
+      "src_fname": "Dragon___Attack_299.npy",
+      "src_action": "attack",
+      "src_T": 120,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Dragon___Attack_299.npy",
+          "T": 120,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 150,
+      "triple_id": 42,
+      "skel_a": "Isopetra",
+      "skel_b": "Cricket",
+      "cluster": "idle",
+      "src_fname": "Isopetra___Idle3_476.npy",
+      "src_action": "idle",
+      "src_T": 200,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Isopetra___Idle3_476.npy",
+          "T": 200,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 151,
+      "triple_id": 42,
+      "skel_a": "Isopetra",
+      "skel_b": "Cricket",
+      "cluster": "idle",
+      "src_fname": "Isopetra___Idle2_481.npy",
+      "src_action": "idle",
+      "src_T": 99,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Isopetra___Idle2_481.npy",
+          "T": 99,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 152,
+      "triple_id": 42,
+      "skel_a": "Isopetra",
+      "skel_b": "Cricket",
+      "cluster": "idle",
+      "src_fname": "Isopetra___Idle_478.npy",
+      "src_action": "idle",
+      "src_T": 48,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Isopetra___Idle_478.npy",
+          "T": 48,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 153,
+      "triple_id": 43,
+      "skel_a": "Comodoa",
+      "skel_b": "Tricera",
+      "cluster": "combat",
+      "src_fname": "Comodoa___Attack1_221.npy",
+      "src_action": "attack",
+      "src_T": 59,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Comodoa___Attack1_221.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 154,
+      "triple_id": 43,
+      "skel_a": "Comodoa",
+      "skel_b": "Tricera",
+      "cluster": "combat",
+      "src_fname": "Comodoa___Attack2_218.npy",
+      "src_action": "attack",
+      "src_T": 59,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Comodoa___Attack2_218.npy",
+          "T": 59,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 155,
+      "triple_id": 43,
+      "skel_a": "Comodoa",
+      "skel_b": "Tricera",
+      "cluster": "combat",
+      "src_fname": "Comodoa___Attack3_211.npy",
+      "src_action": "attack",
+      "src_T": 164,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Comodoa___Attack3_211.npy",
+          "T": 164,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 156,
+      "triple_id": 44,
+      "skel_a": "Stego",
+      "skel_b": "Hippopotamus",
+      "cluster": "combat",
+      "src_fname": "Stego___Attack3_947.npy",
+      "src_action": "attack",
+      "src_T": 110,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Stego___Attack3_947.npy",
+          "T": 110,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 157,
+      "triple_id": 44,
+      "skel_a": "Stego",
+      "skel_b": "Hippopotamus",
+      "cluster": "combat",
+      "src_fname": "Stego___Attack_953.npy",
+      "src_action": "attack",
+      "src_T": 71,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Stego___Attack_953.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 158,
+      "triple_id": 44,
+      "skel_a": "Stego",
+      "skel_b": "Hippopotamus",
+      "cluster": "combat",
+      "src_fname": "Stego___Attack2_951.npy",
+      "src_action": "attack",
+      "src_T": 71,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Stego___Attack2_951.npy",
+          "T": 71,
+          "action": "attack",
+          "cluster": "combat"
+        }
+      ]
+    },
+    {
+      "query_id": 162,
+      "triple_id": 46,
+      "skel_a": "Skunk",
+      "skel_b": "Leapord",
+      "cluster": "idle",
+      "src_fname": "Skunk___Idle_888.npy",
+      "src_action": "idle",
+      "src_T": 78,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Skunk___Idle_888.npy",
+          "T": 78,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 163,
+      "triple_id": 46,
+      "skel_a": "Skunk",
+      "skel_b": "Leapord",
+      "cluster": "idle",
+      "src_fname": "Skunk___Idle3_886.npy",
+      "src_action": "idle",
+      "src_T": 180,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Skunk___Idle3_886.npy",
+          "T": 180,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    },
+    {
+      "query_id": 164,
+      "triple_id": 46,
+      "skel_a": "Skunk",
+      "skel_b": "Leapord",
+      "cluster": "idle",
+      "src_fname": "Skunk___Idle2_891.npy",
+      "src_action": "idle",
+      "src_T": 119,
+      "split": "sif",
+      "positives_cluster": [
+        {
+          "fname": "Skunk___Idle2_891.npy",
+          "T": 119,
+          "action": "idle",
+          "cluster": "idle"
+        }
+      ]
+    }
+  ],
+  "note": "Filtered to 37-triple 14-way intersection across 3 trained flow variants + 7 published baselines (AnyTop, MoReFlow x2, ACE x2, Motion2Motion x2) + 1 LSB + ANCHOR + 2 random label-only retrievers"
+}

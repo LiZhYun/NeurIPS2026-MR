@@ -1,0 +1,89 @@
+{
+  "description": "prop:cm empirical demonstration. Squared-error regressor on synthetic 2x2 transport with M pairs per (skel_a, skel_b, action) cell. Held-out sources tested for per-cell output variance.",
+  "config": {
+    "max_steps": 2500,
+    "batch_size": 64,
+    "seed": 44,
+    "ladder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      50
+    ]
+  },
+  "rows": [
+    {
+      "M_pairs_per_cell": 1,
+      "cells_evaluated": 336,
+      "out_var_per_cell": 0.006606322402504361,
+      "oracle_var_per_cell": 0.029676327837868093,
+      "src_var_per_cell": 0.02850716584232162,
+      "norm_var_ratio_out_over_oracle": 0.22261252937347756,
+      "mse_out_vs_oracle": 0.028279142226286542,
+      "training_time_s": 3.9911396503448486
+    },
+    {
+      "M_pairs_per_cell": 2,
+      "cells_evaluated": 336,
+      "out_var_per_cell": 0.0063982945506075965,
+      "oracle_var_per_cell": 0.029676327837868093,
+      "src_var_per_cell": 0.02850716584232162,
+      "norm_var_ratio_out_over_oracle": 0.21560263741402452,
+      "mse_out_vs_oracle": 0.03259628512266014,
+      "training_time_s": 3.8491477966308594
+    },
+    {
+      "M_pairs_per_cell": 4,
+      "cells_evaluated": 336,
+      "out_var_per_cell": 0.006190355335943117,
+      "oracle_var_per_cell": 0.029676327837868093,
+      "src_var_per_cell": 0.02850716584232162,
+      "norm_var_ratio_out_over_oracle": 0.2085957322537728,
+      "mse_out_vs_oracle": 0.027183627570810217,
+      "training_time_s": 3.8598592281341553
+    },
+    {
+      "M_pairs_per_cell": 8,
+      "cells_evaluated": 336,
+      "out_var_per_cell": 0.004453835883561297,
+      "oracle_var_per_cell": 0.029676327837868093,
+      "src_var_per_cell": 0.02850716584232162,
+      "norm_var_ratio_out_over_oracle": 0.15008042463656968,
+      "mse_out_vs_oracle": 0.028470087683845555,
+      "training_time_s": 3.875570774078369
+    },
+    {
+      "M_pairs_per_cell": 16,
+      "cells_evaluated": 336,
+      "out_var_per_cell": 0.006165177918540606,
+      "oracle_var_per_cell": 0.029676327837868093,
+      "src_var_per_cell": 0.02850716584232162,
+      "norm_var_ratio_out_over_oracle": 0.20774733155069178,
+      "mse_out_vs_oracle": 0.026572197854832103,
+      "training_time_s": 3.973538637161255
+    },
+    {
+      "M_pairs_per_cell": 32,
+      "cells_evaluated": 336,
+      "out_var_per_cell": 0.004804733444276709,
+      "oracle_var_per_cell": 0.029676327837868093,
+      "src_var_per_cell": 0.02850716584232162,
+      "norm_var_ratio_out_over_oracle": 0.16190458167623054,
+      "mse_out_vs_oracle": 0.02835713809708111,
+      "training_time_s": 4.0824713706970215
+    },
+    {
+      "M_pairs_per_cell": 50,
+      "cells_evaluated": 336,
+      "out_var_per_cell": 0.0031571152210243853,
+      "oracle_var_per_cell": 0.029676327837868093,
+      "src_var_per_cell": 0.02850716584232162,
+      "norm_var_ratio_out_over_oracle": 0.10638496913340435,
+      "mse_out_vs_oracle": 0.03141328287477206,
+      "training_time_s": 4.199142694473267
+    }
+  ]
+}

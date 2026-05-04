@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AnyTop Pairwise Preference Study</title>
+  <style>
+    body { font-family: -apple-system, "Segoe UI", Arial, sans-serif; margin: 0; background: #f4f4f7; color: #1c1c1c; }
+    header { padding: 14px 20px; background: #222; color: #fff; display: flex; justify-content: space-between; align-items: center; }
+    header h1 { margin: 0; font-size: 18px; font-weight: 500; }
+    header .meta { font-size: 13px; opacity: 0.8; }
+    main { max-width: 1200px; margin: 20px auto; padding: 0 16px; }
+    .card { background: #fff; border-radius: 8px; padding: 16px 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.07); margin-bottom: 18px; }
+    .stage { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; align-items: start; }
+    .clip { background: #111; border-radius: 6px; overflow: hidden; display: flex; flex-direction: column; align-items: center; }
+    .clip video { width: 100%; height: auto; background: #000; display: block; }
+    .clip .label { color: #fff; padding: 6px 8px; font-size: 13px; width: 100%; text-align: center; background: #1a1a1a; }
+    .clip.source .label { background: #2a4; }
+    .clip.left .label { background: #3576c9; }
+    .clip.right .label { background: #c05a37; }
+    .questions { margin-top: 16px; }
+    .question { margin-bottom: 14px; }
+    .question p { margin: 0 0 8px; font-size: 15px; }
+    .choices button { margin-right: 8px; padding: 8px 18px; border: 1px solid #888; background: #fafafa; border-radius: 4px; cursor: pointer; font-size: 14px; }
+    .choices button.selected { background: #3576c9; color: #fff; border-color: #3576c9; }
+    .choices button.equal.selected { background: #888; border-color: #888; }
+    textarea { width: 100%; min-height: 48px; font: inherit; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+    .nav { display: flex; justify-content: space-between; margin-top: 16px; }
+    .nav button { padding: 10px 22px; border: 0; border-radius: 4px; cursor: pointer; font-size: 14px; }
+    .nav .prev { background: #ddd; }
+    .nav .next { background: #2a7; color: #fff; }
+    .nav .skip { background: #ffd965; }
+    .stats { font-size: 13px; color: #555; margin-top: 8px; }
+    .meta-row { font-size: 13px; color: #555; margin-bottom: 4px; }
+    .tools { display: flex; gap: 8px; flex-wrap: wrap; }
+    .tools button { padding: 6px 14px; border: 1px solid #888; background: #fff; border-radius: 4px; cursor: pointer; font-size: 13px; }
+    .alert { color: #b42; margin-top: 6px; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AnyTop Pairwise Preference Study (blinded)</h1>
+    <div class="meta">
+      <span id="progress">0 / 0</span>
+      &nbsp;|&nbsp;
+      <span id="study-id-display">-</span>
+    </div>
+  </header>
+  <main>
+    <div class="card" id="setup-card">
+      <h2 style="margin-top:0;">Setup</h2>
+      <p>Manifest: <code id="manifest-path-view">idea-stage/human_study_manifest.json</code></p>
+      <p>Relative video paths are resolved from the repo root. Serve the repo root
+      with a local static server, e.g. from <code>the project root</code>
+      run <code>python -m http.server 8000</code> and open
+      <code>http://localhost:8000/tools/pairwise_study_viewer.html</code>.</p>
+      <div class="tools">
+        <button id="load-default">Load default manifest</button>
+        <label style="padding:6px 14px; border:1px solid #888; background:#fff; border-radius:4px; cursor:pointer;">
+          Load custom manifest JSON<input type="file" id="manifest-file" accept=".json" style="display:none;" />
+        </label>
+        <button id="export">Export responses (JSON)</button>
+        <button id="reset">Reset local responses</button>
+      </div>
+      <div class="alert" id="alert"></div>
+      <p class="stats" id="stats"></p>
+    </div>
+
+    <div class="card" id="study-card" style="display:none;">
+      <div class="meta-row">
+        <span>Study ID: <b id="study-id"></b></span>
+        &nbsp; | &nbsp; Source action: <b id="action"></b>
+        &nbsp; | &nbsp; Source skel: <b id="src-skel"></b>
+        &nbsp; | &nbsp; Target skel: <b id="tgt-skel"></b>
+        &nbsp; | &nbsp; Family gap: <b id="family-gap"></b>
+        &nbsp; | &nbsp; Support present: <b id="support"></b>
+      </div>
+      <div class="stage">
+        <div class="clip source">
+          <video id="source-video" autoplay loop muted playsinline></video>
+          <div class="label">Source (reference)</div>
+        </div>
+        <div class="clip left">
+          <video id="left-video" autoplay loop muted playsinline></video>
+          <div class="label">LEFT (Method L)</div>
+        </div>
+        <div class="clip right">
+          <video id="right-video" autoplay loop muted playsinline></video>
+          <div class="label">RIGHT (Method R)</div>
+        </div>
+      </div>
+      <div class="questions" id="questions"></div>
+      <div>
+        <label for="comment" style="font-size:14px;">Comment (optional):</label>
+        <textarea id="comment" placeholder="e.g. LEFT clip had foot-skating, RIGHT had contorted limbs"></textarea>
+      </div>
+      <div class="nav">
+        <button class="prev" id="prev">&lt; Prev</button>
+        <div>
+          <button class="skip" id="skip">Skip</button>
+          <button class="next" id="next">Save &amp; Next &gt;</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script>
+    const DEFAULT_MANIFEST_URL = "../idea-stage/human_study_manifest.json";
+    const STORAGE_KEY = "anytop_pairwise_responses_v1";
+    let manifest = null;
+    let idx = 0;
+    let responses = {};
+
+    function loadResponses() {
+      try {
+        responses = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+      } catch {
+        responses = {};
+      }
+    }
+    function saveResponses() {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(responses));
+    }
+
+    function setAlert(msg, ok = false) {
+      const el = document.getElementById("alert");
+      el.textContent = msg || "";
+      el.style.color = ok ? "#282" : "#b42";
+    }
+
+    function updateStats() {
+      const n = manifest ? manifest.entries.length : 0;
+      const done = Object.keys(responses).length;
+      document.getElementById("stats").textContent =
+        `Progress: ${done}/${n} entries answered. Stored locally in your browser under '${STORAGE_KEY}'.`;
+      document.getElementById("progress").textContent = `${idx + 1} / ${n}`;
+    }
+
+    function renderQuestions(entry) {
+      const container = document.getElementById("questions");
+      container.innerHTML = "";
+      const saved = responses[entry.study_id] || {};
+      manifest.questions.forEach((q) => {
+        const div = document.createElement("div");
+        div.className = "question";
+        const p = document.createElement("p");
+        p.textContent = q.text;
+        div.appendChild(p);
+        const ch = document.createElement("div");
+        ch.className = "choices";
+        q.choices.forEach((c) => {
+          const btn = document.createElement("button");
+          btn.textContent = c.toUpperCase();
+          if (c === "equal") btn.classList.add("equal");
+          if (saved[q.key] === c) btn.classList.add("selected");
+          btn.onclick = () => {
+            ch.querySelectorAll("button").forEach((b) => b.classList.remove("selected"));
+            btn.classList.add("selected");
+            saved[q.key] = c;
+            responses[entry.study_id] = { ...saved, meta: blindEntry(entry) };
+            saveResponses();
+            updateStats();
+          };
+          ch.appendChild(btn);
+        });
+        div.appendChild(ch);
+        container.appendChild(div);
+      });
+      const comment = document.getElementById("comment");
+      comment.value = saved.comment || "";
+      comment.oninput = () => {
+        saved.comment = comment.value;
+        responses[entry.study_id] = { ...saved, meta: blindEntry(entry) };
+        saveResponses();
+      };
+    }
+
+    function blindEntry(entry) {
+      // Stored in responses so the analysis script can unblind later,
+      // but NOT shown to the rater in the UI.
+      return {
+        pair_id: entry.pair_id,
+        strata: entry.strata,
+        hidden: entry.hidden,
+      };
+    }
+
+    function show(entry) {
+      document.getElementById("study-card").style.display = "";
+      document.getElementById("study-id").textContent = entry.study_id;
+      document.getElementById("study-id-display").textContent = `ID: ${entry.study_id}`;
+      document.getElementById("action").textContent = entry.source_action;
+      document.getElementById("src-skel").textContent = entry.source_skel;
+      document.getElementById("tgt-skel").textContent = entry.target_skel;
+      document.getElementById("family-gap").textContent = entry.strata.family_gap;
+      document.getElementById("support").textContent = entry.strata.support_present ? "yes" : "no";
+      document.getElementById("source-video").src = "../" + entry.source_path;
+      document.getElementById("left-video").src = "../" + entry.left.path;
+      document.getElementById("right-video").src = "../" + entry.right.path;
+      renderQuestions(entry);
+      updateStats();
+    }
+
+    function gotoIdx(i) {
+      if (!manifest) return;
+      idx = Math.max(0, Math.min(manifest.entries.length - 1, i));
+      show(manifest.entries[idx]);
+    }
+
+    document.getElementById("next").onclick = () => gotoIdx(idx + 1);
+    document.getElementById("prev").onclick = () => gotoIdx(idx - 1);
+    document.getElementById("skip").onclick = () => gotoIdx(idx + 1);
+
+    document.getElementById("load-default").onclick = async () => {
+      try {
+        const res = await fetch(DEFAULT_MANIFEST_URL, { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        manifest = await res.json();
+        setAlert(`Loaded ${manifest.entries.length} comparisons from ${DEFAULT_MANIFEST_URL}.`, true);
+        gotoIdx(0);
+      } catch (e) {
+        setAlert(`Failed to fetch default manifest (${e.message}). You may be opening this file directly (file://) — use Load custom manifest JSON or run a local http server.`);
+      }
+    };
+
+    document.getElementById("manifest-file").onchange = (ev) => {
+      const file = ev.target.files && ev.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          manifest = JSON.parse(reader.result);
+          setAlert(`Loaded ${manifest.entries.length} comparisons from uploaded file.`, true);
+          gotoIdx(0);
+        } catch (e) {
+          setAlert("Failed to parse manifest: " + e.message);
+        }
+      };
+      reader.readAsText(file);
+    };
+
+    document.getElementById("export").onclick = () => {
+      const blob = new Blob([JSON.stringify(responses, null, 2)], { type: "application/json" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "anytop_pairwise_responses.json";
+      a.click();
+      URL.revokeObjectURL(a.href);
+    };
+
+    document.getElementById("reset").onclick = () => {
+      if (!confirm("Delete all local responses?")) return;
+      responses = {};
+      saveResponses();
+      updateStats();
+    };
+
+    loadResponses();
+    updateStats();
+    // Try autoloading on startup (works when served over http)
+    document.getElementById("load-default").click();
+  </script>
+</body>
+</html>

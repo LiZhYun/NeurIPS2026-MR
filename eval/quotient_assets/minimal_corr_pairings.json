@@ -1,0 +1,180 @@
+{
+  "_description": "Manually-authored sparse bone correspondences for all 12 absent eval pairs. Authoring rationale: anatomical analogue mapping using the contact_groups JSON + cond.npy joint names. Format: each pair has 'pairs' (list of {src_joint_idx, tgt_joint_idx, semantic} tuples), and an 'anchor_motion' on the target skeleton chosen as the closest-action surrogate.",
+  "_authoring_date": "2026-04-15 (5 initial + 7 extension)",
+  "_author": "orchestrator (claude opus 4.6) via cond.npy joint-names + contact_groups.json + anatomical reasoning",
+
+  "pair_10_SabreToothTiger_jump_to_Parrot": {
+    "source_skel": "SabreToothTiger",
+    "source_action": "jump",
+    "target_skel": "Parrot",
+    "anchor_motion_rationale": "Parrot cannot jump-quadruped-style. Map quadruped jump takeoff rhythm to parrot wing-down-thrust + feet-push rhythm. Use Parrot's Walk or Hop clip as anchor (periodic foot-leave rhythm).",
+    "pairs": [
+      {"src": 0, "tgt": 0, "semantic": "Hips ↔ Hips"},
+      {"src": 52, "tgt": 42, "semantic": "SabreTiger LF (front-left hand-region used for jump takeoff lift) ↔ Parrot LW wing-base (push-down during flap/leap)"},
+      {"src": 38, "tgt": 63, "semantic": "SabreTiger RF ↔ Parrot RW wing-base"},
+      {"src": 3, "tgt": 25, "semantic": "SabreTiger LH foot (rear-left thrust) ↔ Parrot L foot (push-off)"},
+      {"src": 8, "tgt": 9, "semantic": "SabreTiger RH foot ↔ Parrot R foot"}
+    ]
+  },
+
+  "pair_11_Ostrich_walk_to_Crocodile": {
+    "source_skel": "Ostrich",
+    "source_action": "walk",
+    "target_skel": "Crocodile",
+    "anchor_motion_rationale": "Crocodile has no Walk clip (absent). Use crocodile's Idle (body low, legs in contact) as substrate; ostrich walking rhythm maps onto crocodile's slow forward-rotational locomotion.",
+    "pairs": [
+      {"src": 0, "tgt": 0, "semantic": "Hips ↔ Hips"},
+      {"src": 16, "tgt": 29, "semantic": "Ostrich L foot (bipedal left-leg stride) ↔ Crocodile LF (front-left limb; takes walking phase)"},
+      {"src": 6, "tgt": 23, "semantic": "Ostrich R foot ↔ Crocodile RF"},
+      {"src": 27, "tgt": 14, "semantic": "Ostrich LW wing-base (stabilisation during walk) ↔ Crocodile LH (rear-left limb, complement of front limb phase)"},
+      {"src": 35, "tgt": 9, "semantic": "Ostrich RW wing-base ↔ Crocodile RH"}
+    ]
+  },
+
+  "pair_12_Comodoa_attack_to_Puppy": {
+    "source_skel": "Comodoa",
+    "source_action": "attack",
+    "target_skel": "Puppy",
+    "anchor_motion_rationale": "Puppy has no attack clip. Use Run or Jump as anchor (aggressive lunging motion). Both are quadrupeds so direct LF/RF/LH/RH mapping.",
+    "pairs": [
+      {"src": 0, "tgt": 0, "semantic": "Hips ↔ Hips"},
+      {"src": 46, "tgt": 26, "semantic": "Comodoa LF ↔ Puppy LF (front-left paw)"},
+      {"src": 36, "tgt": 20, "semantic": "Comodoa RF ↔ Puppy RF"},
+      {"src": 4, "tgt": 12, "semantic": "Comodoa LH ↔ Puppy LH"},
+      {"src": 14, "tgt": 6, "semantic": "Comodoa RH ↔ Puppy RH"}
+    ]
+  },
+
+  "pair_16_Isopetra_attack_to_Flamingo": {
+    "source_skel": "Isopetra",
+    "source_action": "attack",
+    "target_skel": "Flamingo",
+    "anchor_motion_rationale": "Flamingo has no attack clip; use Flamingo Fly or Stand as anchor (wing-strike as aggressive motion surrogate). Multi-leg isopod → bipedal flyer is extreme morphology gap.",
+    "pairs": [
+      {"src": 0, "tgt": 0, "semantic": "Hips ↔ Hips"},
+      {"src": 28, "tgt": 5, "semantic": "Isopetra LF (front-most left leg) ↔ Flamingo LW wing-base (left wing = front-left strike appendage)"},
+      {"src": 20, "tgt": 9, "semantic": "Isopetra RF ↔ Flamingo RW"},
+      {"src": 58, "tgt": 25, "semantic": "Isopetra LH (rearmost left) ↔ Flamingo LF foot (left leg, body anchor)"},
+      {"src": 51, "tgt": 18, "semantic": "Isopetra RH ↔ Flamingo RF"}
+    ]
+  },
+
+  "pair_18_Centipede_run_to_Giantbee": {
+    "source_skel": "Centipede",
+    "source_action": "run",
+    "target_skel": "Giantbee",
+    "anchor_motion_rationale": "Giantbee has no Run clip; use Fly or RapidFly (rhythmic wing-beat) as anchor. Centipede metachronal wave maps onto bee's wing + leg rhythm.",
+    "pairs": [
+      {"src": 0, "tgt": 0, "semantic": "Hips ↔ Hips"},
+      {"src": 49, "tgt": 18, "semantic": "Centipede LF (front-most left leg) ↔ Giantbee LF"},
+      {"src": 43, "tgt": 13, "semantic": "Centipede RF ↔ Giantbee RF"},
+      {"src": 33, "tgt": 1, "semantic": "Centipede L_mid1 (front-mid-left leg drives metachronal wave phase) ↔ Giantbee LW (left wing drives flight rhythm)"},
+      {"src": 27, "tgt": 3, "semantic": "Centipede R_mid1 ↔ Giantbee RW"},
+      {"src": 2, "tgt": 31, "semantic": "Centipede LH ↔ Giantbee LH"}
+    ]
+  },
+
+  "pair_19_Bird_idle_to_Pteranodon": {
+    "source_skel": "Bird",
+    "source_action": "idle",
+    "target_skel": "Pteranodon",
+    "anchor_motion_rationale": "Pteranodon has no Idle; use Glide or LowSoar (wing-settled-open, body still) as anchor. Both flyers, wing anatomy parallels.",
+    "pairs": [
+      {"src": 0, "tgt": 0, "semantic": "Hips ↔ Hips"},
+      {"src": 38, "tgt": 7, "semantic": "Bird LF ↔ Pteranodon LF"},
+      {"src": 18, "tgt": 18, "semantic": "Bird RF ↔ Pteranodon RF"},
+      {"src": 10, "tgt": 34, "semantic": "Bird LW ↔ Pteranodon LW (semi-settled wings during idle)"},
+      {"src": 5, "tgt": 39, "semantic": "Bird RW ↔ Pteranodon RW"}
+    ]
+  },
+
+  "pair_26_Ostrich_idle_to_HermitCrab": {
+    "source_skel": "Ostrich",
+    "source_action": "idle",
+    "target_skel": "HermitCrab",
+    "anchor_motion_rationale": "HermitCrab has no Idle; use Slowwalk (minimal body displacement, occasional leg-tap) as closest-to-idle anchor.",
+    "pairs": [
+      {"src": 0, "tgt": 0, "semantic": "Hips ↔ Hips"},
+      {"src": 16, "tgt": 5, "semantic": "Ostrich L foot (standing left foot) ↔ HermitCrab L1 (front-left leg for standing support)"},
+      {"src": 6, "tgt": 2, "semantic": "Ostrich R foot ↔ HermitCrab R1"},
+      {"src": 27, "tgt": 11, "semantic": "Ostrich LW wing-base (folded-rest) ↔ HermitCrab claw_L (left claw held at-rest)"},
+      {"src": 35, "tgt": 7, "semantic": "Ostrich RW wing-base ↔ HermitCrab claw_R"}
+    ]
+  },
+
+  "pair_13_Crab_eat_to_PolarBear": {
+    "source_skel": "Crab",
+    "source_action": "eat",
+    "target_skel": "PolarBear",
+    "anchor_motion": "PolarBear___Eat_<closest>.npy",
+    "anchor_motion_rationale": "PolarBear has no eat-labeled clip directly (absent); use idle as closest semantic since 'eat' for a crab is sit-and-pinch with claws, which maps to bear standing-with-front-paw motion",
+    "pairs": [
+      {"src": 0, "tgt": 0, "semantic": "Hips ↔ Hips (root anchor)"},
+      {"src": 48, "tgt": 23, "semantic": "Crab claw_L (left big claw, manipulation organ) ↔ PolarBear RF Bip01_R_Hand-region (front paw used for manipulation)"},
+      {"src": 52, "tgt": 29, "semantic": "Crab claw_R ↔ PolarBear LF (mirror to maintain L-R symmetry)"},
+      {"src": 5, "tgt": 5, "semantic": "Crab R1 leg-tip (front-most right leg) ↔ PolarBear RH Bip01_R_Foot (rear paw, ground-contact)"},
+      {"src": 36, "tgt": 11, "semantic": "Crab L1 leg-tip ↔ PolarBear LH Bip01_L_Foot (rear paw, ground-contact)"}
+    ]
+  },
+
+  "pair_14_Comodoa_walk_to_Eagle": {
+    "source_skel": "Comodoa",
+    "source_action": "walk",
+    "target_skel": "Eagle",
+    "anchor_motion": "Eagle___Walk_<closest>.npy",
+    "anchor_motion_rationale": "Eagle is primarily a flyer; walk is rare. Pick eagle's ground-locomotion clip (likely Idle or Land), since absent regime means no direct walk match exists",
+    "pairs": [
+      {"src": 0, "tgt": 0, "semantic": "Comodoa Hips ↔ Eagle Hips (root)"},
+      {"src": 4, "tgt": 23, "semantic": "Comodoa LF Bip01_L_Foot (front-left foot used for walking) ↔ Eagle LF Bip01_L_Foot (left foot, used for grounded walking)"},
+      {"src": 14, "tgt": 10, "semantic": "Comodoa RF Bip01_R_Foot ↔ Eagle RF Bip01_R_Foot"},
+      {"src": 4, "tgt": 40, "semantic": "Comodoa LF (drives the left-front gait phase) ↔ Eagle LW Bip01_L_Wing-base (eagle's left wing fills the spatial role of front-left limb during walk)"},
+      {"src": 14, "tgt": 34, "semantic": "Comodoa RF ↔ Eagle RW (right wing as front-right limb spatial-role)"}
+    ]
+  },
+
+  "pair_15_Goat_eat_to_Ant": {
+    "source_skel": "Goat",
+    "source_action": "eat",
+    "target_skel": "Ant",
+    "anchor_motion": "Ant___Idle_<closest>.npy",
+    "anchor_motion_rationale": "Ant has no eat clip; eating for goat is head-down-still motion which best maps to ant idle-still",
+    "pairs": [
+      {"src": 1, "tgt": 4, "semantic": "Goat Bip01_Spine ↔ Ant Bip01_Spine (body-axis anchor)"},
+      {"src": 5, "tgt": 4, "semantic": "Goat Bip01_Head ↔ Ant Bip01_Spine (ant has no head joint; spine carries head motion in 6-leg insects)"},
+      {"src": 22, "tgt": 17, "semantic": "Goat LH Bip01_L_Foot ↔ Ant LH Bip01_L_Foot-region (rear-left foot, mid-leg contact)"},
+      {"src": 27, "tgt": 11, "semantic": "Goat RH Bip01_R_Foot ↔ Ant RH (rear-right)"},
+      {"src": 10, "tgt": 32, "semantic": "Goat LF Bip01_L_Hand ↔ Ant LF (front-left leg in ant's 6-leg body)"},
+      {"src": 16, "tgt": 25, "semantic": "Goat RF Bip01_R_Hand ↔ Ant RF (front-right leg in ant's 6-leg body)"}
+    ]
+  },
+
+  "pair_17_Parrot_fly_to_PolarBearB": {
+    "source_skel": "Parrot",
+    "source_action": "fly",
+    "target_skel": "PolarBearB",
+    "anchor_motion": "PolarBearB___Idle_<closest>.npy or Walk",
+    "anchor_motion_rationale": "PolarBearB cannot fly. Fly action for parrot is rhythmic wing-flapping; most semantically-close target motion is rhythmic gait (walk) where front legs swing periodically. Use a Walk clip as anchor; wing-flap rhythm gets mapped onto front-leg swing rhythm",
+    "pairs": [
+      {"src": 8, "tgt": 2, "semantic": "Parrot Bip01_Spine ↔ PolarBearB Bip01_Spine (body anchor)"},
+      {"src": 42, "tgt": 24, "semantic": "Parrot LW Bip01_L_Wing-base ↔ PolarBearB LF Bip01_L_Hand-region (left wing rhythm → left front-leg rhythm)"},
+      {"src": 63, "tgt": 18, "semantic": "Parrot RW Bip01_R_Wing-base ↔ PolarBearB RF Bip01_R_Hand-region (right wing → right front-leg)"},
+      {"src": 25, "tgt": 10, "semantic": "Parrot L Bip01_L_Foot (parrot foot, retracted during fly) ↔ PolarBearB LH Bip01_L_Foot (rear-left foot)"},
+      {"src": 9, "tgt": 5, "semantic": "Parrot R Bip01_R_Foot ↔ PolarBearB RH Bip01_R_Foot"}
+    ]
+  },
+
+  "pair_27_Buzzard_fly_to_Centipede": {
+    "source_skel": "Buzzard",
+    "source_action": "fly",
+    "target_skel": "Centipede",
+    "anchor_motion": "Centipede___Run_<closest>.npy",
+    "anchor_motion_rationale": "Centipede cannot fly; closest periodic motion is Run (rhythmic many-leg metachronal wave). Wing-flap rhythm maps onto leg-wave rhythm",
+    "pairs": [
+      {"src": 6, "tgt": 0, "semantic": "Buzzard Bip01_Spine ↔ Centipede root/Hips (body axis anchor)"},
+      {"src": 46, "tgt": 33, "semantic": "Buzzard LW Bip01_L_Wing ↔ Centipede L_mid1 (front-left mid-segment leg, drives one phase of metachronal wave)"},
+      {"src": 40, "tgt": 27, "semantic": "Buzzard RW Bip01_R_Wing ↔ Centipede R_mid1 (front-right mid-segment leg)"},
+      {"src": 10, "tgt": 49, "semantic": "Buzzard LF Bip01_L_Foot (buzzard foot retracts during flight) ↔ Centipede LF (front-most left leg)"},
+      {"src": 26, "tgt": 43, "semantic": "Buzzard RF Bip01_R_Foot ↔ Centipede RF (front-most right leg)"}
+    ]
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "method": "dpg_sb_v3_sif",
+  "fold": 999,
+  "method_dir": "${PROJECT_ROOT}/save/dpg_sb/dpg_sb_v3_sif/fold_999",
+  "n_triples": 49,
+  "sif_rho_mean": -0.05775914273537949,
+  "sif_rho_ci": [
+    -0.2187697422415751,
+    0.12028564567657708
+  ],
+  "output_diversity_ratio_mean": 0.5769589065551357,
+  "output_diversity_ratio_ci": [
+    0.3541010864024938,
+    0.8444181835273032
+  ],
+  "per_triple": [
+    {
+      "skel_a": "Alligator",
+      "skel_b": "Crocodile",
+      "action": "bite",
+      "n": 5,
+      "rho": -0.2674996661924106
+    },
+    {
+      "skel_a": "Alligator",
+      "skel_b": "SandMouse",
+      "action": "walk",
+      "n": 4,
+      "rho": 0.1461172262637204
+    },
+    {
+      "skel_a": "Anaconda",
+      "skel_b": "Buffalo",
+      "action": "idle",
+      "n": 3,
+      "rho": -0.5383730392134409
+    },
+    {
+      "skel_a": "Ant",
+      "skel_b": "Tyranno",
+      "action": "idle",
+      "n": 3,
+      "rho": 0.9748671574306994
+    },
+    {
+      "skel_a": "Bird",
+      "skel_b": "KingCobra",
+      "action": "attack",
+      "n": 4,
+      "rho": 0.8406150842877069
+    },
+    {
+      "skel_a": "BrownBear",
+      "skel_b": "KingCobra",
+      "action": "attack",
+      "n": 3,
+      "rho": 0.9961393230313033
+    },
+    {
+      "skel_a": "Buzzard",
+      "skel_b": "Bird",
+      "action": "attack",
+      "n": 3,
+      "rho": -0.28183681758078544
+    },
+    {
+      "skel_a": "Centipede",
+      "skel_b": "Elephant",
+      "action": "idle",
+      "n": 3,
+      "rho": -0.7091427967737491
+    },
+    {
+      "skel_a": "Centipede",
+      "skel_b": "Giantbee",
+      "action": "attack",
+      "n": 3,
+      "rho": 0.25574596101030794
+    },
+    {
+      "skel_a": "Comodoa",
+      "skel_b": "Scorpion-2",
+      "action": "idle",
+      "n": 3,
+      "rho": 0.0978860299384172
+    },
+    {
+      "skel_a": "Comodoa",
+      "skel_b": "Tricera",
+      "action": "attack",
+      "n": 3,
+      "rho": -0.9803698728283153
+    },
+    {
+      "skel_a": "Coyote",
+      "skel_b": "Ostrich",
+      "action": "attack",
+      "n": 3,
+      "rho": 0.7631681410949902
+    },
+    {
+      "skel_a": "Crab",
+      "skel_b": "Spider",
+      "action": "attack",
+      "n": 4,
+      "rho": 0.6520700357162615
+    },
+    {
+      "skel_a": "Cricket",
+      "skel_b": "Ant",
+      "action": "attack",
+      "n": 4,
+      "rho": -0.23802669782143393
+    },
+    {
+      "skel_a": "Dragon",
+      "skel_b": "Giantbee",
+      "action": "idle",
+      "n": 5,
+      "rho": -0.3382258192484528
+    },
+    {
+      "skel_a": "Dragon",
+      "skel_b": "Jaguar",
+      "action": "attack",
+      "n": 3,
+      "rho": -0.04815510062708249
+    },
+    {
+      "skel_a": "Elephant",
+      "skel_b": "Goat",
+      "action": "idle",
+      "n": 3,
+      "rho": -0.5683727557092934
+    },
+    {
+      "skel_a": "Giantbee",
+      "skel_b": "Cricket",
+      "action": "attack",
+      "n": 4,
+      "rho": -0.6814280545512471
+    },
+    {
+      "skel_a": "Hippopotamus",
+      "skel_b": "Lion",
+      "action": "attack",
+      "n": 4,
+      "rho": 0.38719668935574875
+    },
+    {
+      "skel_a": "Horse",
+      "skel_b": "Ant",
+      "action": "idle",
+      "n": 3,
+      "rho": 0.13123697564825706
+    },
+    {
+      "skel_a": "Horse",
+      "skel_b": "Coyote",
+      "action": "restless",
+      "n": 3,
+      "rho": -0.5494271458972838
+    },
+    {
+      "skel_a": "Horse",
+      "skel_b": "Goat",
+      "action": "hoofscrape",
+      "n": 3,
+      "rho": -0.2509461326734096
+    },
+    {
+      "skel_a": "Isopetra",
+      "skel_b": "Cricket",
+      "action": "idle",
+      "n": 3,
+      "rho": -0.9955168672070015
+    },
+    {
+      "skel_a": "Isopetra",
+      "skel_b": "Lion",
+      "action": "attack",
+      "n": 3,
+      "rho": -0.06231895016009951
+    },
+    {
+      "skel_a": "Jaguar",
+      "skel_b": "Isopetra",
+      "action": "attack",
+      "n": 3,
+      "rho": 0.8158743733818646
+    },
+    {
+      "skel_a": "Lynx",
+      "skel_b": "Elephant",
+      "action": "attack",
+      "n": 3,
+      "rho": -0.9630578331991857
+    },
+    {
+      "skel_a": "Lynx",
+      "skel_b": "Jaguar",
+      "action": "idle",
+      "n": 4,
+      "rho": -0.19528483146740105
+    },
+    {
+      "skel_a": "Monkey",
+      "skel_b": "Cricket",
+      "action": "attack",
+      "n": 4,
+      "rho": 0.27525283897772634
+    },
+    {
+      "skel_a": "Monkey",
+      "skel_b": "Skunk",
+      "action": "idle",
+      "n": 4,
+      "rho": 0.49771237521454414
+    },
+    {
+      "skel_a": "Ostrich",
+      "skel_b": "Hippopotamus",
+      "action": "idle",
+      "n": 4,
+      "rho": -0.5936123880665874
+    },
+    {
+      "skel_a": "Ostrich",
+      "skel_b": "Leapord",
+      "action": "attack",
+      "n": 4,
+      "rho": -0.02656620449158842
+    },
+    {
+      "skel_a": "Parrot",
+      "skel_b": "Raindeer",
+      "action": "die",
+      "n": 3,
+      "rho": -0.43222823488942036
+    },
+    {
+      "skel_a": "Parrot",
+      "skel_b": "Tyranno",
+      "action": "idle",
+      "n": 3,
+      "rho": 0.9934144443250402
+    },
+    {
+      "skel_a": "PolarBear",
+      "skel_b": "SabreToothTiger",
+      "action": "attack",
+      "n": 3,
+      "rho": -0.14848790720405847
+    },
+    {
+      "skel_a": "PolarBear",
+      "skel_b": "Turtle",
+      "action": "idle",
+      "n": 4,
+      "rho": -0.548619945309434
+    },
+    {
+      "skel_a": "Raindeer",
+      "skel_b": "Lion",
+      "action": "attack",
+      "n": 3,
+      "rho": 0.37474482343072196
+    },
+    {
+      "skel_a": "Raptor",
+      "skel_b": "Tricera",
+      "action": "idle",
+      "n": 3,
+      "rho": 0.5968564255901788
+    },
+    {
+      "skel_a": "Rhino",
+      "skel_b": "Coyote",
+      "action": "idle",
+      "n": 4,
+      "rho": -0.20520205404695613
+    },
+    {
+      "skel_a": "Rhino",
+      "skel_b": "SpiderG",
+      "action": "attack",
+      "n": 3,
+      "rho": -0.8714981363839941
+    },
+    {
+      "skel_a": "SandMouse",
+      "skel_b": "Crab",
+      "action": "die",
+      "n": 3,
+      "rho": -0.5197494633966793
+    },
+    {
+      "skel_a": "SandMouse",
+      "skel_b": "Ostrich",
+      "action": "idle",
+      "n": 5,
+      "rho": 0.6117865510767551
+    },
+    {
+      "skel_a": "Scorpion-2",
+      "skel_b": "Leapord",
+      "action": "death",
+      "n": 3,
+      "rho": -0.5886986347467196
+    },
+    {
+      "skel_a": "Skunk",
+      "skel_b": "Leapord",
+      "action": "idle",
+      "n": 3,
+      "rho": -0.9359896022637706
+    },
+    {
+      "skel_a": "Spider",
+      "skel_b": "Bird",
+      "action": "attack",
+      "n": 4,
+      "rho": 0.47356858373593536
+    },
+    {
+      "skel_a": "SpiderG",
+      "skel_b": "Hound",
+      "action": "idle",
+      "n": 4,
+      "rho": 0.2637140586610525
+    },
+    {
+      "skel_a": "SpiderG",
+      "skel_b": "Tricera",
+      "action": "attack",
+      "n": 5,
+      "rho": 0.12275049511977926
+    },
+    {
+      "skel_a": "Stego",
+      "skel_b": "Hippopotamus",
+      "action": "attack",
+      "n": 3,
+      "rho": 0.986340835918189
+    },
+    {
+      "skel_a": "Tricera",
+      "skel_b": "Turtle",
+      "action": "attack",
+      "n": 4,
+      "rho": -0.886278421919471
+    },
+    {
+      "skel_a": "Turtle",
+      "skel_b": "Centipede",
+      "action": "attack",
+      "n": 3,
+      "rho": -0.662343049373523
+    }
+  ]
+}
