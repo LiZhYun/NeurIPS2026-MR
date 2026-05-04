@@ -161,12 +161,12 @@ This file is what `tab:sif`, `tab:sif_intersect`, and the LOMO-sensitivity sente
 ```bash
 # Single-cell pilot
 python -m eval.gauge_analysis.decoder_nondegeneracy \
-    --model anytop --ckpt save/<your-anytop-ckpt> \
+    --model anytop --ckpt save/anytop_v5/model000175000.pt \
     --output_json results/decoder_nondegeneracy_anytop.json
 
 # 72-cell sweep across (skel × action × diffusion timestep × hook layer)
 python -m eval.gauge_analysis.decoder_nondegeneracy_sweep \
-    --model anytop --ckpt save/<your-anytop-ckpt> \
+    --model anytop --ckpt save/anytop_v5/model000175000.pt \
     --output_json results/decoder_nondegeneracy_anytop_sweep.json
 
 # Synthetic VAE counterexample (small bottleneck)
@@ -185,10 +185,8 @@ To skip retraining, the trained checkpoints for all evaluated methods are bundle
 **Package**: `anytop-checkpoints.tar.gz`
 **Size**: 6.5 GB (compressed) / 7.2 GB (uncompressed)
 **SHA-256**: `fc15f536510014a7bb953aa62cd24358de6af11f0d92f0f8360e2ec44b8251e2`
-
-> **TODO (paper authors)**: upload `anytop-checkpoints.tar.gz` to an anonymous host (Zenodo / Drive / Hugging Face dataset) and paste the URL here before sharing the repo:
->
-> **Download URL**: https://huggingface.co/datasets/AAAcon/anytop-checkpoints/resolve/main/anytop-checkpoints.tar.gz
+**Download**: https://huggingface.co/datasets/AAAcon/anytop-checkpoints/resolve/main/anytop-checkpoints.tar.gz
+**Dataset page**: https://huggingface.co/datasets/AAAcon/anytop-checkpoints
 
 ### Layout
 
@@ -214,7 +212,8 @@ anytop-checkpoints/
 
 ```bash
 # Download then verify integrity
-curl -L -o anytop-checkpoints.tar.gz <PASTE_URL_HERE>
+curl -L -o anytop-checkpoints.tar.gz \
+    https://huggingface.co/datasets/AAAcon/anytop-checkpoints/resolve/main/anytop-checkpoints.tar.gz
 sha256sum -c <<< "fc15f536510014a7bb953aa62cd24358de6af11f0d92f0f8360e2ec44b8251e2  anytop-checkpoints.tar.gz"
 
 # Untar into save/
